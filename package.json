@@ -1,0 +1,13 @@
+{
+  "name": "conference-tolkien",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:html && npm run build:pdf",
+    "build:html": "marp --no-stdin 2-slides/slides.md -o 3-presentation/tolkien.html && rm -rf 3-presentation/assets && cp -r 2-slides/assets 3-presentation/assets",
+    "build:pdf": "marp --no-stdin 2-slides/slides.md --pdf -o 3-presentation/tolkien.pdf",
+    "preview": "marp --no-stdin --preview --watch 2-slides/slides.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.5.1"
+  }
+}

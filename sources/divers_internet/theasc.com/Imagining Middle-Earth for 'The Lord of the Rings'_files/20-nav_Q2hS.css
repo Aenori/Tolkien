@@ -1,0 +1,227 @@
+/* PHASE 1 — CH-0001. Navigation dropdown overhang.
+
+   Observed: document scrollWidth 1655 against a 1440 viewport (+215), with no
+   scrollbar gutter, so this is genuine overflow. The offender:
+
+     ul.sub-menu.elementor-nav-menu--dropdown
+       under li.menu-item-object-award ("ASC AWARDS")
+       position:absolute; min-width:max-content; width:742.5px; right:-625.4px
+
+   Every dropdown is visibility:hidden/opacity:0 while closed but is still laid out,
+   so a closed menu still extends the document's scrollable area. SOCIETY (798px) and
+   AMERICAN CINEMATOGRAPHER (694px) happen to fit inside the viewport; ASC AWARDS is
+   the right-most trigger, so it hangs off the edge.
+
+   The fix right-aligns the last dropdown so it opens inward. That removes the
+   overflow AND fixes the open state, which would otherwise render partly off-screen.
+
+   NOTE: SmartMenus writes `right` as an inline style, so the override that actually
+   lands is in 99-hotfix.css. This file carries the parts that do not need to fight
+   an inline style. */
+
+body.asc-ui.asc-ui .elementor-nav-menu--main .sub-menu {
+  /* max-content lets the widest child set the width with no upper bound; cap it. */
+  max-width: min(742px, calc(100% - 2rem));
+}
+
+/* ── CH-0014 — "Clubhouse Login": under Subscribe on desktop, in the burger below 1025px ──
+
+   Replaces CH-0009's strip above the masthead ("so high up, looks awful" — Omid). Two
+   halves, each where that reader already looks for account things:
+
+   DESKTOP — a text-editor widget, .asc-vc-login, that CH-0014's build-headers.mjs put
+   directly after the social icons in the Subscribe column of every header template (25).
+   It is the one link in the column set as a caps label: secondary chrome, quieter than
+   the gold nav and the gold Subscribe button, as CH-0009's was (Polaris caps, 11px, stone
+   #ACA298 — 8.4:1 on black — white on hover and focus).
+
+   BELOW 1025px the header is burger territory, tablets included, and the link is hidden
+   there by the rule below, not only by the widget's own phone setting (which stops at
+   767px). On production's Elementor 4.3 the Subscribe column at 768–959px is narrower
+   than the unbreakable caps label, which overflowed the window by 8–26px; staging's
+   Elementor 4.0.9 lays the column out wider, so only production showed it. Gate step 2
+   caught it on 2026-09-30 and promote.sh rolled the theme back.
+
+   PHONES AND TABLETS — an item in ASC Menu, .asc-vc-menu (db-plan.json). Every nav bar on the site
+   renders ASC Menu, desktop and burger alike, so the item is hidden in the desktop
+   horizontal bar, where the link under Subscribe already is, and shown in the burger,
+   set apart from the sections above it by a hairline. With the child theme off, the item
+   shows in the desktop bar too: a real link, in the right menu — a safe fallback. */
+
+body.asc-ui.asc-ui .asc-vc-login .asc-vc-login__p {
+  margin: 8px 0 0;
+  line-height: 1;
+  text-align: right;
+}
+
+body.asc-ui.asc-ui .asc-vc-login .asc-vc-login__a {
+  display: inline-block;
+  padding: 6px 0;                           /* a 24px target: WCAG 2.2 AA 2.5.8 */
+  /* letter-spacing leaves a gap after the last letter; pull it back so the right edge
+     lines up with the social icons above it. */
+  margin-inline-end: -0.12em;
+  font-family: var(--asc-brand);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--asc-n65);
+}
+
+body.asc-ui.asc-ui .asc-vc-login .asc-vc-login__a:hover,
+body.asc-ui.asc-ui .asc-vc-login .asc-vc-login__a:focus-visible {
+  color: var(--asc-n95);
+  text-decoration: none;
+}
+
+body.asc-ui.asc-ui .asc-vc-login .asc-vc-login__a:focus-visible {
+  outline: 2px solid var(--asc-n95);
+  outline-offset: 2px;
+}
+
+@media (max-width: 1024px) {
+  body.asc-ui.asc-ui .asc-vc-login {
+    display: none;
+  }
+}
+
+body.asc-ui.asc-ui .elementor-nav-menu--main .menu-item.asc-vc-menu {
+  display: none;
+}
+
+body.asc-ui.asc-ui .elementor-nav-menu--dropdown .menu-item.asc-vc-menu {
+  border-top: 1px solid var(--asc-n35);
+}
+
+/* ── CH-0012 — Desktop dropdowns: a vertical panel, not one horizontal strip ───────
+
+   Measured on production at 1440: the nav-menu widget (666b9c29 in header 31776, and the
+   same widget in 26 other header templates — every American Cinematographer header)
+   carries the class `horizontal-dropdown`, and its Elementor custom CSS lays each
+   sub-menu out as `display:flex !important; flex-direction:row; min-width:max-content`
+   on a 35%-black band. SOCIETY opened as a 798x40px strip of seven items, its third
+   level as a second strip under the first; reaching "ASC Photo Gallery" meant a 600px
+   sideways move just under the other top-level items. Hovered items sat in a grey box
+   (#fff on ~#7A7A7A).
+
+   Fixed here, once, for all 27 headers — rather than 27 layout writes. The template's
+   `!important`s are on display, width, background-color and colour only; everything
+   that makes the strip a strip (direction, min-width, nowrap, position) is not, so a
+   (0,5,x) selector turns it into a panel with no !important:
+     · direction  → column
+     · the band   → painted over with an opaque background-IMAGE (the template's
+                    background-COLOR is !important, but an image paints above it)
+     · hover grey → the same; state is shown with a gold rule instead
+     · third level (centred text, 5px left padding, both !important) → a flyout, its
+                    text pushed left by a growing ::after spacer and inset by ::before,
+                    so neither declaration has to be beaten.
+   Visibility is still the template's :hover / :focus-within with its 220ms hide delay,
+   which is what lets a pointer cross diagonally into a flyout without it closing.
+   Below 1025px the template's rules do not apply and the burger menu is untouched. */
+
+@media (min-width: 1025px) {
+  /* second level: the panel */
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > .sub-menu {
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 15rem;
+    max-width: 20rem;
+    white-space: normal;
+    padding: 8px 0;
+    background-image: linear-gradient(var(--asc-black), var(--asc-black));
+    border: 1px solid var(--asc-n35);
+    box-shadow: 0 18px 40px rgb(0 0 0 / .6);
+  }
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu > li {
+    width: 100%;
+  }
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu a {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 20px;
+    line-height: 1.35;
+    text-align: left;
+    white-space: normal;
+    color: var(--asc-n80);
+    background-image: linear-gradient(var(--asc-black), var(--asc-black));
+  }
+  /* hover / keyboard: the template forces #fff here; the gold rule carries the state */
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu a:hover,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu a:focus-visible,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu li:focus-within > a,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu li:hover > a {
+    box-shadow: inset 3px 0 0 var(--asc-gold);
+  }
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu a:focus-visible {
+    outline: 2px solid var(--asc-white);
+    outline-offset: -2px;
+  }
+  /* an item that opens a third level says so */
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > .sub-menu > li.menu-item-has-children > a::after {
+    content: "›";
+    flex: none;
+    font-size: 1.3em;
+    line-height: 1;
+    color: var(--asc-n65);
+  }
+
+  /* third level: a flyout to the right, top-aligned with the item that opened it */
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > .sub-menu > li > .sub-menu {
+    flex-direction: column;
+    align-items: stretch;
+    top: -9px;
+    left: 100%;
+    min-width: 15rem;
+    max-width: 20rem;
+    white-space: normal;
+    padding: 8px 0;
+    background-image: linear-gradient(var(--asc-black), var(--asc-black));
+    border: 1px solid var(--asc-n35);
+    box-shadow: 0 18px 40px rgb(0 0 0 / .6);
+    transform: translateX(-8px);
+  }
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > .sub-menu > li:hover > .sub-menu,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > .sub-menu > li:focus-within > .sub-menu {
+    transform: none;
+  }
+  /* The template centres third-level text with 5px left padding, both !important. A
+     growing spacer after the text pushes it left; a fixed one before it restores the
+     inset. Visual layout only — neither pseudo-element has text. */
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu .sub-menu a::before {
+    content: "";
+    flex: 0 0 15px;
+  }
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu .sub-menu a::after {
+    content: "";
+    flex: 1 1 auto;
+  }
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu .sub-menu .sub-menu a {
+    gap: 0;
+  }
+
+  /* top level: the template paints a grey box behind the hovered/open item; paint it
+     back to ground and underline the open item in gold instead */
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > a:hover,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > a:focus,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li:hover > a,
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li:focus-within > a {
+    background-image: linear-gradient(var(--asc-black), var(--asc-black));
+    box-shadow: inset 0 -2px 0 var(--asc-gold);
+  }
+}
+
+/* CH-0017 — Reserve header images before their image finishes loading.
+   Elementor gives the image width:100% inside an auto-width inline-block link.
+   That link shrinks to zero before decode, despite the image's HTML dimensions.
+   A definite link width lets the existing image ratio reserve its final height.
+   Keep the authored widget width, image ratio and inline-block display. */
+body.asc-ui.asc-ui [data-elementor-type="header"] .elementor-widget-image > a {
+  width: 100%;
+}

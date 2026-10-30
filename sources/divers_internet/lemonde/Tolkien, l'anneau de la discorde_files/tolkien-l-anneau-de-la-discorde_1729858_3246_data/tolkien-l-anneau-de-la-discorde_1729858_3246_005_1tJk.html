@@ -1,0 +1,83 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <style>
+        html, body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+        .str-thumbnail-body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+        }
+        .str-thumbnail-content {
+          width: 300px;
+          height: 250px;
+          transform-origin: center;
+        }
+        .str-thumbnail-content-scale {
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+      <script>
+        var bannerIframeErrorHandler = e=>{const{message:t}=e;/(script error\.|syntaxerror|unexpected token|invalid token|unterminated)/i.test(t)&&window.parent.postMessage({eventType:"iframeError",error:{message:t}},"*")};
+        function onLoad() {
+          window.removeEventListener('error', bannerIframeErrorHandler);
+          window.removeEventListener('load', onLoad);
+        }
+
+        window.addEventListener('error', bannerIframeErrorHandler);
+        window.addEventListener('load', onLoad);
+      </script>
+      <script>
+        var applyIframeContentScale = (e,t)=>{e&&(t===1?e.style.removeProperty("transform"):e.style.transform="scale("+t+")")};
+        function resize() {
+          const thumbnailBody = document.querySelector(".str-thumbnail-body");
+          const thumbnailContent = document.querySelector(".str-thumbnail-content");
+          const width = 300;
+          const height = 250;
+
+          const containerWidth = thumbnailBody?.clientWidth;
+          const containerHeight = thumbnailBody?.clientHeight;
+
+          const heightScale = containerHeight / height;
+          const widthScale = containerWidth / width;
+          const scale = Math.min(heightScale, widthScale, 1);
+
+          applyIframeContentScale(thumbnailContent, scale);
+        }
+        window.addEventListener("DOMContentLoaded", resize, { once: true });
+        window.addEventListener("resize", resize);
+
+        resize();
+      </script>
+      <script>
+        // var is function-scoped and can be redeclared
+        // handles error: 'targetOrigin' has already been declared
+        var targetOrigin = '*';
+        try {
+          const origin = window.parent.location.origin;
+          if (origin !== "null") targetOrigin = origin;
+        } catch (_) {} // keep '*'
+
+        window.addEventListener('message', (event) => {
+          if (event.data?.method === 'iframeclick') return;
+
+          window.parent.postMessage({ ...event.data, originalOrigin: event.origin }, targetOrigin);
+        });
+      </script>
+    <link id="sa-css" rel="stylesheet" type="text/css" href="tolkien-l-anneau-de-la-discorde_1729858_3246_data/sa_1tJk.css" media="all"></head>
+    <body class="str-thumbnail-body" style="margin: 0px; background-color: white;">
+      <div class="str-thumbnail-content">
+        <div class="str-thumbnail-content-scale"><script>!function(){"use strict";var e=document,o=window;if(void 0!==e&&void 0!==o){window.addEventListener("error",function(n){try{var e;-1!==(n.filename||"").indexOf("saadcontext.js")&&(e=i()+"&msg="+encodeURIComponent(n.message||"")+"&url="+encodeURIComponent(n.filename||"")+"&line="+n.lineno+"&col="+n.colno+"&err="+encodeURIComponent(n.error?n.error.toString():""),t(o,e))}catch(e){n=i()+"&msg="+encodeURIComponent(e.toString());t(o,n)}});try{var n=i()+"&msg=ok";t(o,n)}catch(e){}}function i(){return"https://eu-inventory.srv.stackadapt.com/log-error/display?aid="+encodeURIComponent("1-3681-179325720548946612124578-3")+"&iid="+encodeURIComponent("26ae9f96-4bf4-413e-a407-0a062ec81e67")+"&nid=340&cid=3430717&advid=21830&naid=16528263"}function t(e,n){var o;e.fetch?e.fetch(n,{keepalive:!0,method:"get",mode:"no-cors"}):(e.img_requests||(e.img_requests=[]),[o=document]=[e.document],(o=o.createElement("img")).src=n,e.img_requests.push(o))}}();</script><div id="sa-content-div-pSdBShew0A" style="position: relative; width:300px"><div style="position:absolute; top:0; right:0; background:white; opacity:0.7; width:17px; height:15px; display:flex; align-items:center; justify-content:center; z-index: 16777270"><img id="sa-adchoices" style="display:block; padding:0; margin:0" src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/adchoices_1tJk.png" width="12" height="12"></div><script>try{var sa_adchoices = document.getElementById('sa-adchoices');if (sa_adchoices){sa_adchoices.onclick = function(){window.open('https://www.stackadapt.com/privacy-policy','_blank');}}}catch(err){console.log(err);}</script><a target="_blank" href="https://clk.srv.stackadapt.com/clk?aid=1-3681-179325720548946612124578-3&amp;cid=3430717&amp;adid=16528263&amp;sid=26ae9f96-4bf4-413e-a407-0a062ec81e67&amp;uid=5xc5JvMu0Hj7ZzVssk8yng&amp;did=lemonde.fr%3A%3A340&amp;adurl=https%3A%2F%2Feu.srv.stackadapt.com&amp;t=1793257205&amp;brandname=EIT+Higher+Education+Initiative&amp;adheading=&amp;iidx=0&amp;nid=340&amp;bip=MmEwMTplMGE6ZTBlOjo&amp;conv=true&amp;curl=aHR0cHM6Ly9laXQtaGVpLmV1L2Z1bmRpbmctc3VwcG9ydC9mdW5kaW5nLW9wcG9ydHVuaXRpZXMvb3Blbi1jYWxscy9jYWxsLWZvci1wcm9wb3NhbHMtMjAyNi8%2FdXRtX2NhbXBhaWduPWVpdDAwM19jYWxsNiZ1dG1fc291cmNlPWRpc3BsYXkmdXRtX21lZGl1bT1jcG0mdXRtX2NvbnRlbnQ9cGhhc2UxX2Rpc3BsYXk%3D&amp;r=" style="color:black; text-decoration:none"><img src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/tvRI8r5vWZ6dMuo-PyRKWgDIM300x250_1tJk.jpeg"></a><div></div><div></div><div><img src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/cookie_1tJk.gif" width="1" height="1"></div></div><script src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/saimp_1tJk.js" purl="https://eu.srv.stackadapt.com" aid="1-3681-179325720548946612124578-3" iidx="0"></script><script src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/saurl_1tJk.js" id="sa-url-script" purl="https://eu.srv.stackadapt.com" aid="1-3681-179325720548946612124578-3" iid="26ae9f96-4bf4-413e-a407-0a062ec81e67" br_domain="lemonde.fr" br_ip="2a01:e0a:e0e::" network="equativ" br_page_url="https://www.lemonde.fr/culture/article/2012/07/05/tolkien-l-anneau-de-la-discorde_1729858_3246.html"></script><script async="" src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/saadcontext_1tJk.js" crossorigin="anonymous" id="sa-ad-context-script" purl="https://eu-inventory.srv.stackadapt.com" aid="1-3681-179325720548946612124578-3" iid="26ae9f96-4bf4-413e-a407-0a062ec81e67" nid="340" cid="3430717" naid="16528263" advid="21830" br_domain="lemonde.fr" ew="300" eh="250"></script></div>
+      </div>
+    
+    
+  
+</body></html>

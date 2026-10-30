@@ -1,0 +1,3 @@
+Page 68 
+
+Dated 17 June 1998 and written by Miramax development head Jack Lechner, it began, ‘We’ve been thinking long and hard …’ Despite Jackson’s yeomen’s efforts, the two-film structure was too dense — code for too expensive — and they had a more radical, streamlined approach utilizing ‘key elements’ but still dispensing with many. Among its manifest sins, Helm’s Deep was cut, Théoden and Denethor combined (QED: so were Rohan and Gondor) and Éowyn replaced Faramir to be Boromir’s sister, while the memo vacillated over whether the problematic Saruman should be cut or present at the Battle of the Pelennor Fields.

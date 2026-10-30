@@ -1,0 +1,26 @@
+/* The only file permitted to use !important, and only to overrule an inline style
+   written by a third-party script. Every declaration carries its change id. */
+
+/* CH-0001 — SmartMenus (jquery.smartmenus.min.js) writes `right: -625.445px` as an
+   inline style on the ASC AWARDS submenu, computed against the wrong containing
+   block. An inline style cannot be beaten by specificity alone. Right-aligning the
+   submenu inside the nav keeps it on-screen both closed and open.
+
+   Scoped to the one menu item that actually overflows rather than all of them, so
+   SOCIETY and AMERICAN CINEMATOGRAPHER keep their current left-aligned behaviour. */
+body.asc-ui.asc-ui .elementor-nav-menu--main li.menu-item-object-award > .sub-menu {
+  right: 0 !important;
+  left: auto !important;
+}
+
+/* CH-0012 — Elementor core's nav-menu CSS sets
+     .elementor-nav-menu--layout-horizontal .elementor-nav-menu > li ul { top: 100% !important }
+   for EVERY nested list, so a third-level flyout opened at the bottom edge of the item
+   that opened it. A pointer moving straight right from "ASC Vision" crossed an empty gap
+   above the flyout and the menu closed. A core !important cannot be beaten by
+   specificity; this puts the flyout level with its item (8px panel padding + 1px border). */
+@media (min-width: 1025px) {
+  body.asc-ui.asc-ui .horizontal-dropdown .elementor-nav-menu > li > .sub-menu > li > .sub-menu {
+    top: -9px !important; /* CH-0012 */
+  }
+}

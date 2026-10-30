@@ -1,0 +1,1337 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr"
+ lang="fr" dir="ltr">
+<head>
+<!-- Scripts JQuery et Thickbox //-->
+<script type="text/javascript" src="/common/jquery.js"></script>
+<script type="text/javascript">var $J = jQuery.noConflict();</script>
+<script type="text/javascript" src="/common/thickbox.js"></script>
+<link rel="stylesheet" href="/common/thickbox.css" type="text/css" media="screen" />
+<title>Chat - Discord - Tolkiendil</title>
+<link rel="shortcun icon" href="/tolkiendil.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Author" content="Tolkiendil" />
+<meta name="Description" content="Tolkiendil, association pour la promotion l'œuvre de J.R.R. Tolkien dans le monde francophone." />
+<meta name="Keywords" content="jrr tolkien, seigneur des anneaux, lord of the rings, bilbo le hobbit, le hobbit, silmarillion, terre du milieu, beleriand" />
+<meta name="generator" content="DokuWiki" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2023-07-26T20:14:10+0200" />
+<meta name="keywords" content="chat" />
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Tolkiendil" />
+<link rel="start" href="/" />
+<link rel="contents" href="/chat?do=index" title="Index" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="/feed.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="/_export/xhtml/chat" />
+<link rel="canonical" href="https://www.tolkiendil.com/chat" />
+<link rel="stylesheet" media="all" type="text/css" href="/_css/all-chat.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/lib/exe/css.php?section=chat" />
+<link rel="stylesheet" media="print" type="text/css" href="/_css/print-chat.css" />
+<script type="text/javascript" ><!--//--><![CDATA[//><!--
+var NS='';var JSINFO = {"id":"chat","namespace":""};
+//--><!]]></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=1741121692" ></script>
+<script type="text/javascript" charset="utf-8" src="/lib/plugins/indexmenu/indexmenu.js" ></script>
+<script type="text/javascript" charset="utf-8" ><!--//--><![CDATA[//><!--
+var indexmenu_ID='chat'
+//--><!]]></script>
+<meta property="og:site_name" content="Tolkiendil" />
+<meta property="og:title" content="Chat - Discord - Tolkiendil" />
+<meta property="og:description" content="Tolkiendil, association des passionnés de l'œuvre de J.R.R. Tolkien dans le monde francophone." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.tolkiendil.com/_media/logo/logo_square_200_72dpi.jpg" />
+<script type="application/ld+json">
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Tolkiendil",
+        "url": "https://www.tolkiendil.com",
+        "image": "https://www.tolkiendil.com/_media/logo/logo_square_200_72dpi.jpg",
+        "description": "Tolkiendil, communauté francophone des passionnés de l'œuvre de J.R.R. Tolkien, l'auteur du Seigneur des Anneaux.",
+        "keywords": "jrr tolkien, seigneur des anneaux, lord of the rings, bilbo le hobbit, le hobbit, silmarillion, terre du milieu, beleriand",
+        "sameAs":
+        [
+                  "https://www.facebook.com/tolkiendil",
+                  "https://twitter.com/tolkiendilfr",
+                  "https://www.youtube.com/user/assotolkiendil",
+                  "https://www.instagram.com/tolkiendil/",
+                  "https://piaille.fr/@tolkiendil",
+                  "https://twitch.tv/AssoTolkiendil",
+                  "https://forum.tolkiendil.com/",
+                  "https://discord.gg/cafByTS",
+                  "https://bsky.app/profile/tolkiendil.bsky.social"
+        ],
+        "potentialAction":
+        {
+            "@type": "SearchAction",
+            "target": "https://www.tolkiendil.com/doku.php?do=search&id={search_term}",
+            "query-input": "required name=search_term"
+        }
+    }
+]
+</script>
+
+
+
+
+
+<!-- Intégration transparence PNG pour IE 5 (désactivé) //-->
+<!--[if gte IE 5]>
+<style type="text/css">
+  /* that IE 5+ conditional comment makes this only visible in IE 5+ */
+  /* IE bugfix for transparent PNGs */
+  //DISABLED   img { behavior: url("/lib/scripts/pngbehavior.htc"); }
+</style>
+<![endif]-->
+
+<!-- Définition css spéciale IE pour les menus //-->
+<!--[if IE]>
+<style>
+div.menu_detail {
+ position: relative;
+ top: -20px;
+}
+</style>
+<![endif]-->
+
+</head>
+
+
+<body>
+<!-- Bannière en haut à droite
+<a href="https://jrrt2023.tolkiendil.com" target="_blank"><div style="float:right; background-image: url('https://www.tolkiendil.com/images/jrrt_2023_banniere_600_200.jpg');background-repeat: no-repeat;height: 200px;width: 600px;background-position: top right;"></div></a>-->
+
+
+
+<!-- Définition JS spéciale IE pour les menus //-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+sfHover = function() {
+  $J(".nav").each(function (i) {
+      var sfEls = this.getElementsByTagName("LI");
+      for (var i=0; i<sfEls.length; i++) {
+	sfEls[i].onmouseover=function() {
+	  this.className+=" sfhover";
+	}
+	sfEls[i].onmouseout=function() {
+	  this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+	}
+      }
+    });
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+
+
+<!-- Scripts JQuery pour les menus //-->
+<script type="text/javascript">
+$J(document).ready(function(){
+    $J('.nav').hide();
+    $J('#menu_chat').show();    $J('.menu_link').each(function (i) {
+	this.href='javascript:return false;';
+    });
+});
+
+function menuDisp(menuID) {
+  $J('.nav:not(#menu_'+menuID+')').slideUp(200);
+  $J('#menu_'+menuID).slideDown(200);
+  $J('#menu_'+menuID).each(function(u) {
+      this.style.display = 'block';
+    });
+}
+
+function ToolTipDisp(DispID) {
+  $J('.arrow_down').each(function (i) {
+      this.src = "/lib/images/arrow_up.gif";
+    });
+  $J('.arrow_down:not(#arrow_'+DispID+')').removeClass('arrow_down');
+  $J('#arrow_'+DispID).toggleClass('arrow_down');
+  $J('.arrow_down').each(function (i) {
+      this.src = "/lib/images/arrow_down.gif";
+    });
+
+
+  $J('#'+DispID).toggleClass('DispOn').toggle('slow');
+  $J('.DispOn:not(#'+DispID+')').toggleClass('DispOn').toggle('slow');
+  $J('#'+DispID).html("En chargement");
+  $J.get("/ajax/tooltip.php?content="+DispID, function(data){
+    $J('#'+DispID).html(data);
+  });
+}
+</script>
+
+<!-- Décès de Christopher Tolkien -->
+<!--<div id="christopher" style="float: right; height: 200px; width: 484px; background: url(/lib/tpl/tolkiendil/images/christopher_tolkien_silhouette.png) no-repeat right top;"></div>-->
+
+
+
+<div id="headerhome"></div>
+<div id="bas-griffe"></div>
+
+<!-- Affichage des menus //-->
+<div id="menu">
+<dl id="menuhome">
+
+<dt><a href="/doku.php" class="menu_link" onclick="menuDisp('style');">Accueil</a></dt>
+<dd>
+  <ul id="menu_style" class="nav">
+  <li><a class="menu" href="/bienvenue"><strong>Bienvenue</strong></a></li>
+  <li><a class="menu" href="/tolkiendil">Index de section</a></li>
+  <li class="menu_title">&nbsp;</li>
+  <li class="menu_title"><strong>Actualités :</strong></li>
+  <li><a class="menu" href="/news">Actualités</a></li>
+  <li><a class="menu" href="/videos">Vidéos</a></li>
+  <li><a class="menu" href="/reseaux">Réseaux</a></li>
+  <li class="menu_title">&nbsp;</li>
+  <li class="menu_title"><strong>Communauté :</strong></li>
+  <li><a class="menu" href="http://forum.tolkiendil.com" target="_blank">Forum</a></li>
+  <li><a class="menu" href="/contact">Contact</a></li>
+  <li><a class="menu" href="/equipe">Équipe</a></li>
+  <li><a class="menu" href="/carte">Carte</a></li>
+  <li class="menu_title">&nbsp;</li>
+  <li class="menu_title"><strong>Site :</strong></li>
+  <li><a class="menu" href="/rechercher">Rechercher</a></li>
+  <li><a class="menu" href="/participer">Participer</a></li>
+  <li><a class="menu" href="/historique">Historique</a></li>
+  <li><a class="menu" href="/liens">Liens & Logo</a></li>
+  <li><a class="menu" href="/droits">Copyright</a></li>
+  <li class="menu_title">&nbsp;</li>
+  <li class="menu_title"><strong>Génériques :</strong></li>
+  <li><a class="menu" href="/themes">Thèmes</a></li>
+  <li><a class="menu" href="/faq">F.A.Q.</a></li>
+  <li><a class="menu" href="/sondages">Sondages</a></li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=asso" class="menu_link" onclick="menuDisp('asso');">Association Tolkiendil</a></dt>
+<dd>
+  <ul id="menu_asso" class="nav">
+    <li><a class="menu" href="/asso">Index</a></li>
+    <li><a class="menu" href="/asso/faq">F.A.Q.</a></li>
+    <li class="menu_title">&nbsp;</li>
+
+    <li class="menu_title"><strong>Administration :</strong></li>
+    <li><a class="menu" href="/equipe">Équipe</a></li>
+    <li><a class="menu" href="/asso/adherer">Adhérer</a></li>
+    <li><a class="menu" href="/asso/statuts">Statuts</a></li>
+    <li><a class="menu" href="/asso/reglement_interieur">Règlement intérieur</a></li>
+    <li><a class="menu" href="/asso/smials">Smials</a></li>
+    <li><a class="menu" href="/asso/assoces">Associations Tolkien</a></li>
+
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Activités :</strong></li>
+    <li><a class="menu" href="/asso/agenda">Agenda</a></li>
+    <li><a class="menu" href="https://jrrt2023.tolkiendil.com">Evénement : JRRT 2023</a></li>
+    <li><a class="menu" href="/asso/animations">Animations</a></li>
+    <li><a class="menu" href="/asso/manifestations">Rencontres</a>
+      <ul>
+        <li class="menu_title"><strong>Par l'association&nbsp;:</strong></li>
+        <li><a class="menu" href="/asso/manifestations/assemblee_generale">Assemblée Générale</a></li>
+        <li><a class="menu" href="/asso/manifestations/rencontres_du_serein">Rencontres du Serein</a></li>
+        <li><a class="menu" href="/asso/manifestations/tolkien_reading_day">Tolkien Reading Day</a></li>
+        <li><a class="menu" href="/asso/manifestations/tolkien_week">Tolkien Week & Hobbit Day</a></li>
+        <li class="menu_title"><br /><strong>Organisation externe&nbsp;:</strong></li>
+        <li><a class="menu" href="/asso/manifestations/atrebatia">Atrebatia</a></li>
+        <li><a class="menu" href="/asso/manifestations/festival_tl">Trolls et Légendes</a></li>
+        <li><a class="menu" href="/asso/manifestations/sur_les_terres_de_l_unique">Sur les Terres de l'Unique</a></li>
+      </ul>
+    </li>
+
+    <li><a class="menu" href="/asso/concours">Concours</a></li>
+
+    <li><a class="menu" href="/asso/mag">L’Arc et le Heaume</a>
+      <ul>
+        <li><a class="menu" href="/asso/mag/hs4">Hors-série 4</a></li>
+        <li><a class="menu" href="/asso/mag/hs3">Hors-série 3</a></li>
+        <li><a class="menu" href="/asso/mag/hs2">Hors-série 2</a></li>
+        <li><a class="menu" href="/asso/mag/hs1">Hors-série 1</a></li>
+        <li><a class="menu" href="/asso/mag/mag9">Numéro 9</a></li>
+        <li><a class="menu" href="/asso/mag/mag8">Numéro 8</a></li>       
+        <li><a class="menu" href="/asso/mag/mag7">Numéro 7</a></li>
+        <li><a class="menu" href="/asso/mag/mag6">Numéro 6</a></li>
+        <li><a class="menu" href="/asso/mag/mag5">Numéro 5</a></li>
+        <li><a class="menu" href="/asso/mag/mag4">Numéro 4</a></li>
+        <li><a class="menu" href="/asso/mag/mag3">Numéro 3</a></li>
+        <li><a class="menu" href="/asso/mag/mag2">Numéro 2</a></li>
+        <li><a class="menu" href="/asso/mag/mag1">Numéro 1</a></li>
+      </ul>
+    </li>
+
+    <li><a class="menu" href="/asso/boutique/asso/calendriers">Calendriers</a>
+    </li>
+    
+    <li><a class="menu" href="/asso/boutique">Boutique</a>
+      <ul>
+            <li><b>Par l'association</b></li>
+            <li><a class="menu" href="/asso/boutique/asso/commande">Commander</a></li>
+            <li><a class="menu" href="/asso/mag">L’Arc et le Heaume</a>
+              <ul>
+                <li><a class="menu" href="/asso/mag/hs3">Hors-série 3</a></li>
+                <li><a class="menu" href="/asso/mag/hs2">Hors-série 2</a></li>
+                <li><a class="menu" href="/asso/mag/hs1">Hors-série 1</a></li>
+                <li><a class="menu" href="/asso/mag/mag7">Numéro 7</a></li>
+                <li><a class="menu" href="/asso/mag/mag6">Numéro 6</a></li>
+                <li><a class="menu" href="/asso/mag/mag5">Numéro 5</a></li>
+                <li><a class="menu" href="/asso/mag/mag4">Numéro 4</a></li>
+                <li><a class="menu" href="/asso/mag/mag3">Numéro 3</a></li>
+                <li><a class="menu" href="/asso/mag/mag2">Numéro 2</a></li>
+                <li><a class="menu" href="/asso/mag/mag1">Numéro 1</a></li>
+                <li><a class="menu" href="/asso/mag/mag0">Numéro 0</a></li>
+              </ul>
+            </li>
+
+            <li><a class="menu" href="/asso/boutique/asso/calendriers">Calendriers</a>
+            </li>
+
+            <!--<li><a class="menu" href="/asso/boutique/asso/clefs_usb">Clefs USB</a></li>
+            <li><a class="menu" href="/asso/boutique/asso/badges">Badges</a></li>
+            <li><a class="menu" href="/asso/boutique/asso/portes-clefs">Porte-clefs</a></li>
+            <li><a class="menu" href="/asso/boutique/asso/marque-pages">Marque-pages</a></li>-->
+            <li><a class="menu" href="/asso/boutique/asso/affiches_couleurs">Affiches</a></li>
+
+            <li>&nbsp;</li>
+
+            <li><b>Les plateformes</b></li>
+
+            <li><a class="menu" href="https://tolkiendil.myspreadshop.fr/">Spreadshirt</a></li>
+
+            <li><a class="menu" href="http://www.zazzle.fr/tolkiendil">Zazzle</a></li>
+
+        <li><a class="menu" href="/asso/boutique/partenaires">Partenaires</a>
+          <ul>
+            <li><a class="menu" href="/asso/boutique/partenaires/tolkien_fr">Tolkien FR</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/tolkien_en">Tolkien VO</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/sur_tolkien_fr">Sur Tolkien FR</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/sur_tolkien_en">Sur Tolkien VO</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/posters_calendriers">Posters- Calendriers</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/audio">Audio</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/video">Vidéo</a></li>
+            <li><a class="menu" href="/asso/boutique/partenaires/jeux_video">Jeux vidéo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=tolkien" class="menu_link" onclick="menuDisp('tolkien');">Tolkien</a></dt>
+<dd>
+  <ul id="menu_tolkien" class="nav">
+    <li><a class="menu" href="/tolkien">Index</a></li>
+    <li><a class="menu" href="/tolkien/faq">FAQ</a></li>
+    <li><a class="menu" href="/tolkien/participer">Participer</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li><a class="menu" href="/tolkien/biblio/parutions">Prochaines parutions</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>J. R. R. Tolkien :</strong></li>
+    <li><a class="menu" href="/tolkien/index_bio">Biographie</a>
+      <ul>
+        <li><a class="menu" href="/tolkien/biographie">Biographie détaillée</a></li>
+        <li><a class="menu" href="/tolkien/courte_biographie">Courte biographie</a></li>
+      </ul></li> 
+    <li><a class="menu" href="/tolkien/etudes_biographiques">Études biographiques</a></li>
+    <li><a class="menu" href="/tolkien/biblio">Bibliographie</a>
+      <ul>
+        <li><a class="menu" href="/tolkien/biblio/hobbit">Le Hobbit</a>
+          <ul>
+           <li><a class="menu" href="/tolkien/biblio/bilbo_le_hobbit">Traduction de Francis Ledoux</a></li>
+           <li><a class="menu" href="/tolkien/biblio/le_hobbit">Traduction de Daniel Lauzon</a></li>
+          </ul>
+        </li>             
+        <li><a class="menu" href="/tolkien/biblio/le_seigneur_des_anneaux">Le Seigneur des Anneaux</a>
+          <ul>
+           <li><a class="menu" href="/tolkien/biblio/le_seigneur_des_anneaux_ledoux">Traduction de Francis Ledoux</a></li>
+           <li><a class="menu" href="/tolkien/biblio/le_seigneur_des_anneaux_lauzon">Traduction de Daniel Lauzon</a></li>
+          </ul>
+        </li>
+        <li><a class="menu" href="/tolkien/biblio/silm">Le Silmarillion</a>
+          <ul>
+           <li><a class="menu" href="/tolkien/biblio/le_silmarillion_alien">Traduction de Pierre Alien</a></li>
+           <li><a class="menu" href="/tolkien/biblio/le_silmarillion_lauzon">Traduction de Daniel Lauzon</a></li>
+          </ul>
+        </li>
+        <li><a class="menu" href="/tolkien/biblio/cli">Contes et légendes inachevés</a></li>
+        <li><a class="menu" href="/tolkien/biblio/home">L'Histoire de la Terre du Milieu</a>
+          <ul>
+            <li><a class="menu" href="/tolkien/biblio/home1">Le Livre des Contes perdus I</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home2">Le Livre des Contes perdus II</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home3">Les Lais du Beleriand</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home4">La Formation de la Terre du Milieu</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home5">La Route Perdue</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home6">The Return of the Shadow</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home7">The Treason of Isengard</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home8">The War of the Ring</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home9">La Défaite de Sauron</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home10">L'Anneau de Morgoth</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home11">The War of the Jewels</a></li>
+            <li><a class="menu" href="/tolkien/biblio/home12">The Peoples of Middle-earth</a></li>
+          </ul>
+        </li>
+        <li><a class="menu" href="/tolkien/biblio/edh">Les Enfants de Húrin</a></li>
+        <li><a class="menu" href="/tolkien/biblio/beren_et_luthien">Beren et Lúthien</a></li>
+        <li><a class="menu" href="/tolkien/biblio/la_chute_de_gondolin">La Chute de Gondolin</a></li>
+        <li><a class="menu" href="/tolkien/biblio/the_nature_of_middle-earth">The Nature of Middle-earth</a></li>
+        <li><a class="menu" href="/tolkien/biblio/la_chute_de_numenor">La Chute de Númenor</a></li>                       
+        <li>&nbsp;</li>
+        <li><a class="menu" href="/tolkien/biblio/lettres">Lettres</a></li>
+        <li>&nbsp;</li>            
+        <li><a class="menu" href="/tolkien/biblio/sigurd">La Légende de Sigurd et Gudrún</a></li>
+        <li><a class="menu" href="/tolkien/biblio/arthur">La Chute d'Arthur</a></li>
+        <li><a class="menu" href="/tolkien/biblio/beowulf">Beowulf & Sellic Spell</a></li>
+        <li><a class="menu" href="/tolkien/biblio/kullervo">L'Histoire de Kullervo</a></li>
+        <li><a class="menu" href="/tolkien/biblio/aotrou_et_itroun">Le Lai d'Aotrou et Itroun</a></li>
+        <li>&nbsp;</li>
+        <li><a class="menu" href="/tolkien/biblio">Tous</a></li>
+        <li>&nbsp;</li>
+        <li><a class="menu" href="/tolkien/biblio/parutions">Parutions</a></li>
+      </ul></li>
+    <li><a class="menu" href="/tolkien/audio_video">Ressources audio et vidéo</a>
+      <ul><li><a class="menu" href="/tolkien/biblio/audio_vf">Livres audio en français</a></li></ul></li>
+    <li><a class="menu" href="/tolkien/resumes">Résumés</a></li>
+    <li><a class="menu" href="/tolkien/extraits">Extraits</a></li>
+    <li><a class="menu" href="/tolkien/manuscrits">Traductions de textes de Tolkien</a></li>
+    <li><a class="menu" href="/tolkien/droits">Droits sur les ouvrages</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Christopher Tolkien :</strong></li>
+    <li><a class="menu" href="/tolkien/christopher_tolkien">Index</a>
+    <li><a class="menu" href="/tolkien/christopher_tolkien_biographie">Biographie</a>
+      <ul>
+        <li><a class="menu" href="/tolkien/christopher_tolkien_biographie">Biographie détaillée</a></li>
+        <li><a class="menu" href="/tolkien/portraits/christopher_john_reuel_tolkien">Courte biographie</a></li>
+      </ul> </li>
+     <li><a class="menu" href="/tolkien/biblio_christopher_tolkien">Bibliographie</a></li>
+    </li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Famille Tolkien :</strong></li>
+  <li><a class="menu" href="/tolkien/bio/arbre_généalogique_tolkien">Arbre généalogique de la famille</a></li>
+  <li><a class="menu" href="/tolkien/bio/famille_tolkien">Biographies de la famille</a></li>
+  <li class="menu_title">&nbsp;</li>  
+    <li class="menu_title"><strong>Après Tolkien :</strong></li>
+    <li><a class="menu" href="/tolkien/sur-tolkien">Bibliographie secondaire</a>
+      <ul>
+        <li><a class="menu" href="/tolkien/sur-tolkien/en">En anglais</a></li>
+        <li><a class="menu" href="/tolkien/sur-tolkien/fr">En français</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/tolkien/portraits">Portraits</a></li>
+    <li><a class="menu" href="/tolkien/interviews">Interviews</a></li>
+    <li><a class="menu" href="/tolkien/etudes_bibliographiques">Études bibliographiques</a></li>
+    <li><a class="menu" href="/tolkien/ils_en_ont_parle">Ils en ont parlé</a>
+      <ul>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/abc">ABC</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/def">DEF</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/ghi">GHI</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/jkl">JKL</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/mno">MNO</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/pqr">PQR</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/stu">STU</a></li>
+        <li><a class="menu" href="/tolkien/ils_en_ont_parle/vwxyz">VWXYZ</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/langues/essais/traductions">Traduire Tolkien</a></li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=encyclo" class="menu_link" onclick="menuDisp('encyclo');">Encyclopédie</a></dt>
+<dd>
+  <ul id="menu_encyclo" class="nav">
+    <li><a class="menu" href="/encyclo">Index</a></li>
+    <li><a class="menu" href="/encyclo/saviez-vous">Saviez-vous</a></li>
+    <li><a class="menu" href="/encyclo/partenariat">Partenariat</a></li>
+    <li><a class="menu" href="/encyclo/participer">Participer</a></li>
+    <li><a class="menu" href="/encyclo/traductions">À propos des traductions françaises</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Recherche :</strong></li>
+    <li><a class="menu" href="/encyclo/classement/alphabet">Alphabétique</a>
+      <ul>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="25%"><a class="menu" href="/encyclo/classement/a">A</a></td><td width="25%"><a class="menu" href="/encyclo/classement/b">B</a></td><td width="25%"><a class="menu" href="/encyclo/classement/c">C</a></td><td width="25%"><a class="menu" href="/encyclo/classement/d">D</a></td></tr></table></li>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="25%"><a class="menu" href="/encyclo/classement/e">E</a></td><td width="25%"><a class="menu" href="/encyclo/classement/f">F</a></td><td width="25%"><a class="menu" href="/encyclo/classement/g">G</a></td><td width="25%"><a class="menu" href="/encyclo/classement/h">H</a></td></tr></table></li>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="25%"><a class="menu" href="/encyclo/classement/i">I</a></td><td width="25%"><a class="menu" href="/encyclo/classement/j">J</a></td><td width="25%"><a class="menu" href="/encyclo/classement/k">K</a></td><td width="25%"><a class="menu" href="/encyclo/classement/l">L</a></td></tr></table></li>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="25%"><a class="menu" href="/encyclo/classement/m">M</a></td><td width="25%"><a class="menu" href="/encyclo/classement/n">N</a></td><td width="25%"><a class="menu" href="/encyclo/classement/o">O</a></td><td width="25%"><a class="menu" href="/encyclo/classement/p">P</a></td></tr></table></li>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="25%"><a class="menu" href="/encyclo/classement/q">Q</a></td><td width="25%"><a class="menu" href="/encyclo/classement/r">R</a></td><td width="25%"><a class="menu" href="/encyclo/classement/s">S</a></td><td width="25%"><a class="menu" href="/encyclo/classement/t">T</a></td></tr></table></li>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="25%"><a class="menu" href="/encyclo/classement/u">U</a></td><td width="25%"><a class="menu" href="/encyclo/classement/v">V</a></td><td width="25%"><a class="menu" href="/encyclo/classement/w">W</a></td><td width="25%"><a class="menu" href="/encyclo/classement/y">Y</a></td></tr></table></li>
+        <li class="menu_title"><table width="100%" border="0"><tr><td width="100%"><a class="menu" href="/encyclo/classement/z">Z</a></td></tr></table></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/chronologie/recherche/chronologie">Chronologique</a></li>
+	<li><a class="menu" href="/encyclo/ouvrages">Par ouvrages</a>
+       <ul>
+        <li><a class="menu" href="/encyclo/liste_des_noms/le_hobbit">Le Hobbit</a></li>
+        <li><a class="menu" href="/encyclo/liste_des_noms/le_silmarillion">Le Silmarillion</a></li>
+        <li><a class="menu" href="/encyclo/liste_des_noms/les_enfants_de_hurin">Les Enfants de Húrin</a></li>
+        <li><a class="menu" href="/encyclo/liste_des_noms/beren_et_luthien">Beren et Lúthien</a></li>
+        <li><a class="menu" href="/encyclo/liste_des_noms/la_chute_de_gondolin">La Chute de Gondolin</a></li>
+      </ul>
+	</li>
+	<li><a class="menu" href="/encyclo/categories/homonymes">Homonymes</a></li>
+	<li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Catégories :</strong></li>
+    <li><a class="menu" href="/encyclo/categories/artefacts">Artefacts</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/artefacts/armes">Armes</a></li>
+        <li><a class="menu" href="/encyclo/categories/artefacts/bijoux">Bijoux</a></li>
+        <li><a class="menu" href="/encyclo/categories/artefacts/lampes">Lampes</a></li>
+        <li><a class="menu" href="/encyclo/categories/artefacts/navires">Navires</a></li>
+        <li><a class="menu" href="/encyclo/categories/artefacts/divers">Divers</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/categories/arts">Arts</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/arts/chants_et_recits">Chants et récits</a></li>
+        <li><a class="menu" href="/encyclo/categories/arts/livres">Livres</a></li>
+        <li><a class="menu" href="/encyclo/categories/arts/sculptures">Sculptures</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/categories/biologie">Biologie & Métaux</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/biologie/faune">Faune</a></li>
+        <li><a class="menu" href="/encyclo/categories/biologie/flore">Flore</a></li>
+        <li><a class="menu" href="/encyclo/categories/biologie/metaux">Métaux</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/categories/chronologie/chronologie">Chronologie</a></li>
+    <li><a class="menu" href="/encyclo/categories/divers">Divers</a></li>
+    <li><a class="menu" href="/encyclo/categories/evenements">Événements</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/evenements/aa">Âge des Arbres</a></li>
+        <li><a class="menu" href="/encyclo/categories/evenements/1a">Premier Âge</a></li>
+        <li><a class="menu" href="/encyclo/categories/evenements/2a">Deuxieme Âge</a></li>
+        <li><a class="menu" href="/encyclo/categories/evenements/3a">Troisieme Âge</a></li>
+        <li><a class="menu" href="/encyclo/categories/evenements/divers">Divers</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/categories/geographie">Géographie</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/geographie/astronomie">Astronomie</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/eaux">Eaux</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/forets">Forêts</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/ponts">Ponts et gués</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/ports">Ports</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/regions">Régions</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/reliefs">Reliefs</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/routes">Routes</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/royaumes">Royaumes</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/tombes">Tombes</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/villes">Villes</a></li>
+        <li><a class="menu" href="/encyclo/categories/geographie/divers">Divers</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/categories/langues/langues">Langues</a></li>
+    <li><a class="menu" href="/encyclo/categories/personnages">Personnages</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/personnages/ainur">Ainur</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/animaux">Animaux</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/elfes">Elfes</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/ents">Ents</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/hobbits">Hobbits</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/hommes">Hommes</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/nains">Nains</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/orques">Orques</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/trolls">Trolls</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/divers">Divers</a></li>
+        <li><a class="menu" href="/encyclo/categories/personnages/groupes">Groupes</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/encyclo/categories/peuples">Peuples</a>
+      <ul>
+        <li><a class="menu" href="/encyclo/categories/peuples/ainur">Ainur</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/elfes">Elfes</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/ents">Ents</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/hobbits">Hobbits</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/hommes">Hommes</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/nains">Nains</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/orques">Orques</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/trolls">Trolls</a></li>
+        <li><a class="menu" href="/encyclo/categories/peuples/divers">Divers</a></li>
+      </ul>
+    </li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=essais" class="menu_link" onclick="menuDisp('essais');">Essais</a></dt>
+<dd>
+  <ul id="menu_essais" class="nav">
+    <li><a class="menu" href="/essais">Index</a></li>
+    <li><a class="menu" href="/essais/faq">FAQ</a></li>
+    <li><a class="menu" href="/essais/participer">Participer</a></li>
+        <li class="menu_title">&nbsp;</li>
+    <li><a class="menu" href="/essais/auteurs">Liste des auteurs</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Sur Tolkiendil :</strong></li>  
+    <li><a class="menu" href="/essais/calendriers">Astronomie et calendriers</a></li>
+    <li><a class="menu" href="/essais/biologie">Biologie</a></li>
+    <li><a class="menu" href="/langues/textes">Essais linguistiques</a></li>
+    <li><a class="menu" href="/tolkien/etudes_bibliographiques">Études bibliographiques</a></li>
+    <li><a class="menu" href="/tolkien/etudes_biographiques">Études biographiques</a></li>
+    <li><a class="menu" href="/essais/légendaire">Évolution du Légendaire</a></li>
+    <li><a class="menu" href="/essais/films">Films & Jeux</a></li>
+    <li><a class="menu" href="/essais/géographie">Géographie</a></li>
+    <li><a class="menu" href="/essais/concepts">Idées et concepts</a></li>   
+    <li><a class="menu" href="/essais/influences">Influences</a></li>
+    <li><a class="menu" href="/essais/magie">Magie</a></li>
+    <li><a class="menu" href="/essais/personnages">Personnages</a></li>
+    <li><a class="menu" href="/essais/peuples">Peuples</a></li>
+    <li><a class="menu" href="/essais/religion">Religion</a></li>
+    <li><a class="menu" href="/essais/littérature">Tolkien et la littérature</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li><a class="menu" href="/essais/hisweloke">Hiswelókë</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li><a class="menu" href="/essais/tolkien_1892-2012">Tolkien 1892-2012</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li><a class="menu" href="/essais/colloques">Colloques et conférences</a></li>
+    <li><a class="menu" href="/essais/travaux">Travaux universitaires</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li><a class="menu" href="/essais/commentaires">Commentaires</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Sur le net :</strong></li>
+    <li><a class="menu" href="/essais/index_web/anglophone">Articles anglophones</a></li>
+    <li><a class="menu" href="/essais/index_web/francophone">Articles francophones</a></li>
+    <li><a class="menu" href="/essais/index_web/autres_langues">Autres langues</a></li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=langues" class="menu_link" onclick="menuDisp('langues');">Langues</a></dt>
+<dd>
+  <ul id="menu_langues" class="nav">
+    <li><a class="menu" href="/langues">Index</a></li>
+    <li><a class="menu" href="/langues/faq">F.A.Q.</a></li>
+    <li><a class="menu" href="/langues/participer">Participer</a></li>
+    <li>&nbsp;</li>
+    <li class="menu_title"><strong><a href="/langues/langues">Langues inventées :</a></strong></li>
+    <li><a class="menu" href="/langues/lexiques">Lexiques</a></li>
+    <li>&nbsp;</li>
+    <li><a class="menu" href="/langues/langue_valar/valarin">Langue des Valar</a></li>
+    <li><a class="menu" href="/langues/langues_anciennes">Langues anciennes</a><ul>
+      <li><a class="menu" href="/langues/langues_elfiques/ancien_quenya">Ancien quenya</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/eldarin_commun">Eldarin commun</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/quendien_primitif">Quendien primitif</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/telerin_commun">Telerin commun</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/vieux_sindarin">Vieux sindarin</a></li>
+      <li>&nbsp;</li>
+      <li><a class="menu" href="/langues/langues_humaines/beorien">Bëorien</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/gondorien_antique">Gondorien antique</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/halethien">Halethien</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/langues_orientales#les_langues_orientales_du_premier_age">Langues orientales du Premier Âge</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/taliska">Taliska</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/langues_elfiques">Langues des Elfes</a><ul>
+      <li><a class="menu" href="/langues/langues_elfiques/ancien_quenya">Ancien quenya</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/avarin">Avarin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/doriathrin">Doriathrin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/eldarin_commun">Eldarin commun</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/falathrin">Falathrin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/gondolinien">Gondolinien</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/nandorin#le_leikvien">Leikvien</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/matengwie">Mátengwië</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/mithrimin">Mithrimin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/nandorin">Nandorin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/ossiriandrin">Ossiriandrin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/quendien_primitif">Quendien primitif</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/quenya">Quenya</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/sindarin">Sindarin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/sylvain">Sylvain</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/telerin">Telerin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/telerin_commun">Telerin commun</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/vanyarin">Vanyarin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/vieux_sindarin">Vieux sindarin</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/langues_humaines">Langues des Hommes</a><ul>
+      <li><a class="menu" href="/langues/langues_humaines/adunaique">Adunaïque</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/beorien">Bëorien</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/dalien">Dalien</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/drughu">Drughu</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/dunlandais">Dunlandais</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/gondorien_antique">Gondorien antique</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/halethien">Halethien</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/hobbitique">Hobbitique</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/langue_nord">Langue du Nord</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/langues_val_anduin">Langues du Val d’Anduin</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/langues_orientales">Langues orientales</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/langues_orientales#les_langues_orientales_du_premier_age">Langues orientales du Premier Âge</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/occidentalien">Occidentalien</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/rohanais">Rohanais</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/suderon">Suderon</a></li>
+      <li><a class="menu" href="/langues/langues_humaines/taliska">Taliska</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/langue_ents/entique">Langue des Ents</a></li>
+    <li><a class="menu" href="/langues/langue_nains">Langue des Nains</a><ul>
+      <li><a class="menu" href="/langues/langue_nains/iglishmek">Iglishmêk</a></li>
+      <li><a class="menu" href="/langues/langue_nains/khuzdul">Khuzdul</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/langues_ennemi">Langues de l’Ennemi</a><ul>
+      <li><a class="menu" href="/langues/langues_ennemi#la_langue_des_araignees_geantes_de_mirkwood">Langue des Araignées géantes</a></li>
+      <li><a class="menu" href="/langues/langues_ennemi#la_langue_des_wargs">Langue des Wargs</a></li>
+      <li><a class="menu" href="/langues/langues_ennemi/orquien">Orquien</a></li>
+      <li><a class="menu" href="/langues/langues_ennemi/parler_noir">Parler noir</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/premieres_versions">Premières versions</a><ul>
+      <li><a class="menu" href="/langues/langues_elfiques/ancien_quenya#l_ancien_qenya">Ancien qenya</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/nandorin#le_danien">Danien</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/doriathrin">Doriathrin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/mithrimin#le_feanorien">Fëanorien</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/goldogrin">Goldogrin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/gondolinien#le_gondolindren">Gondolindren</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/ilkorin">Ilkorin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/vanyarin#l_inwelin">Inwelin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/vieux_sindarin#le_kornoldorin">Kornoldorin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/avarin#le_lemberin">Lemberin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/vanyarin#le_lindarin">Lindarin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/noldorin#le_molanoldorin">Mólanoldorin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/noldorin">Noldorin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/mithrimin#le_noldorin_de_mithrim">Noldorin de Mithrim</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/noldorin#le_noldorin_de_nargothrond">Noldorin de Nargothrond</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/qenya">Qenya</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/telerin#le_solosimpilin">Solosimpilin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/ilkorin#le_teleakta">Teleakta</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/qenya#le_telellin">Telellin</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/sylvain#le_telerien">Telerien</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/noldorin#le_toleresseen">Toleresséen</a></li>
+      <li><a class="menu" href="/langues/langues_elfiques/telerin#le_wingilya">Wingilya</a></li>
+      <li>&nbsp;</li>
+      <li><a class="menu" href="/langues/langues_ennemi/orquien#le_magol">Mágol</a></li>
+    </ul></li>
+    <li>&nbsp;</li>
+    <li class="menu_title"><strong><a href="/langues/ecritures">Systèmes d’écriture :</a></strong></li>
+    <li><a class="menu" href="/langues/ecritures/scriptorium">Scriptorium</a></li>
+    <li>&nbsp;</li>
+    <li><a class="menu" href="/langues/ecritures/sarati">Sarati</a></li>
+    <li><a class="menu" href="/langues/ecritures/tengwar">Tengwar</a></li>
+    <li><a class="menu" href="/langues/ecritures/cirth">Cirth</a></li>
+    <li><a class="menu" href="/langues/ecritures/runes">Runes</a></li>
+    <li><a class="menu" href="/langues/ecritures/premieres_versions">Premières versions</a><ul>
+      <li><a class="menu" href="/langues/ecritures/angloquenya">Angloquenya</a></li>
+      <li><a class="menu" href="/langues/ecritures/falassin">Falassin</a></li>
+      <li><a class="menu" href="/langues/ecritures/lettres_junius">Lettres de Junius</a></li>
+      <li><a class="menu" href="/langues/ecritures/lettres_gnomiques">Lettres gnomiques</a></li>
+      <li><a class="menu" href="/langues/ecritures/noriaque">Noriaque</a></li>
+      <li><a class="menu" href="/langues/ecritures/runes_germaniques#les_runes_anglaises">Runes anglaises</a></li>
+      <li><a class="menu" href="/langues/ecritures/runes_germaniques">Runes germaniques</a></li>
+      <li><a class="menu" href="/langues/ecritures/runes_gondoliniques">Runes gondoliniques</a></li>
+      <li><a class="menu" href="/langues/ecritures/qenyatique">Qenyatique</a></li>
+      <li><a class="menu" href="/langues/ecritures/qenyatique#le_qenyatique_de_1929">Qenyatique 1929</a></li>
+      <li><a class="menu" href="/langues/ecritures/premieres_versions#skirditaila">Skirditaila</a></li>
+      <li><a class="menu" href="/langues/ecritures/valmarique">Valmarique</a></li>
+    </ul></li>
+    <li>&nbsp;</li>
+    <li class="menu_title"><strong>Essais &amp; Utilitaires :</strong></li>
+    <li><a class="menu" href="/langues/essais">Essais linguistiques</a><ul>
+      <li><a class="menu" href="/langues/essais/introduction_langues_ecritures">Introduction aux langues de Tolkien</a></li>
+      <li><a class="menu" href="/langues/essais/coutumes_linguistiques">Coutumes linguistiques</a></li>
+      <li><a class="menu" href="/langues/essais/analyse_noms">Analyse des noms du Légendaire</a></li>
+      <li><a class="menu" href="/langues/essais/utilisation_langues">Utilisation des langues inventées</a></li>
+      <li><a class="menu" href="/langues/essais/philosophie_langage">Philosophie du langage</a></li>
+      <li><a class="menu" href="/langues/essais/traductions">Traductions des œuvres</a></li>
+      <li><a class="menu" href="/langues/commentaires">Commentaires, comptes-rendus & corrigenda</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/hors_legendaire">Hors du Légendaire</a></li>
+    <li><a class="menu" href="/langues/auteurs">Auteurs</a></li>
+    <li><a class="menu" href="/langues/English">In English</a><ul>
+      <li><a class="menu" href="/langues/english/I-lam_Arth">I‧lam Arth</a></li>
+      <li><a class="menu" href="/langues/english/Midgardsmal">Miðgarðsmál</a></li>
+      <li><a class="menu" href="/langues/english/Otsoandor">Otsoandor</a></li>
+    </ul></li>
+    <li><a class="menu" href="/langues/utilitaires">Utilitaires</a><ul>
+      <li><a class="menu" href="/langues/references">Références</a></li>
+      <li><a class="menu" href="/langues/lexiques">Lexiques</a></li>
+      <li><a class="menu" href="/langues/ecritures/scriptorium">Scriptorium</a></li>
+      <li><a class="menu" href="/telechargements/polices">Polices</a></li>
+    </ul></li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=galerie" class="menu_link" onclick="menuDisp('galerie');">Galerie</a></dt>
+<dd>
+  <ul id="menu_galerie" class="nav">
+    <li><a class="menu" href="/galerie">Index</a></li>
+    <li><a class="menu" href="/galerie/participer">Participer</a></li>
+    <li><a class="menu" href="/galerie/auteurs">Auteurs</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong><a href="/galerie/categories">Catégories :</a></strong></li>
+    <li><a class="menu" href="/galerie/categories/calligraphies">Calligraphies</a>
+      <ul>
+      <li><a class="menu" href="/galerie/categories/calligraphies-calligraphies">Calligraphies</a></li>
+      <li><a class="menu" href="/galerie/categories/calligraphies-enluminures">Enluminures</a></li>
+      <li><a class="menu" href="/galerie/categories/calligraphies-ligatures">Ligatures</a></li>
+      </ul></li>
+    <li><a class="menu" href="/galerie/categories/artefacts">Artefacts</a>
+      <ul>
+        <li><a class="menu" href="/galerie/categories/artefacts-anneaux">Anneaux</a></li>
+        <li><a class="menu" href="/galerie/categories/artefacts-armes">Armes</a></li>
+        <li><a class="menu" href="/galerie/categories/artefacts-divers">Divers</a></li>
+      </ul></li>
+    <li><a class="menu" href="/galerie/categories/geographie">Géographie</a>
+      <ul>
+        <li><a class="menu" href="/galerie/categories/geographie-cartes">Cartes</a></li>
+        <li><a class="menu" href="/galerie/categories/geographie-continents">Continents</a></li>
+        <li><a class="menu" href="/galerie/categories/geographie-lacs">Lacs</a></li>
+        <li><a class="menu" href="/galerie/categories/geographie-monuments">Monuments</a></li>
+        <li><a class="menu" href="/galerie/categories/geographie-reliefs">Reliefs</a></li>
+        <li><a class="menu" href="/galerie/categories/geographie-villes">Villes</a></li>
+      </ul></li>
+    <li><a class="menu" href="/galerie/categories/personnages">Personnages</a>
+      <ul>
+        <li><a class="menu" href="/galerie/categories/personnages-animaux">Animaux</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-chevaux">Chevaux</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-divers">Divers</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-dragons">Dragons</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-elfes">Elfes</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-ents">Ents</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-hobbits">Hobbits</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-hommes">Hommes</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-maiar">Maiar</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-nains">Nains</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-orques">Orques</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-trolls">Trolls</a></li>
+        <li><a class="menu" href="/galerie/categories/personnages-valar">Valar</a></li>
+      </ul></li>
+    <li><a class="menu" href="/galerie/categories/divers">Divers</a>
+      <ul>
+        <li><a class="menu" href="/galerie/categories/divers-bd">Bandes dessinées</a></li>
+        <li><a class="menu" href="/galerie/categories/divers-blasons">Blasons</a></li>
+        <li><a class="menu" href="/galerie/categories/divers-couvertures">Couvertures</a></li>
+        <li><a class="menu" href="/galerie/categories/divers-inclassables">Inclassables</a></li>
+        <li><a class="menu" href="/galerie/categories/divers-plantes">Plantes</a></li>
+      </ul></li>
+    <li><a class="menu" href="/galerie/categories/livres">Livres</a>
+      <ul>
+        <li><a class="menu" href="/galerie/categories/livres-le_hobbit">Le Hobbit</a></li>
+        <li><a class="menu" href="/galerie/categories/livres-le_seigneur_des_anneaux">Le Seigneur des Anneaux</a></li>
+        <li><a class="menu" href="/galerie/categories/livres-les_enfants_de_hurin">Les Enfants de Húrin</a></li>
+        <li><a class="menu" href="/galerie/categories/livres-le_silmarillion">Le Silmarillion</a></li>
+        <li><a class="menu" href="/galerie/categories/livres-contes_et_legendes_inacheves">Contes et légendes inachevés</a></li>
+        <li><a class="menu" href="/galerie/categories/livres-le_fermier_gilles_de_ham">Le Fermier Gilles de Ham</a></li>
+      </ul></li>
+    <li><a class="menu" href="/divertissements/creations">Créations</a></li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=arts" class="menu_link" onclick="menuDisp('arts');">Arts</a></dt>
+<dd>
+  <ul id="menu_arts" class="nav">
+    <li><a class="menu" href="/arts">Index</a></li>
+    <li><a class="menu" href="/arts/auteurs">Auteurs</a></li>
+    <li class="menu_title">&nbsp;</li>    
+    <li class="menu_title"><strong>Compositions :</strong></li>
+    <li><a class="menu" href="/arts/traductions">Traductions</a></li>
+    <li><a class="menu" href="/arts/poemes">Poèmes</a></li>
+    <li><a class="menu" href="/arts/acrostiches">Acrostiches</a></li>
+    <li><a class="menu" href="/arts/chansons">Chansons</a></li>
+    <li><a class="menu" href="/arts/nouvelles">Nouvelles</a></li>
+    <li><a class="menu" href="/galerie">Illustrations</a></li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=divertissements" class="menu_link" onclick="menuDisp('divertissements');">Divertissements</a></dt>
+<dd>
+  <ul id="menu_divertissements" class="nav">
+    <li><a class="menu" href="/divertissements" title="Index">Index</a></li>
+    <li><a class="menu" href="/divertissements/participer" title="Participer">Participer</a></li>
+    <li><a class="menu" href="/divertissements/auteurs" title="Auteurs">Auteurs</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Rire et sourire :</strong></li>
+    <li><a class="menu" href="/divertissements/humour" title="Humour">Humour</a>
+      <ul>
+        <li><a class="menu" href="/divertissements/humour/images" title="Images humoristiques">Images</a></li>
+        <li><a class="menu" href="/divertissements/humour/textes" title="Textes humoristiques">Textes</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/divertissements/parodies" title="Les Livres et bandes dessinées parodiant l’univers de Tolkien">Parodies</a></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Vivre :</strong></li>
+    <li><a class="menu" href="/divertissements/adaptations" title="Adaptations audiovisuelles">Adaptations</a>
+      <ul>
+        <li><strong>Série :</strong></li>
+        <li><a class="menu" href="/divertissements/adaptations/series/lsda_amazon" title="Le Seigneur des Anneaux : Les Anneaux de Pouvoir">Les Anneaux de Pouvoir</a></li>
+        <li><strong>Films :</strong></li>
+        <li><a class="menu" href="/divertissements/adaptations/films/th" title="Le Hobbit - Peter Jackson">Le Hobbit<br />de P. Jackson</a></li>
+        <li><a class="menu" href="/divertissements/adaptations/films/lsda" title="Le Seigneur des Anneaux - Peter Jackson">Le Seigneur des Anneaux<br />de P. Jackson</a></li>
+        <li>&nbsp;</li>
+        <li><a class="menu" href="/divertissements/adaptations" title="Autres adaptations">Autres adaptations</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/divertissements/creations" title="Créations">Créations</a></li>
+    <li><a class="menu" href="/divertissements/vie" title="Tolkien dans notre vie">Tolkien dans notre vie</a>
+      <ul>
+        <li><a class="menu" href="/divertissements/vie" title="Photographies">Photographies</a></li>
+        <li><a class="menu" href="/divertissements/concours_tolkien_dans_notre_vie_2010/participations" title="Concours de photos 2010">Concours de photos 2010</a></li>
+        <li><a class="menu" href="/divertissements/vie/la_compagnie_du_dragon_vert" title="La Compagnie du Dragon Vert">La Compagnie du Dragon Vert</a></li>
+        <li><a class="menu" href="/divertissements/vie/greisinger_museum" title="Greisinger Museum">Greisinger Museum</a></li>
+      </ul>
+    </li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Jeux :</strong></li>
+    <li><a class="menu" href="/divertissements/quiz" title="Quiz">Quiz</a>
+      <ul>
+        <!--<li><a class="menu" href="/divertissements/quiz/irc-quiz" title="IRC-Quiz">IRC-Quiz</a></li>-->
+        <li><a class="menu" href="/divertissements/quiz/enigmes" title="Énigmes">Énigmes</a></li>
+        <li><a class="menu" href="/divertissements/quiz/qcm" title="Q.C.M.">Q.C.M.</a></li>
+        <li><a class="menu" href="/chat/quiz" title="Quiz sur Discord">Quiz sur Discord</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/divertissements/jeux_de_lettres" title="Jeux de lettres">Jeux de lettres</a>
+      <ul>
+        <li><a class="menu" href="/divertissements/jeux_de_lettres/mots_croises" title="Mots croisés">Mots croisés</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_lettres/mots-caches" title="Mots-cachés">Mots-cachés</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_lettres/anagrammes" title="Les Anagrammes">Les Anagrammes</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_lettres/le_pendu" title="Le Pendu">Le Pendu</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/divertissements/jeux_forum" title="Jeux sur le Forum">Jeux sur le Forum</a>
+    </li>
+    <li><a class="menu" href="/divertissements/jdr" title="Jeux de rôle">Jeux de rôle</a>
+      <ul>
+        <li><a class="menu" href="/divertissements/jdr/theonering" title="L'Anneau Unique™">L'Anneau Unique™</a></li>
+        <li><a class="menu" href="/divertissements/jdr/jdr_minas_tirith" title="Bienvenue à Minas Tirith">Bienvenue à Minas Tirith</a></li>
+        <li><a class="menu" href="/divertissements/jdr/jdr_quenta" title="Quenta">Quenta</a></li>
+        <li><a class="menu" href="/divertissements/jeux_video/ultima_online" title="Ultima Online Turambar">Ultima Online Turambar</a></li>
+        <li><a class="menu" href="/divertissements/jdr/jdr_terredumilieu" title="Le Seigneur des Anneaux">Le Seigneur des Anneaux</a></li>
+      </ul>
+    </li>
+    <!--<li><a class="menu" href="/divertissements/jeux_video" title="Jeux vidéo">Jeux de société</a></li>-->
+    <li><a class="menu" href="/divertissements/jeux_video" title="Jeux vidéo">Jeux vidéo</a>
+      <ul>
+        <li><a class="menu" href="/divertissements/jeux_video/thelordoftheringsgollum" title="Le Seigneur des Anneaux : Gollum">Le Seigneur des Anneaux : Gollum</a></li>
+        <li><a class="menu" href="/divertissements/jeux_video/talesoftheshire" title="Tales of the Shire">Tales of the Shire</a></li>
+        <li><a class="menu" href="/divertissements/jeux_video/ultima_online" title="Ultima Online">Ultima Online</a></li>
+        <li><a class="menu" href="/telechargements/jeux" title="Jeux à télécharger">Jeux à télécharger</a></li>
+        <li><a class="menu" href="/asso/boutique/partenaires/jeux_video" title="Boutique">Boutique</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/divertissements/jeux_de_societe" title="Jeux de société">Jeux de société</a>
+      <ul>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/la_quete_des_terres_du_milieu" title="La Quête des Terres du Milieu">La Quête des Terres du Milieu</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/la_traque_de_l_anneau" title="La Traque de l'Anneau">La Traque de l'Anneau</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/sda_-_voyages_en_tdm" title="Le Seigneur des Anneaux : Voyages en Terre du Milieu">Le Seigneur des Anneaux : Voyages en Terre du Milieu</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/escape_box_sda" title="Escape Box Le Seigneur des anneaux">Escape Box Le Seigneur des anneaux</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/guerre_de_l_anneau_2nde_edition" title="La Guerre de l'Anneau - Seconde édition">La Guerre de l'Anneau - Seconde édition</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/guerre_de_l_anneau_jeu_de_cartes" title="La Guerre de l'Anneau - Le jeu de cartes">La Guerre de l'Anneau - Le jeu de cartes</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/similo_sda" title="Similo : le Seigneur des Anneaux">Similo : le Seigneur des Anneaux</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/duel_pour_la_tdm" title="Le Seigneur des Anneaux : Duel pour la Terre du Milieu">Le Seigneur des Anneaux : Duel pour la Terre du Milieu</a></li>
+        <li><a class="menu" href="/divertissements/jeux_de_societe/communaute_de_l_anneau_jeu_de_pli_coop" title="La Communauté de l'Anneau : le Jeu de Plis Coopératif">La Communauté de l'Anneau : le Jeu de Plis Coopératif</a></li>
+      </ul>
+    </li>
+    <li><a class="menu" href="/divertissements/jeux_de_construction" title="Jeux de construction">Jeux de construction</a>
+    </li>
+  </ul>
+</dd>
+
+<dt><a href="/doku.php?id=telechargements" class="menu_link" onclick="menuDisp('telechargements');">Téléchargements</a></dt>
+<dd>
+  <ul id="menu_telechargements" class="nav">
+    <li><a class="menu" href="/telechargements" title="Index">Index</a></li>
+    <li><a class="menu" href="/telechargements/participer" title="Participer">Participer</a></li>
+    <li><a class="menu" href="/telechargements/FAQ">FAQ</a></li>
+    
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Personnalisation :</strong></li>
+    <li><a class="menu" href="/telechargements/fonds">Fonds d'écran</a>
+      <ul>
+      <li><a class="menu" href="/telechargements/fonds/baze_sophie">Sophie Bazé</a></li>
+      <li><a class="menu" href="/telechargements/fonds/chesnais_jean-jacques">Jean-Jacques Chesnais</a></li>
+      <li><a class="menu" href="/telechargements/fonds/deelle">Déelle</a></li>
+      <li><a class="menu" href="/telechargements/fonds/faure-brac_eric">Éric Faure-Brac</a></li>
+      <li><a class="menu" href="/telechargements/fonds/howe_john">John Howe</a></li>
+      <li><a class="menu" href="/telechargements/fonds/nasmith_ted">Ted Nasmith</a></li>
+      <li><a class="menu" href="/telechargements/fonds/perrone_dino">Dino Perrone</a></li>
+      <li><a class="menu" href="/telechargements/fonds/tolkiendil">Tolkiendil</a></li>
+      <li><a class="menu" href="/telechargements/fonds/combines">Combinés</a></li>
+      </ul></li>
+    <li><a class="menu" href="/telechargements/icones">Icônes</a>
+      <ul>
+      <li><a class="menu" href="/telechargements/icones/allard_sylvie">Sylvie Allard</a></li>
+      <li><a class="menu" href="/telechargements/icones/baze_sophie">Sophie Bazé</a></li>
+      <li><a class="menu" href="/telechargements/icones/faure-brac_eric">Éric Faure-Brac</a></li>
+      <li><a class="menu" href="/telechargements/icones/howe_john">John Howe</a></li>
+      <li><a class="menu" href="/telechargements/icones/nasmith_ted">Ted Nasmith</a></li>
+      </ul></li>
+    <li><a class="menu" href="/telechargements/polices">Polices</a>
+      <ul>
+      <li><a class="menu" href="/telechargements/polices/angerthas_et_runes">Angerthas et runes</a></li>
+      <li><a class="menu" href="/telechargements/polices/tengwar">Tengwar</a></li>
+      <li><a class="menu" href="/telechargements/polices/sarati">Sarati</a></li>
+      <li><a class="menu" href="/telechargements/polices/diverses">Diverses</a></li>
+      </ul></li>
+    <li class="menu_title">&nbsp;</li>
+    <li class="menu_title"><strong>Divertissements :</strong></li>
+    <li><a class="menu" href="/telechargements/sons">Sons</a>
+      <ul>
+      <li><a class="menu" href="/telechargements/sons/musiques/carbon_julien">Julien Carbon</a></li>
+      <li><a class="menu" href="/telechargements/sons/musiques/philippe_alexandre">Alexandre Philippe</a></li>
+      </ul></li>
+    <li><a class="menu" href="/telechargements/jeux">Jeux</a></li>
+   </ul>
+</dd>
+
+<dt><a href="/doku.php?id=chat" class="menu_link" onclick="menuDisp('chat');">Chat</a></dt>
+<dd>
+  <ul id="menu_chat" class="nav">
+    <li><a class="menu" href="/chat">Index</a></li>
+    <li><a class="menu" href="/chat/aide">Page d'aide</a></li>
+    <li><a class="menu" href="/chat/quiz">Quiz</a></li>
+    <li><a class="menu" href="/chat/best_of_chat">Best of chat</a></li>
+  </ul>
+</dd>
+
+
+</dl>
+</div>
+
+<!-- Début du contenu de la page //-->
+<div id="conteneur" class="dokuwiki">
+    <div id="spacer" style="height: 60px;">&nbsp;</div>
+  <div class="stylehead">
+    <!-- Affichage de la barre de liens //-->
+    <div class="header">
+        <table class="cadre"><tr>
+        <td style="text-align: left; width: 14px;"><img alt="" src="/lib/tpl/tolkiendil/images/gauche.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="/bienvenue" title="[ALT+H]" accesskey="h">Tolkiendil</a></td>
+        <td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="/news">Actualités</a>&nbsp;<span><img  alt="" id="arrow_news_site" onclick="ToolTipDisp('news_site');" src="/lib/images/arrow_up.gif" width="10" height="10" /></span><em id="news_site" class="boxtip_hover"></em></td>
+        <td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="/asso/agenda">Agenda</a></td>
+        <td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="/tolkien/biblio/parutions">Parutions</a></td>
+        <td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+	      <td class="cadre_texte"><a class="boxtip" href="/chat">Chat</a>&nbsp;<span><img alt="" id="arrow_chat" onclick="ToolTipDisp('chat');" src="/lib/images/arrow_up.gif" width="10" height="10" /></span><em id="chat" class="boxtip_hover"></em></td>
+        <td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="https://forum.tolkiendil.com">Forum</a>&nbsp;<span><img alt="" id="arrow_news_forum" onclick="ToolTipDisp('news_forum');" src="/lib/images/arrow_up.gif" width="10" height="10" /></span><em id="news_forum" class="boxtip_hover"></em></td>
+        <td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="/contact">Contact</a></td>
+        <!--<td class="cadre_sepa"><img alt="" src="/lib/tpl/tolkiendil/images/milieu.png" /></td>
+        <td class="cadre_texte"><a class="boxtip" href="https://www.yrch.com" target="_blank">Yrch!</a></td>-->
+        <td style="text-align: center; width: 7px;"><img alt="" src="/lib/tpl/tolkiendil/images/droite.png" /></td>
+        </tr></table>
+    </div>
+
+
+        <div class="bar" id="bar_top">
+        <div class="bar-right" id="bar_topright">
+	                
+            <form action="/doku.php" accept-charset="utf-8" class="search" id="dw__search"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><input type="submit" value="Rechercher" class="button" title="Rechercher" /><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>&nbsp;
+        </div>
+      </div>
+    
+        <div class="breadcrumbs">
+      <span class="bchead">Piste:</span> <span class="bcsep">&raquo;</span> <span class="curid"><a href="/chat"  class="breadcrumbs" title="chat">Chat - Discord</a></span>    </div>
+    
+  </div>
+  
+  <div class="page">
+    <!-- wikipage start -->
+    <!-- TOC START -->
+<div class="toc">
+<div class="tocheader toctoggle" id="toc__header">Table des matières</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#chat_-_discord" class="toc">Chat - Discord</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#les_regles_du_serveur" class="toc">Les règles du serveur</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#qui_est_en_ligne" class="toc">Qui est en ligne ?</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#liste_des_salons" class="toc">Liste des salons</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#quiz" class="toc">Quiz</a></span></div></li></ul>
+</li></ul>
+</div>
+</div>
+<!-- TOC END -->
+
+
+
+<h1 class="sectionedit1"><a name="chat_-_discord" id="chat_-_discord">Chat - Discord</a></h1>
+<div class="level1">
+
+<p>
+
+<img src="/lib/exe/fetch.php?w=&amp;h=&amp;cache=cache&amp;media=wiki:lettrines:t.gif" style="clear: left;" class="medialeft" align="left" title="T" alt="T" />olkiendil vous propose de chatter sur Tolkien ou de simplement faire connaissance avec d&#039;autres amateurs !
+</p>
+
+<p>
+
+<a href="https://discord.gg/cafByTS" class="media" target="_blank" title="https://discord.gg/cafByTS"  rel="nofollow"><img src="/_media/chat/discord_logo.png?w=300" class="mediacenter" title="Discord de Tolkiendil" alt="Discord de Tolkiendil" width="300" /></a>
+</p>
+</p>
+<div class="styler styler-center">
+<p>
+<strong><a href="https://discord.gg/cafByTS" class="urlextern" target="_blank" title="https://discord.gg/cafByTS"  rel="nofollow">Rejoignez nous !</a></strong>
+</p>
+</div>
+<p>
+<p>
+<a href="https://discord.gg/cafByTS" class="media" target="_blank" title="https://discord.gg/cafByTS"  rel="nofollow"><img src="/_media/chat/discord_apercu.jpg?w=600" class="mediacenter" title=" Aperçu du serveur Discord de Tolkiendil " alt=" Aperçu du serveur Discord de Tolkiendil " width="600" /></a>
+</p>
+
+</div>
+
+<h2 class="sectionedit2"><a name="les_regles_du_serveur" id="les_regles_du_serveur">Les règles du serveur</a></h2>
+<div class="level2">
+
+<p>
+
+<strong>Bienvenue sur le discord de Tolkiendil, Association Loi 1901 pour la promotion de l&#039;œuvre de J.R.R. Tolkien, l&#039;auteur du Seigneur des Anneaux ! </strong>
+</p>
+
+<p>
+Pour un bon usage du chat, nous vous invitons à utiliser un langage correct, sans langage SMS, et à rester courtois à l’égard des autres participants. 
+</p>
+
+<p>
+Les présentations plus détaillées et les questions plus approfondies peuvent se faire de préférence sur le forum <a href="http://forum.tolkiendil.com/" class="urlextern" target="_blank" title="http://forum.tolkiendil.com/"  rel="nofollow">http://forum.tolkiendil.com/</a> ou trouver leur réponse sur le site <a href="http://tolkiendil.com/" class="urlextern" target="_blank" title="http://tolkiendil.com/"  rel="nofollow">http://tolkiendil.com/</a> ! 
+</p>
+
+<p>
+Nous vous rappelons que l&#039;internet n&#039;est pas une zone de non-droit et que la loi s&#039;y applique également. 
+</p>
+
+<p>
+De plus, nous vous invitons à respecter les règles suivantes :
+</p>
+<ul>
+<li class="level1"><div class="li"> Un français correct sera préféré au langage SMS ;</div>
+</li>
+<li class="level1"><div class="li"> Les discussions politiques, le prosélytisme religieux et la publicité commerciale sont proscrits ;</div>
+</li>
+<li class="level1"><div class="li"> Les insultes, toutes les formes de discrimination (racisme, discrimination religieuse, sexisme, homophobie, etc.) et le nazisme sont bannis (et sont sévèrement punis par la loi française) ;</div>
+</li>
+<li class="level1"><div class="li"> Tout ce qui concerne les autres activités illégales est interdit (par exemple les drogues illicites, le « piratage », etc.) ;</div>
+</li>
+<li class="level1"><div class="li"> Le flood (envoi disproportionné de messages), l&#039;utilisation abusive de majuscules ou mise en forme et le harcèlement sont proscrits.</div>
+</li>
+</ul>
+
+<p>
+
+Toute infraction aux règles sera sanctionné de façon appropriée, la décision d&#039;un modérateur ou d&#039;un administrateur est finale, si néanmoins vous estimez être dans votre droit, vous pouvez contacter les responsables à l&#039;adresse e-mail <a href="/contact" class="wikilink1" title="contact">contact -at- tolkiendil.com</a>. 
+</p>
+
+<p>
+
+<strong><a href="https://discord.gg/cafByTS" class="urlextern" target="_blank" title="https://discord.gg/cafByTS"  rel="nofollow">Bon chat !</a></strong>
+</p>
+
+</div>
+
+<h2 class="sectionedit3"><a name="qui_est_en_ligne" id="qui_est_en_ligne">Qui est en ligne ?</a></h2>
+<div class="level2">
+
+<p>
+
+<div style='margin-bottom: 40px;'><div style='text-align: center;'>Actuellement sur le serveur (100) :</div><div style='padding: 0 10%;'><div id='discord_members' style='width: 100%'><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/fYYRe6Ivtu5NJ0ssOC0rucISj1C2A2r9NZL6s-pNvSo/0TpG3_FbaXW6SEC4W2KTL6BQ1VbLHkg4y6AWsLPogxE-iKt8CFa9SBWLZgtv02QQD3KDyYlLuTZEkk5LSz9Ky4r3GpFDSokn9B1z8l9anImOP2PMcmn70BdrZCxrPi1ROk-uh3R4baLCiA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>_SiRE_</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/xj1jWTt6II-rZLw_LDTMsRnjWAVJTsMB1c-Zia6djbY/J_18R42Pb6z1dp2vOzWNJza8JuVd7Um3wHEJ5-O2WUQj7cBVS0b9U4zygDypXBvL7FnKh4ypIG_ZeDkfeTriIpF9VsxvCqjuBrx3kYonmDFe89SWtsfSRCHJ1CCrKYpyGEMT2dmcFUZPzA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Adum</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/GVxamqKZHaRk9vs2i9h14pwBZdFMugZ7eYEswLp-mJA/KjyMeHu-Tl8BiJFKfq6eOMgklBDgHMmwyirwWHO1YUfvqbI0jtSNK3N5ykQB8IJ474DmddrdmYLGEGx3oj7PafBBPdgQPJbkqnAQKx7fO8_y40h6nGd89VVU0F2sEKBdQKRMNBtOoj-9vQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>alya</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/pj43raGStUSOPFjVfpAhM4CwCcY3SL0mgeUNFTZJ9BA/yyxjijp9VUJoMVLjM_pzThXdgm-112T9yx_8BPjZ1wZEQG_k0NhSaKyogYb-Ni5avZMQwA2MCMMRMOCRQ--_IVObbwLKnrIxo60KO3c-6UAMZZT_pkJKJisqj65shHBRswQKGPIdVWmMAQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>AngieOrNot</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/s6tEXO7VYHYnz__TrmOq-H_G3tvAn56IJoV5kL-bQv0/1r7O2D_WF3Pk2hC00tOql4ZhlcPJif4r-gK4iuXfMvdLnqKkFUkaZ5-MrNBbcrPFm1VhQl5BehvLMqQslgRTfNrQpOuVH6dvfc_4GEaCFbdWkIUiNIyILWNMMb7AdcArV2Ip3-Ety8V_fA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Anouck</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/GnCzkZ1L-Gd41fELJ65x68JqV592ogYsplCXBlfgxa0/Z3EatvMczbnm3x8hxz6FZacGJv1HJSSIDJQ3vUtiRnjvy5OvKleWRo4ojjQ7TPvosBBEj_3nsUMMHBJglEAvHfFT3mmfbmIEVVzdJ0XBZVYxT1ES6uSW0_Fw_BCpz8KRDPqz1HWbghw2uw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Antho</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/z5vdP71dYgCkkuchGOWl90NCr0UcLHGHyvok6wsDPGU/VjjA-3vczqk6quLogP6XR2PrPzUdCwYdKj2JLmsUnV9JVClqfD498lLKsO7vbWs8NaMnCVMsP0Z5B4gfyI9dJb6xzbEqlxvOfw_MTO7v2YOml7kMS7T5jar0fjM1-eIP2QmkNlGMCuu1BQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Antoineld</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/g7tyPpa2YpXkTkM8uzZ8668i9L5u13CYwhdWFJQdUfQ/xtHW_05HK4npFMOOiiOQPHDJ8W2snEXGBuEpFqtq0S90xT_QLpUx7XD_pp-SewOoGGQPJsGpytMyrcqQ5CuR-wiH3Ht_ifWYzq5vpPVl3bUSRMRDmB-_AHR3_RfcU1VKNvYPgPH2pP_MgQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Arenna (la 'tite voix)</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/I8v8trQlAAARJxwgSE4WMtfoe95XJS0TDrpJqiP2ME8/CxQp7Z7BwE-Zi28NgMChdwlUV0gdX1_zHY07jnRA-6lDO2zXOY5a4bW7F5cZSHJxbgXlvVqHWzrIW9cJdjyPqwRPr7Wd6_6zpniObqHiD7-_sRV5pJFmYw-jBwoT-LrNSQ9bv3y6MFuSPQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Arkanur</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/PD4oX0NXPKi6a2NPeGrDFKMgxEGEYQHG6xb0FvxB-a0/BZ0_eGWN21Bv9QrvsN-hzSblgiEL659CHGY-5lCkgw5LNACpnqFeANs0WxAsSxnYeokn1__eP6vjG8Hti4CSMFDhUBHaueUJ222YFBqNEX_lr6jKkdQAA-61ygDy9cww5dEEIYINjTZO3Q style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Aïvy</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/cAzwxUXkGS761XJ67zuw2joiWoFqQnWSI27-lZnJDH8/A_fosM2TF3KVirHJ9bymQT3CEkHZGCrpPoR7omYfj8XKa3zSe0dnfElpY3GrUShCzrby7k5eBvwWGZB2lRVA3dhZL6v0rTU0X1ghXD6UFNUSQSuV11wC6078HeFxCPxo0pu5NfJmFK7UFA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>b...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/160U1WG0VsTBfG8FBZmMZX_FMThYEVTYALTr1n7tJ9U/wazN7_YxPRMKcQmL92JItBUx8onS6f3NNv50pgDvggO9AK9cDzzVkbP9Z7kJfEqTj6gJKtzMSRcVvZsLlYNoForvkHwCIFLjjIhLkCPIO6bLyuQvg6wiJfySK5IsvzEl-aPT8G1QmJp2Tw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Balthazir</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/c4hmScXvbvoz_0w3LvO0ZcGGKY0Ga3vnsHyOiikxPGc/jMhLSe06VmBgzgp0IbFrwxqGs6VAuzjkdlK9r14OuY4Hsy3B39ZV4OV8SbAeGXwZ1dQyNhDV0NceAeZnTKeg6rqNhu9B9W-4hrExykT-RJd7J1RxaFM3jnZghDcyYKThXEY90vtt-Ty6ZA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Barboto</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/Hg3V8EVnrIA6STDDYR8CHlVe_1O2l7spBBLBXdRbhJ8/saQDpthYqUONxlK94BllXb_GTxpQauhnEeBtkkDvn8bYBxSH1trsdQCvIrr4UXijpYusAl6V5RbhQk4KO8LEvD05nme5PBUxRIEEr6cYOgF9muukXl-UR-9s0yAheGcdKZcF76j8qugNkQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Baronron 🌕</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/jRz5YnGh49CRP2pcPFoBuVkS0hDNZ3f-4WC2poQOE7s/panKHD9PmCwHm6zf2EbqjfSKKyyGWygA3EtO-h3QSxyGVWuUQzABz-sD31j6O6G1acBO3yzsk9E9CWNVqlsKT1bRn1qbJgwg80CO3YPMYKWd3SxkMU4d6Zok1lgJkI_rfh_2HfKvdenWZw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Beber</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/b6BOne9CJbYLOkDk2VdUZuRg3PWDxqapcziWmtvbYyg/sZ28AeVOR1ZhTfg-pFvxWoNjR885MXUuZAugmYXMO8bF3_39ZdHJJenLzkbfAZ9QWgT7s3hIrzi13aRoUJ49ziryS2HwHCPhnfDBLVC5p8PHmWS2b9xjrG4m5oHPQtrkg9_dogQtLcfUwg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Belegund  ( Arius )</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/aQOyU9rJkbsHFqi8w1cwGQ57X2vHfA9-3vpDLkPAK_E/sS0zkeSrAECIj4By9mNA6UZyQKoEnTaLY-OT_izvPoyRzRkj-MIfX7_k7-Q49_MIXMqcyOvWI7qc_dN5rJbQb48CXEjIXAwdDbaTY9twAH79lsiMl_uEcfjdSq0S4D-NFErxgeson6JkWQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Blackbiji</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/I4uXjAgFapmuyEGeoUwGv9DW0lQhMceKGWGFSz2hJzU/zJrEWmVx-TermS0rtaXBvi2yaeEjxV-2cucukDcvJHJ5eHAfAle2cZLQB-mtCXVZIyCzX2Xynb1xEs_6Lni5Z7m8PS-wNxSQeE4CZaBxhtiyUkReA4gspG6k2d6iiVw07XmB1YFh_LzjZg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Bordeciel</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/dyBHGu3Dcvhy8ZdilZjwxk4k4hCMyVaPUuzrQ1E73lY/OpNrgfBlHZcEJWbQKFYJpecTuzg8ootMeT7UmOygD0WDSbSAwpHvjpX-mTyuAPF0x6iE0mzZYWj7EbJpZSMZ3IQd6hsU9Zs4LHa4Yj1IeiHPlyWX2_iLD2NjPVwfJwtFbm89mUNTF88NCw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Brocco</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/Pa3bSRj1W6CWxA41X19dXEfd5uWdaLxnMTpJevuVskY/Xag0OLzc8M6bYVJG0a8MqEeXF8IAv6e3OgjJCOM7VN1sxLxZs8PCVuUj8mZANz5ojExe-p1e7q6p-icCPuKuVULTucg8Zm_n51akff8piRVqJ8j6reP8m2RBWjXsph2exBGJM9a_aUiwkA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>BrunoB</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/PPnXlmFG5l-tvC7KoQg5pY1mjrSJ8LNbApQ-iuKUUwI/A0z7yelnCTxNsVNC951X32Q6UNb06AO0enhMrV61wmbghxY2RJYo4q1hpETsbWdnomT_YnOHk6QA59cVISBBq4GAM__LTO1lo8BE_3WagVMxLU7S9k_xGMALi0W5jYOWtPyaWWtADLDvjQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Chris</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/x1HK74JH0AQIQ3eFSssPY-xatUQJFo_n6c-WcJvenBU/89J-oASVpKLBROhSjoyJS2KvVc5NLvoDG9FdD_6TA8gtdSgnskheTpc9ljTwRKlh8VlKJqcAfIHJ9c-Mr83yH0CmTH07xMS6ACQtrMgOccp0QzgSl15mhE6kqV5KvEoXRbpvFB_xYrgKkw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Coach</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/PRD4_PwqBWH7B_Tb5LdBwksc1hgJ7y0_1ig87mAfmhk/fvTf4rPfMmkUVxhFpDgXxCFaFUKutwvZ3B-H9EYhTJbyO9zSKhM8CC8VwwaxhrCRpcNmBtglA5NVfh_i73JuUQcyoAB56slyX4Xz11Uj3ZTg-ojtjqL085k8PqmcBFSUYS1hKH3GyUu0yQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>CorwinRavencroft</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/WtaRPUMRtzxpLsHtTWxKJAxWdQ-D3nLZ7CAlxAx7KPo/esFr-6TOcbyGQ93oMUaQN-fAjoF9_gYnJsIrXxsNRoH1_MeqhJiuLHQ9rMvDun7wSScO-kNe052VvIk1fmj88tNZVv7OUHNR_I_Y-GMXpiP4GB8WhDgqt_2nt-kh6kcGgGf-qH2Xfu5ObQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Crys (TellNPlay)</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/uiA5OkP5uERssvodIIcW-BFEZ47WZgCsbY280_1RBy4/Fs9eF3gBrlDvjJkGCipCnog-O5KjYuD5lcly8bpztXtESxcJam-5Zs8NKeFEb28vf-k80MQix5BqX6Gv7A-uZA3yHY88JVArfsce83GcromSHPRug2onPfhXeRVOCMehR9eRzGiju1APhw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>danu1122</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/gRC8wlovwIO3il-vbwFoz2eK39ANJOdueArxztY2qgw/Ht5iPfieEQUOuHbq7sjxACsr0GD7E7ij9G7rXpxdKocpKn63CfUFo1lOPKDNA3lQEuqb3pELtm7G_YPNnZyC7V909RT3OWaiN2jYp7t6eNRlDeOCTcmyL7X5HGr0xn91n40IQwK14QX5gQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>DarkGod</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/OH8hLlEdpBlWgFu4DzY-7zH2k_Q7pB-zBLyqU8bNtTU/rjcbyD5YDdrg4pMGoC1OSFyGhhGhuvKF0-vU2H2QLHw31_Ku-52K3AwshRq1NYgvshkfFwpmZo4SeTBj5JRxTTWKFT3lZxlMWyVmHZdkpeLn5gJg5NRaEQ9isIeKd1jciJxoopCt8b355A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Don Erchamion</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/iA_vKZznFhgSTxNL55me4KQOV_pPpJaLJot7OGJYqyo/La1Hx_VmIaiKet_ZQ2F40R3qsCqYQNvZNyDjAoUe0fvI6-TyKSPLT0d9OoWwcF7gzxBiRBrvJp0mlMQnQH0jrMGKxrmfZW8KPiKd7-vZA6Z6Wr_Wp3UfOQVL4_dE4HBaWpKP7bF_OG1uKQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Dunadan</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/hhK_bhNRrMSEIa1md-wubOnB-UhhHLYfvKiqq6pzZC8/W__fr8JnqdRI4xSrJvdUPDeAEZSQkkIQPGoTj3jKckFxSz6etqzJO8Wz3VRMv1U0zdYTnMLpMoN3NE7iSx0 style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Elenvar</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/Ms7ckcJ1tnEvTuWwFCdhWcVPsGRCAQ_Sz5d0bdTSiM4/XJ3AYMljkBOEn59q9jFLTS0xu7TTSVVvVLf2HKNw8aa4lwtDArwQTXR-EYr1a6kmE0KdH8AfAjn5U7xvj6EUEgyWciNUBGDDr93XDcQ_oklEnkGJFjpxaG7FYnHZsuo5bnICF9JLGHDy1Q style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Elrohir</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/CLxuRIlcw8j74RmVOUloKSp2e609vFrHzfDXP8I1MDo/yHJQonFHBGksUZvnLCRuQNVak09Jmjwa6ziKmMvDSIbnT3a3nyTC6xwic8SDDOrnKSWFqvD9q7nLfz8I1-AwQtInt7gd4HDfKTveLNCyZrcV4xNR_9ikf1NDYOIqBpcBHnSzjMX2v86lsQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Elwë/Sedinho</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/fEAlUVZJ1UQF2aGmxRE_kLRQOsdIIBUTvYIGSjTR-6c/HkrAzjcoYvvkveiBaNxal-XZPfoCKFKI2zgR9_JRmAH7n07zPfYJDlTlEQ36NhTTvpDeOhHIRhshPxsDoWgwm-AB7bIfGgfYncnOTKy0TaIK0h4vZgHreH1MgoLxmnJN8GnRJ4usT18Evg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Esthiel</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/uaZiySul0FQAq_2H1e7_V-zOdegUcQFAdKMt5aN6DUA/6_RkfbNN2ySuxwAGPpPNKOVUf1jKRMu7F-g3QGIwdA6pz7k_heJOIKWDfrfPD_2MgGr-CB2r1A_DCI1RkZw3MUcgNFclJs-zyRJ1dPMpQxFOduaj2yOKpFH4imCN4QpuWoO79Hh2LjchGvc style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Firone94</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/sS8GF6-dIWqsLVBCiba8DuMglGlGPlID-n3Z5yHB4Q8/SH-goRP3cDIidoP9HgIHug9n2CbaXTxyjPuMQqpsBcMlLXGjSPWiCmkO9xuEwGTDqkJPfagXDHF6eoDi_Mnt6pT0qTK9uVNYrz4PA_lutOMuzHpgaTqKzhoJgD0CisA6KS7QlS6TV2H4Ng style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Forfirith</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/uOiW8wxVXjKafQJYL-eyQBGOIMgP4IoV3a_2LcWWiMc/KrllABv7r2YpqZ02Kk42V_OU9L35M4Otv8ihFHhbbZWfHnixjzTnVDFaueaAfR-MRv9PsF_v9dYvKVmoSkOVrCLSO5MyHkCtYBylxYMVFN7C4GBl20PF9nrfib0U6PV8Pv_NiIWaqeAHWQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Franky</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/j8p875M92oy1EioAwy0PsZml9gsS-YmxeGdf_uBqGZg/dj_cijegbpRlF11wYtObC9tY14wPywgW_8ey62cxVKkLnEXtSgbDK8f09PNStr347mRQOwZd_ChWYhLpr2nlgDOOWjbh2Mt74y_tNA6Iyx6rXUhCW_Oi2RhssN5uM6ki6V86gpJiBU6ZLg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>galadriel57</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/KfIYbGP4YbTeV-Tycpn7YWupUvu_OlAscydUnz3yewM/8YFzXbOfT6UNiB0qOxQqSUcpCOaWk6oS6p0tq1GfBVaJ0Vc_LRO8pfvzxgJlgaM-H4IEcf6HLlpl_P0Fxn48UPswyY4T1TZvl4tHCZrM1RpXyBSWwBcnT4jSPcdAB7pU2t_Nlc-QoUcqmw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>gelmir</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/16IZQiZNY3uRxKmxt5eluiqoUxQQafi2Gqs1pm49HOo/ekbepLwx8RSgefWNwA2KnusKVIKF7JW1Cq9Ko9cc1yjDL7PMkbqtKSk7dKkF6MDBGDxchbBBEEtxaIjggkPyTEV5PEJpKUSN31Qr0HifBZbO8GYBiO7p9wjQLLqtbY5LbjKQLRXfG743qA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Gharazel</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/4F23JvAU7DmiDM3XluW6KkAi2yDeM2RYYoMxs2VfJ2E/mA_ypeG0D4ABTrfSFI4HD9ETrzD70YKUCMPEsJIVgTcWjpQ_Kz3H91dczZoi4Psn8Jbf0RN89z17buLhDFq6CbI4hHxjY14xSneQ-i1c0m8MIZMa2BmUEKRGlIBYH9GEW5r9pKq1WC54Fg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>gloomy</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/8OauL3uPg2HaBi1eHy1is7cnVG_Gt22Nk-Px-6M92D0/P5QUvfH5E_jemRkrw8q6w0zEH5lHYJzYApQPmst-3DcnDw-O5qBgZ1naUgk5OOZjx3-ScXGtMRhiHpRylNgV_oyluY-G1TNXhJhDDZJBY2LciHZ-VMCPbBLWNsU8vMrg7tIvUfFhfQQ5lQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Gormorin</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/tFlimqaKgj7fGr0B75DgfyKrxK8bOoysZPYfMNi_k50/CBwJUoT1woV-o1fcoIdwSKFIrjR2djW2es8XY3LPMxnybQN7ZuLa40P9bOoi04SzTdLaM3snKIlw_ZIwX8f3IAa1E1qaUEDPK8cy_dmxzBheS9SUJCdlafiU1knZsgqYjogQIpFkoAEZLA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Guest25</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/dg6l_sWBUsFglaOTr2ISNbMao_k9TLPTKvEhoG5EAks/f0B6ZGU6OLwJqGKcQzWIfC2dq_xl256nFObv9o7KD_uTxHKoOQsIg2E_QiofLJ4-6FD6Scn0fZzKneru5h79pcMnvKj2-ftNYCZVl4iLVxCteyD6iKHnSvwh6K4mchdGk0oRoxKRUrTN-A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Guillaume</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/WT0t5eoybxirqKmBIvvfrENJigTI37j9fQXF7Mr7QOI/2rEqydgL9ebZ-M9h8NEqVJ1OlP2_swdtHtSa8W2T0XWCQk2-SlK4PFTpxDxPDkcxSxEVJ3J5OgmQ67nXvOtYbVjvf3f69vNacKNILc-BNp2cEbIfIwUJxErUA2kntsssXaAqyGRXOG5kug style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>h...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/0SsSt59AZ7J4pXKAaU-swaEEymqfo1ZKQz4AZ5wRmOQ/ibrw7X6wIOGIOqNMEtdXbVXsJ4F_NlEaS7tGi_KCfGq34LV0K3Uqq1KNdxWiuJjwNLxYRNC-8ukQnI-T0vb31CEYlEENgw5gI8CViyWDiUt6b8KqJyv-a9_WyiiZgJyxu78RrqKtP1bq_A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Havenest</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/lyjv8Ozd5ZpHk9m9AQIUnGX9pTBoS_lZnoPKahL0W7Y/Uk8u_HkuLa0ymJnGDdaRwrsaezNRFvKddktJNLthgcEukG_om47xFZfvxJIyZiLQgr3RCiv8GIEI0eZf1JbGdWDHO5rx_vS3jT1zdyuVK--Ad7xYN_LUyag_SpuXigVIEiK8g8RXEpjjeA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>HistoireSW</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/2aj35wpj96nK_uKMnIhz7fgNHf4N4XM8eJQCqJqgyCY/G_P-4LStxLLp2IwmI14u52o78BDaG6ygdTE5sagRdEnorxjmpJlTQyKzbj9uVFCfCJUr4QMNfZUH9DNeNlbdb6Msg_A1eFxqqfowHkWbe9R-D42NCaq849r2dfHSa26fvnKS5d7xv_qhkA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Humphrey Schrödinger</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/MsJ1O68Hz8L2N9XpCXw8Ich8dNN84QLSv8wsrTnI7Sw/GshO59R_f6XJTAtMp3bA_OT49CXfCbIDK5oQtrQde9KCzMUsThd9YwhSzSXKvVsXqKrdfomeWNhJ85-eIpOGZ6Z44vG166fKnTkmWDTG4iosBHSzyET0XyY55_ZU-8AqbZ3Zcp8U-9vMxw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Inpu</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/2LpLeem3q6HS980u2CevIrCAu3JoVkn0etmuWt8M0pA/bJGXFV7wEaFtTOJnyE0XWaZQIA1R8PxKR_pcLONJBWM50ztI2Pp7Bbd2tB-CA79arewhAeEcuqru6DTBAK_g7I0x07XjAKSY20FkzjRd8vbTIUUVydLPpF8uOEUyN6lumMXI7FwIm61nT-A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Iz' the wanderer</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/t-KjkFIhLAVgFQBKg_O19OxXyFsIOKsYZ92BqXjgsHs/Zne6_JnBLU5kbwHN-X4cNlhdiXv5Hkyz5uN9uQ0JSlHAQt7c1WHRzQCR4ZKGe8AnK3gPpy6a0NN9OhlbHCB5V_8Qz4CnCgDeautAOdK3wKuBYbkO41FNhyfEis9ZX1gyH4KQ9SpdSknoWw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>J'Zhazza</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/wf2dIcEFZlM7NyNnVa6gXR31EXfanMIjc9Pr_D_H2wc/rkrZWuAWONP8DZyuY_xgmD-LxpZ7iIRh3dcObKKus9o6gA1soxNro-DYn9jnlq1X0_4lBor0yBEZpE2BJb8770KGstewaCYG7Uo3GHLUCEEBnBkFl-_JPrZLT1Fl726D5EAwQ_8Aq8GAM2c style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Jue*</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/cu45rvVFbTuikX-MXHoJWNIFPOJ1xRuDqXijgHHi9LU/sAnAind-EhpmeQLbmbYAokViCj8SfqegqA7ctRyieEddCkcvA-_ubYGYlbDUEGN3zC8jMGVsYxfPMQA-za0 style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>k...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/7DgWvacTzZWy4Y8nRQ_vSl_V2L0QPiZIWufwZiMdZqc/pAhA20j4LwVod5aFnEiWvZRjkrvsWBwYi1UOfpzT3t50h1HrrLzocslBmadade6-ntp2XxVfKyww1wogV3Vq0bpd6LdcNct5Qzmq_Cptd99a681nVJiDKdqGeptgcrrEd5yNbFsmiNEKBg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Kendar</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/FC5F66y1TLUDiKkyl5jPcFgIjGT2HdhLeiWaLlir7TA/HtKJYemLewiKnGl3PfYOEdRNAGqctsNcz_3jYRaqoKaCNa9g3IPXfbGSs1c013mDj5blAKRQ2gBjhryyNj9lfNTGJf7JXhS1btM1CmBbsqX4wExOLeRot0q2LietJQBpgFl7oo_gnc1brQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Khellendros</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/X8BeHetO1bDYOtp308dqszrCh3_u2GVhX3cF0pjB-LE/x9xrwI2DamyKGxLYv_ZFbUN2k6dIKh6Q2xYmUuoO0V-BwUronsrRvh3uqAx-ssnXLriRGlN5YO0t34omCBQiVUre3kfyIP548JLNJCxJPc3C5xv9n41HuTamYqvUYEJeaggiLSYZj8HEKQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>l...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/tyrXUDIZMDo0q2Eii1wlVJs3UwmaU5kESIDe6UM5g3Q/N3GOMpSkvWM_Ii05zlC2ucBPMNcGgSwURExzVJ-zukKCuQtJzXb3r8ZJqwhJut9eIgIbYYI7sL5_FO_V_RPL8SxAcVwdy1TcyuHQEFblRi3yKPyBbGvoaYgOMbicv8S4Jcbe9AqeBkarWA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>LaLa</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/RsF3QMPFXG-imB9oMb5ToOfsHMwksYcjyUtKkwpe2AU/0IB57p_R4qL_zR283G2fwdmJif9bI9pLzhMygipW37ZUsd-5GthwJonXkhEXhH19Z7ljp8Czn94ALtZ7iyEpc3r3EOBU7zphSfL1xHibKyBTA-F_-mV-umKfWrY7HgNLrtipK9S19xIjBvs style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>LeGeek</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/40f293qeviHeAINlX5-qI9oiSXAFqET9DSGytNmxoy4/Pm5DshOLtmFpfPEuEvzxImsmMPhLg-zhHjUANRJGg--kEU6pXGoKy2lqMh9z8NrszkgA4MIg1BVVPBehUYlPz78Tt_3pivQ7e-UK_eRm5hKF0nEvNdlK5cNzXrHojS3wknXsx8it_Nlx4w style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Lemon Breeze</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/MepLVIQO5rN_cK_Odes7en9J2GZRFA5wrip2yMR-wV8/1UeKVjEi1RwEnZSG2IpZwSw26F4rcB0DtwvIfdGDEr1EmlQS3_Nrc-9kEYLnu5z57swD3mRdA4WQ3Xj-PMcmdG_NYzTC4NJ1FRh7I74YzC6o0deV3x7cN1VjJiZG-1vXM17WunDKp1O2Ww style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Libelei</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/D2QzjlbooDfI4NNTMuDNakDrFRgheJOslnoWQjqbQkA/HuRhcROAJtG4w41IDl2vI4FrXQmeIRWqIKkPRargVf5ZQ6ulNZ1zS0Ckl-w-XkM_IisTe1lxtanslUGXEPvVzSqPttJDg0CfdevHwUlncRjGt4jhimgMBSgPd4OjE0tt82ArxOmRb2sb6A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Liondriel</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/qsbBme0F4eRq5zUgMXe0EBiZKF4V3eNNi_M4HxPC-pw/F-qQkvFCv9bfsSVyTva3ktuz0VtTJ8n68qOT3XHpDaraE62PDlxMzKA10FUSu7kJX8oRfLwcXiVSjxFi6hSeBb3pga1LPbuEiYn3qKGGwT1m8PzxcIfznZ_1mRjdMmcQLaWsDt98MlNKJA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>LucKinator (Pennywise)</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/aq5n9I1Z3kEMJo4gA8UkCaE2UkAUdxYcKhFWyy10XfA/q-faHWH66ne2raifmHB5ieuGLhoklwETkqGgm6R2lEpbvs-xmA2i4EIVIZ7LHOAfUt7ng5EQ80jf3cdpYb_Puu2o2-ZNTvlzHxvJTaJMU11nqPELVLUKWfIIRtmdw-5RQLBkQvbOUL3lpA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Lva1859</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/QzXkTq9wWlvQGLyTqDGvzEQf7aUYigPIHF3TNjZcL2I/yzD6pKRHMfysowlezGczcBYLh0c63stybMxs19Fm6BbweouvqPkPyhbUmrmvB427x7onniWUbRl8z-2nKHZgIL7ItAKDGnAjZOl4eBkzM_6NaB3L4HQAD7wsW0v_dwdwRYLzGqW1_Pqq7A4 style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>m...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/vS7Vrhdfi6lYof-HEhgRlPVoRcAJERvbVwJLTfvVoZE/5A-_j7SXIsH8zepuLWqkHOVK5U3gXrqAJx3rRR_vXtuWzx2JCN956O3qdVtaKRlwidsdX9K47_q6r3L5AaAznyy7NgmtqZLjsSHze8n9A0mP_Iu3PjAfCoNDs67AjVkKl4V5WEraxS3GQg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Maerys</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/j4jhs3Q9HPmCYNjsdkUH-g6kNtnsqHCV4L7sXc00kQA/8Im_Id8_qOYfdGpMqe2OcdtbngmjV3AUQY8tsYiRgoyw7JTYS2lvuCipzeIjjfES6XN7_xsEyT2dcJmLyyaIYOm_wr5XsDHJ9x07yCAb624fSNb_dHl3KHwwrYrgEyf0xURF5Bqo3YqJgg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Melgoth</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/uGlMEsGt0q2UDI1MVDbe3-XEaAFLZ6bEmQpRyA94VRQ/PuIdvIYmnhV7Rk4zEG6GdnZ7rZSFzQD46sWC2-E6jyG4chbf1LhLmJ-MZnts3dMdGG_DCbVBNB5cYDlarv7Gt12v0ABxinezg8k0A68ECVeC_LQ9DevpCnSC9YNyr3UOcXOxxwLGzFe0dw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Meowyn</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/ID6LiMcN1L8mfKEhWaqy-zKm4CyZOo1GSatUOVwCT6o/VDe9wulij7krTMtrPZgGG47RVNzNs9Oi1abenVDe2OQx_34kf8HlspM7bywstsvZ9koQogz2W0V7EH0uvhmxg41w_f1X7fbpnJ1tVIYkh6dDnvKkWOiIsu4TcziKG7i4nS_Oi98bJgDOBg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>mihawk sensei</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/O7pJUtXYqhDOFO9u_jV_ESoX0NgYWDbwtP0qvBbWS0A/owtOFnS8lL74E2mE7jEPQJc_6OlgWZkd1Bciv2nKNFpvJFXQcLWovyxmDcSNv07J2o6vnmxF_5ay68P7uAgVVtYxi5UJvynt0pUw02QJUCnmhSPQWM5E_rTR325-tEhe1x12rj6_G3JGvA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>MissBoréale</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/WIZ5f3uxQOynJ-pWsrJJZfeLcKuNcGHTQoXVzYtP5L8/m0t7_jRgLf537MN4ay2OARpgDEUdO2vUOetXOAeKpJHMiRZ5-N8hN4tAn85C9NGGL3dmTT98ENijLMx_feDrKRcM3z3MWn-juU3-ZPF5oBqSbnWc9WVZz4Zq1UM4P455umbQmwbwXWqzsQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Mulder</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/yuTLnhjOYBrQgltxJReqEowQ1oHDpVb4KGUbT_ZWtXc/EPdsg1qFI_Rvm8kB5Zlu9SjAPRLPGmO2X2VAU1IyyLyze9Qgb7j7v6owA5SYtxANiVmwdvFBFm2iKWqSKJUYEyisQavGidYzWNQiLjUUFsXvNjWHo4vczNUcbC7tPuXRO0bj8cZ4NFj9PA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>MΉYПΣ ♾</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/qQIcA3qyVvPSXon0UVDFj6e5osRAwvpzXn1E9SgF1IQ/TZBs7upQaCaOEhC9N2aYCX3fFW3pS_c8rHkbhuvf0MHkiGPTuVifng-8D_NAIzcACDMGHxCPJA7GD1C4YVIkWMQKEkDgjY0Le6X0nKHxaZiDMmpqOCYkBpIBNvkRAyVyhmIqsz1DKdYSkRE style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Nathan</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/GfuoTwxYJEds378qlXqW9tSf-CJHViRiepVmxsh679s/iS8RnP-ZfCP3lFf414qDMGnh08Lw5DnSLxE2GK-QmXUD5R1EEUCKdMrrSBSXwdm-OgVH7pxqKKMLfamvZx9i6FirQHA0ZNH5scJoeKZ7Y9b623PUsV65q6hMOUJtiNIc2HMeoUPbaS1S7A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Nelly</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/pqvCduU_bsP_9ygRWjuRsl017ouj3-aE_0J9mXBWwMc/_7qH-AN-Hq0so9JrcLV1FG494ARX_otqRlyN5fThFYW-AjfndT93Yg2rvI7Cn-gfrOy2RBJC7uZuYhKwXR7wetagTBpbHJ-aM-M-GIPcYHrVxLyCCMKdvXjPlPrFGREPj2q8tG7ltVpEgA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Nico</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/9etngVju9HuCkS8ekoq7pMKIdLKQDF43vU4AxCEI5b0/uAI0aEQagSE0XQ7GIW0vR9fTajMZc7sVpb-L1JhUu5AjygPf85KjHeslN8naK-4GC5Ptx-SdeA1kxL6U2wK5qjQSzpZYTiXmKuek5WU1o1l2NSsAXI1Zirz1z5W9m9sN04FE9_CJK2ephg style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Noname</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/XuCkDkX9MYDZ1M0DaoOetTtrcrM8yR0O4BDD3cK4LWg/FH1oBIaPSMgQUPW4RjgioHMOmZCUf-3yYJumEKH88lIVCyyV1pHP2XNOMAWlUtTjO_VYn-mqlizkpVmBRUDp0cic_a1E0pALDxagrCwg1MwhKkJAzEeEQP4DHLs9y5hYxw5SIHwVrzabrQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Oblivionis</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/qxL0O3QAAYc2jjrL2Mp-r8prrBerB1hflScoL7teloU/zJ9XlNHcm-5WMdP2p2H2wQaPwrZL_MhHkx-EXw3Cdy2ffpo46LSnW67zJ53hLdiSAaFUL68Hoy-T5c_-5aQZkt0uyoXkZeBUV7yjaB3lY8g3OgywICDA98MXAlxwMy270XqrrGVrRgSLMQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Prapilk</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/yNNm34XmZM4AWhJUgyI04-xzniFWo0pmZZQfgO_ddG0/BKpzQvILXPBWTYLHjd00TmyTBa7Sb5EE3almfj2eTzZ_YJJAiUWfedA63dE8-9rPpIOJNhIKOC7xIzbQxByRMVC30oY38XGdgzOgIVtc7-jfxRlGfTZRXvW8cfkbbgWdQTDQjYutY1tpTw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Renard</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/gtZmgHFHxzEwJpDxmyxbHTnDIdxK-3bAKaEaAeT2QZk/XEvMXUh5A8wokwJxxy0I6ZeWfPdSrxqicK1TdNvLiTGHrhNhl7Y1hUW7VBH43SOPv8PbWPndwcIslAVoRTfNvzO8dVMUeWmXuXCWe1DKBHbsLRQ38YpoNQhHOJhuYBmB5IWTCfD1fUmaxQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Renarde 🦊</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/suX_vtireI0Eg5uQZcmBla2xb9afqkWemVbc1pNzZ-k/Zuds_izusFxhlqgzSlx7opg0sQFv-8YTov22B5C90MtEEImXJ2vCZ5pwQhoYDqblWnfPAM8hKL36VhtyiDnpo6RYeGhv-xi9161Xi7UqJYBk85wOkQZzdga7ffCDqm7J6SJ6BEcFqQ-m1g style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Romuald</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/S6eTIL9cdUyZXYFiLeSg5E8f6HDNpE_mi1YDweGitZM/yrd2qTnK_IB2SRMeRjXSwL_bWd7dDYhcVkiL23Ws0IVPAEquteqIEOe9qxACign4TGTvpZiurlmvMN34_UQPCIm34yN5T-tGpw7c78RZAtIc83H1vs4Pff0QpSyDW5zB15wIP5xvEbcWmw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>s...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/E6sNXUio1FXc5VRBH3hsRLNjsG7LGA78xUuU4gc9yHU/xJ_CRgCGFZrhj8PnZLgLu8WujQETG94FXO7zsPqVCgUsWln6XqqbBNmnnO474A9zu8XBVwOmVtf-M3WE1C_F_I51y3XLIan-H3YdOIeGuss86v9s8Cig4IQROkV7SlBJGnb-00xkgTj-bA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Saga</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/wpdp-NZZlCF3KD9wO0bViLRryRVYY_jSmQzQPFJvrDo/wv9fz7ilSe-YHc2JvrB4QV-IHyPMeipU8figtKCEgE24rB7fF8UirERcQ82PLQHWSvGJbpmNqRYZk9F2INOf3C8dJxdjgLrpMWuYvs1PnmZnhOStZfI4qp6BR21PdWGMviKAZh2-5OAoLMY style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Sandra</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/R6I56LWx4HknE8UE2zXrWCM-QG4dR3wxeqBJhHknyZw/azjreV7pOlYvr95G2aiIkZIEVp3m8RoTIdDolAtKoA1LL1RLuyC4rktSXdrrfarbwgMwHEsW8PcfDyj1RzfIc4GHKPUYtYjIseK0YMckRfeYDUMeBAvvjRHHRZLU3H1ZC5PC-7BVTY_-mw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Saruman</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/Womio1sgm3QYGR4ZzahOsFQRjOQKBC61y5xqFzhsbMQ/tZe_NIjvUP_B8HF8e63fZEpWfiKBH4nDs9KOGYe2vj2K1Q0Ozg45kPWfp-Qw5a6XehUQAGN_rke3Jf-zU203ylQQR3xLU-ueRWY-ysylnpvbyU9tBiPzP7jm3dSIYO6ngrYaoXKc_tR4fQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>SirBeluga</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/u3Mq1y8x8463BKx_oEBy5yAImZkagNs1A3i5CbwFbm4/WpCefOx3kIujR64x6f4e0L0UZcDXiyPJiHZH1iAA0r-YnmYcguH-IC3JqDM7VoQ_ZCKZITrmdHISvSar_eGCNe7B4cjykcDzcGDOSSHKWGcW6BSS4jqreM_9vy0wK-ckFAswnQ3c-3K7ww style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Snoozy</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/J8G2qjNrpdp0b-NhunnvVKhsh7hd-3kt-qgaatfG64Q/NuThrIy47devBE0MRlEsjwpuudp0NWaIpVSoEOCNPN8LXMBMWwKeAYx6OJrI7fksqbeC6_fIh1DSGC6vBQraun_OD5sdaafB1zxUGfqzOpTg1bajPbI7yHsejuYqvljPg6dNKILOE-Un6A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Speravi</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/5D5IhpJ-IpBUBX_0yxSV5iAKAWJydWP9zkLcckV8fKk/l2HjIVq0kOaLaRM6XViY-fqENpObJyOQKBTzMR8cHyoO8Sluufs4v74I8xGGbcpa8OUiVh9P--hBJ1-SOUE_38i_1yoIJs7WCXAUbqe4OQnO3szW2CTsA3dtKaB62rw1WHrkIXysqW2beA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Suirō🐉💧</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/hs_qksW_C-Ifucst35ifr_RGPHKsf76U94i0CLKcapc/FiVfUNCfMqP-dMlY-XPpZ9gjDlD4Nu4LJ5cc5iWhiZciOv0b2DQLtnMztbjuql2naiMrxM5kAGIJhrfFtgJAjtvG6iPFZcVDXPBHClMgZj93WXWKhF1YEXupo-xW-0oUGXFIvLto71bArA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Tata_Flo</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/PeoJS3KAKTSmGc_VmklYZkp8hEIzpAtuxRFVXdgqCs0/OF67RtDeHMBWhfJfY6DjZ7Stf_CCGMrMVbV49vVS3j1Ext5FODeBU33yiLicUj8AZ5Tm8aNpNomUcnJWmY_Z2fHhNl2plEB1FavdTt0aFBosMUuHCvEEL1_q6lL5hji6c6_Wv30cTDTz_Q style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Thomas d'Angmar</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/thJp6zLwvWZc-s388n8B4WPJxfW09fg_sY6wihlLVMg/9T7ScPjQ0sLSRwa5ttiosdbTIkLmj9bDcjG3fqg2MkWd7jZ9L1nJHDwNMiwHt8p80jhWMzJ5jOmDrWj2MxdTwWsM4kLvCvaAS8pnwLzA_tEjTKisAPRhOBpLvnJbcM0V1ahWi3Cznc73Nw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Tyessa la fan de ROP</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/QT6niMp0mAJtD-mntz9_RVEnQSjytA8f7DW8Gw5TkH0/zWKhFEt7WwYHIOZW-SrYj0mE65DlW3rSJpZDrMEmOL2usNyejSzsEzTqoZe_feKkDgG8KNHquhlkpvtxmPOYQHMmSplGD_KVaM5SPJY_3-PUpIzDdQ2ogdNFGr0hLlbNYyUY9ljRks0EJA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>Urobore</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/5wjEi2tJU5xBWllkzFXpZzNfg-MBRECK5bM6ylaWqiQ/Mr9oCXw1h4N5Y-WoxnrEXUe7V03R_-MVWW-3rOJgRy1pproAVfJEJv9_OImPwlBN_47eKnUNVRHsUoaqnWHp9Fc7GTGQN4HBPwSVCuAyf7QdaPh-wA7r0pSUabykI5M8B1QieqTYJ6UYwQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Vak</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/UNrB1yfRJPJpoDUWJIf0OKAllhOq0c8E8chmijjPwbs/agctywEtgLwpyrhBalrd200X8-Qr8T6b05AQ1WEo1ztjwuCIGnIyMBmn8RzZ1_8MKueEFlbcBuPhTkAKk12YhPSQ1z94OoUkHMbaOuC1Ocl84rzyPjyJwsQEdVnZTWjNrGg3XXAtWKBs9w style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Varyando</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/H8QdL7hsW_pW6HUkTF7qTF1TqB6uvf5DjJbrq6Zxjgg/ebhW5ptIMBUVH95Y6izJTEhE2tQ-HrrxrwZqpuNEDhGYasNZsKxha0A1O0pckjIB_YNTAeIkeptEnQmOHe-kC-_X2W6wAY550S4ZkkFOODr_N55rCI10UyEp0upporMafMnnpcYleFuC9g style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Warlock</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/YtIGwObwPG3AUFbf8mXtRrV2eDXOWcBQ5k-t6Mtr0so/_Yf-RztI6tJ93HZRER2Mx_1sbPOq5_wnb9ytVS9oNyuIXSvUCz1TnhzZQqawjncNaKcn0nwsYyLj9zNGYHwZleNJErH2eCHMANlPyf3iP88vkw3HGENM1BaacQT1sD3FVz1IoHsK5GwFcA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>Weedy</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/jB1XiuS6WoWUTMsW5kjljEWNJ3SDVgIKSKLv4j6qq8w/guxVk23ZibFQnBjNmBBGVzCh6PpMcAeev2BUqdVvZJ8LsIwL-3zjEFmoCaTQ3QjhmRnGm7VcRc3NrFAQ38OwsQ-hnBd8HYS5DONXRPpSrv3USg92tOIIjozG2alXtgHtXhUAdblg4pNmTQ style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>x...</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/rCztqXeTkRsrSlOAr94Xom_YL-KFehv3D_asjau4ceo/1z4eeRWC_Ewti7ITlq6QQhCYybi8841N8kiHV5ynQZ0MlmfbavtLbVIXYW_-_y9ti3jIIrhXSoPO7-Z3uA_BNdnVyt0MwPBkhdLu3MhN39IxKYoTOxPRtXykeEb5hevJjkqSf39x5-WY_Q style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>yOTAKUn</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/NPUsWEbNe_jV_hYVKm2CilI6_QxAD83O24AoVVnkMZY/Z3pJ-wZaamr7Sf0ZunRixP0BJ63u9W4DnDhlgmqtLp4Er_rK6W6WTkoZt6rZEw46TTdrWINhL1SaOxc2At7DxvTdYhCd-EnZK64hZ3siKqXQCwjpCsVLvCDK02pgWBSFO5rFtBfKHgZoaA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_online' style='margin-left: 6px; color: green;'>Zeldar</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/sTFaJV7_YANIsBNkUtBY-lcQuJpwBqhAypLG4Xak1EE/fdeIHneZ7vGkxCHHSkf52-jhz3OwQlygUIjD7yZG1-Wz-uNBfD15YpomVqZVFcjjHu6iYnIQEMW0WpSVOWHD4fbljaJ3jLQaWi2fo5X8qHPT0Wp26pp9414EP82DoaKjcB0N199lcy2dC9A style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>˚.⋆ℒ𝓎𝓈𝓋𝑒𝓇𝒾𝒶 ⋆.˚</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/gm_NNkVvIdQSqvhMEUNH9jm82fKROvTrbYeCrfzggnA/XJN2e1D2FbR5l-bophQeq4479YS0CaVGEJyVA2gvVXcGuKPdKwzKeW0d_Ben2r3ZcgnmyEU2Wecbvrj9Z4vuZt5fQpP1aN_yIV1oB3T7qSbfgqMfSPOi9foHEOKBztYp0U4bprgie4lgIw style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_dnd' style='margin-left: 6px; color: red;'>𝕰𝖑𝖗𝖔𝖓𝖉</span></div><div class='discord_member' style='float: left; width: 25%;'><img src=https://cdn.discordapp.com/widget-avatars/32omPVfV4XtfuRc6tUOQgJW7C4Su3kE32VdLecVBJDY/hScno-uQQaD4dTBkor-1Zl_X5oAmTwD8zP4f9ZoQfvdZ6qA_Q8JqClIDNnuPgIXL-EpxMtPbKd8r3i7zzY7iMU3CiAIqZIbTXDN0PJ3gmhPSHd-_TiBDXu1MLqqQ66ENQOofjO0C29aElA style='width: 40px; height: 40px; border-radius: 20px; position: relative; top: 18px;'/><span class='discord_idle' style='margin-left: 6px; color: orange;'>🦊 | Lith ✨</span></div><div style='clear: both;'></div></div></div>
+</p>
+
+<p>
+
+
+<!--
+<div id='discord_chat'></div>
+<div style='clear: both;'></div>
+<script type="text/javascript">
+
+function refresh_discord() {
+console.log("refresh");
+  function Get(yourUrl){
+      var Httpreq = new XMLHttpRequest(); // a new request
+      Httpreq.open("GET",yourUrl,false);
+      Httpreq.send(null);
+      return Httpreq.responseText;          
+  }
+
+  function displayMember(member) {
+    var s = "";
+    s += "<div style='float: left; width: 25%;'><img src="+member.avatar_url+" style='width: 48px; height: 48px; border-radius: 24px; position: relative; top: 20px;'/>"
+    s += "<span style='margin-left: 2px; color: ";
+    if (member.status=="idle") {
+      s += "orange";
+    } else if (member.status=="online") {
+      s += "green";
+    } else if (member.status=="dnd") {
+      s += "red";
+    } else {
+      s += "black";
+    }
+    s +=";'>";
+    s +=member.username+"</span></div>";
+    return s;
+  }
+
+  var url = "https://discordapp.com/api/guilds/447458334090723358/widget.json";
+  var discord = JSON.parse(Get(url));
+  var nb_online=discord.members.length;
+  var div = document.getElementById('discord_chat');
+  if (nb_online>0) {
+    var membres = "";
+    for (var i = 0; i < nb_online; i++) {
+      membres += "<div class='discord_member'>"+displayMember(discord.members[i])+"</div>";
+    }
+    div.innerHTML = "<b>En ligne sur Discord ("+nb_online+") :</b><div style='width: 80%; margin: auto; margin-bottom: 7em;'>"+membres+"</div>";
+  } else {
+    div.innerHTML = "Personne en ligne pour le moment.";
+  }
+  setTimeout(refresh_discord, 60000);
+}
+
+setTimeout(refresh_discord, 0);
+
+</script>
+
+-->
+
+</p>
+
+<p>
+
+
+
+<!--<iframe src="https://discordapp.com/widget?id=447458334090723358&theme=light" width="350" height="400" allowtransparency="true" frameborder="0"></iframe>-->
+
+
+</p>
+</p>
+<div class="styler styler-center">
+<p>
+<strong><a href="https://discord.gg/cafByTS" class="urlextern" target="_blank" title="https://discord.gg/cafByTS"  rel="nofollow">Rejoignez nous !</a></strong>
+</p>
+</div>
+<p>
+</div>
+
+<h2 class="sectionedit4"><a name="liste_des_salons" id="liste_des_salons">Liste des salons</a></h2>
+<div class="level2">
+
+<p>
+<strong>Salons d&#039;accueil (fermés) :</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> 👋 ⁠bienvenue : pour connaître le fonctionnement du serveur</div>
+</li>
+<li class="level1"><div class="li"> 📰 ⁠nouvelles : pour les actualités sur Tolkien et l&#039;association Tolkiendil !</div>
+</li>
+</ul>
+
+<p>
+<strong>Salons généralistes :</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> 🗨️ ⁠général : pour les discussions diverses du quotidien, se présenter et faire connaissance</div>
+</li>
+<li class="level1"><div class="li"> 📚 ⁠bibliothèque : pour poser vos questions sur Tolkien et ses écrits</div>
+</li>
+<li class="level1"><div class="li"> 📝 ⁠langues : pour étudier les langues et écritures inventées par Tolkien</div>
+</li>
+<li class="level1"><div class="li"> 📖 ⁠encyclopédie : pour réunir tout le savoir de la Terre du Milieu et d&#039;ailleurs</div>
+</li>
+<li class="level1"><div class="li"> 🖌️ ⁠arts : pour déclamer de la poésie, imaginer des fictions ou composer des illustrations</div>
+</li>
+<li class="level1"><div class="li"> ⚔️ ⁠divertissements : pour jouer et discuter jeux de plateaux, jeux vidéos ou jeux de rôle, films, etc.</div>
+</li>
+<li class="level1"><div class="li"> 🍻 ⁠taverne : pour faire la fête, pour les blagues, memes, etc.</div>
+</li>
+</ul>
+
+<p>
+<strong>Salons spécifiques :</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> 📺 ⁠série-anneaux-de-pouvoir : pour discuter de la série Les Anneaux de Pouvoir (Rings of Power)</div>
+</li>
+<li class="level1"><div class="li"> 🏆 ⁠trivia : pour lancer les sessions de quiz avec le bot Gollum</div>
+</li>
+<li class="level1"><div class="li"> 🎆 ⁠événements : pour échanger à propos des événements tolkienniens en ligne ou hors lignes</div>
+</li>
+<li class="level1"><div class="li"> ⚠️ ⁠soutien-moral : pour discuter de sujets qui nous affectent et pour lesquels nous avons besoin d&#039;un peu réconfort !</div>
+</li>
+<li class="level1"><div class="li"> 🤖  ⁠bot : pour utiliser les commandes des bots sans déranger les autres salons</div>
+</li>
+</ul>
+
+<p>
+<strong>Salons privés :</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> #rédaction : Salon privé de rédaction pour le site (Accès aux Administrateurs, Modérateurs, Adhérents et autres rédacteurs selon les besoins)</div>
+</li>
+<li class="level1"><div class="li"> #association : Salon privé des adhérents de l&#039;Association Tolkiendil (Accès aux Administrateurs, Modérateurs et Adhérents)</div>
+</li>
+<li class="level1"><div class="li"> #mag-rédaction : Salon privé pour travailler sur la réalisation du magazine l&#039;Arc et le Heaume (Accès aux Administrateurs, Modérateurs, Adhérents et contributeurs du magazine)</div>
+</li>
+<li class="level1"><div class="li"> #gestion : Salon privé de gestion du chat, du site et du forum (Accès aux Administrateurs et Modérateurs)</div>
+</li>
+<li class="level1"><div class="li"> #administration : Salon privé du Conseil d&#039;Administration de l&#039;Association Tolkiendil (Accès aux Administrateurs)</div>
+</li>
+<li class="level1"><div class="li"> #technique : Salon privé pour traiter des problèmes techniques du serveur Discord (Accès aux Administrateurs et techniciens)</div>
+</li>
+</ul>
+
+<p>
+
+<strong>Salons vocaux :</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> Général : Salon général de discussion</div>
+</li>
+<li class="level1"><div class="li"> Association : Salon privé des adhérents de l&#039;Association Tolkiendil (Accès aux Administrateurs, Modérateurs et Adhérents)</div>
+</li>
+<li class="level1"><div class="li"> Administration : Salon privé du Conseil d&#039;Administration de l&#039;Association Tolkiendil (Accès aux Administrateurs) </div>
+</li>
+<li class="level1"><div class="li"> Technique : Salon privé pour traiter des problèmes techniques du serveur Discord (Accès aux Administrateurs et techniciens)</div>
+</li>
+</ul>
+
+<p>
+
+D&#039;autres salons privés peuvent être créés provisoirement pour des événements spécifiques comme pour notre Assemblée Générale de l&#039;association.
+</p>
+
+</div>
+
+<h2 class="sectionedit5"><a name="quiz" id="quiz">Quiz</a></h2>
+<div class="level2">
+
+<p>
+
+<img src="/lib/exe/fetch.php?w=&amp;h=&amp;cache=cache&amp;media=wiki:lettrines:v.gif" style="clear: left;" class="medialeft" align="left" title="V" alt="V" />ous pouvez jouer à divers quiz sur notre serveur Discord, dont un quiz sur J.R.R. Tolkien et son œuvre. Découvrez en plus sur son fonctionnement sur notre page <a href="/chat/quiz" class="wikilink1" title="chat:quiz">Quiz Tolkien sur Discord</a>.
+</p>
+
+</div>
+
+    <!-- wikipage stop -->
+    <!-- discussion start -->
+        <!-- discussion stop -->
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+  
+  <div class="stylefoot">
+
+    <div class="meta">
+      <div class="user">
+              </div>
+      <div class="doc">
+        chat.txt &middot; Dernière modification: 26/07/2023 20:14 par Zelphalya      </div>
+    </div>
+
+        <div class="bar" id="bar_bottom">
+      <div class="bar-right" id="bar_bottomright">
+        <form class="button btn_login" method="get" action="/chat"><div class="no"><input type="hidden" name="do" value="login" /><input type="hidden" name="sectok" value="6acdf59f7b444bb5df7dba1db57e9e58" /><input type="submit" value="Connexion" class="button" title="Connexion" /></div></form>      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footerinc">
+      Nous rejoindre sur 
+      <a href="https://discord.gg/cafByTS" target="_blank"><img src="/lib/tpl/tolkiendil/images/discord_16.png" alt="https://discord.gg/cafByTS" title="https://discord.gg/cafByTS" /></a>
+      <a href="https://www.facebook.com/Tolkiendil" target="_blank"><img src="/lib/tpl/tolkiendil/images/facebook_16.png" alt="https://www.facebook.com/Tolkiendil" title="https://www.facebook.com/Tolkiendil" /></a>
+      <a href="https://www.twitter.com/TolkiendilFR" target="_blank"><img src="/lib/tpl/tolkiendil/images/twitter_16.png" alt="https://www.twitter.com/TolkiendilFR" title="https://www.twitter.com/TolkiendilFR" /></a>
+      <a href="https://www.instagram.com/Tolkiendil" target="_blank"><img src="/lib/tpl/tolkiendil/images/instagram_16.png" alt="https://www.instagram.com/Tolkiendil" title="https://www.instagram.com/Tolkiendil" /></a>
+      <a href="http://www.youtube.com/user/AssoTolkiendil" target="_blank"><img src="/lib/tpl/tolkiendil/images/youtube_16.png" alt="http://www.youtube.com/user/AssoTolkiendil" title="http://www.youtube.com/user/AssoTolkiendil" /></a>
+      <br />
+  <a href="https://www.tolkiendil.com" style="color: #000000; text-decoration: none;">Tolkiendil - https://www.tolkiendil.com</a> - <a href="https://www.tolkiendil.com/droits" style="color: #000000; text-decoration: none;">Tous droits r&eacute;serv&eacute;s &copy; 1996-2026</a><br /></div>
+
+<img src="/lib/exe/indexer.php?id=chat&amp;1793206483" width="1" height="1" alt=""  /></body>
+</html>
+
+

@@ -1,0 +1,48 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   The Society's constants, and the one convention that makes this theme work.
+
+   SPECIFICITY CONVENTION — read before adding a rule.
+   Elementor's kit emits selectors like `.elementor-kit-6 a` (0,2,0). A bare `a {}`
+   is (0,0,1) and loses no matter what order it loads in. Every selector in every
+   file here therefore begins:
+
+       body.asc-ui.asc-ui
+
+   The class is repeated deliberately: that is (0,2,1), which beats the kit
+   without !important and without depending on load order — which matters because
+   SG Optimizer's combine step reorders stylesheets.
+
+   !important is confined to 99-hotfix.css, and only where a third-party script
+   writes an inline style we cannot otherwise reach.
+
+   Colours are read off theasc.com's own stylesheets. They are not an interpretation
+   of the brand; they are the brand. Do not add a sixth step to the text ramp.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+body.asc-ui.asc-ui {
+  /* the Society's constants */
+  --asc-black: #000000;
+  --asc-white: #FFFFFF;
+  --asc-gold:  #CDC09E;
+  --asc-stone: #ACA298;
+  --asc-ash:   #DADADA;
+  --asc-paper: #F2EFEC;
+  --asc-scrim: rgb(0 0 0 / .35);
+
+  /* text ramp — five steps, closed */
+  --asc-n95: var(--asc-white);   /* 21.0:1  headings, names, figures        */
+  --asc-n80: var(--asc-ash);     /* 15.0:1  body                            */
+  --asc-n65: var(--asc-stone);   /*  8.4:1  secondary, captions             */
+  --asc-n50: #7C7C7C;            /*  5.0:1  labels                          */
+  --asc-n35: #5E5E5E;            /*  3.2:1  non-text only: rules, hairlines */
+
+  /* the Society's error red. 4.04:1 on black: clears 3:1 for a non-text
+     indicator, fails 4.5:1 for text. Rules and borders only. */
+  --asc-err: #CB3522;
+
+  /* CH-0017: ASC's licensed Polaris family matches the magazine across both
+     reading and display. Book400 is normal copy; genuine Bold700 supplies
+     emphasis and larger subheads. System fallbacks remain sans-serif. */
+  --asc-brand: "Polaris", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --asc-sans:  "Polaris", "Helvetica Neue", Helvetica, "Segoe UI", Roboto, Arial, sans-serif;
+}

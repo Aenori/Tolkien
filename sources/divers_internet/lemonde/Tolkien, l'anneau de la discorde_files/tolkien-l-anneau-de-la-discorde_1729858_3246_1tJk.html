@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script>var inDapIF=true,inGptIF=true;</script><style></style><meta http-equiv="origin-trial" content="AxjhRadLCARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxjhRadLCARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="jar"><script>window.dicnf = {sbtru: "https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsv61o9Kl8oGmqCWiMEOf4pDnM5u5Rrr9m0wW5_Z65JeGzezK-oJRKTrXchc9vu3N9cT2qyl5ln6JRk4Z0qjtnCzWVBbx4MM5oVD4jNrii2eRBefKSpFP3IdJKZCUEaDxEIK-2ZG5P4XX2TzprydpmCVNUYqAdsTFRJpsLt2qf_n2XydQDyRZ7CWIoPn29UfOI3hl1WCzLichjPviNH5IsKu8eca-wsUJHUCtU5KZ8zDjkcHaNaalJM0KXv6lr30JmRYHWosvjO7k4addkZEzEF-NGlIABuJ6LuXYkyvQrM3FWH-6oqqBoYhbg4bXenyprWIgxSAjGa9c1_qOkhIgkmQ-AwQPQDYmRUDE007xPv98alvOuHIbqO2F7a7zucpCmXX9pr2q3J52fOrFKMxG4ZuTbRLpNi8Tzrls-xMC19ih_MiuFQpvxVB7qXu8Bw0iiuguq2HTdCcUIJTF9RlJDbe6cRDR4gYJBwk0LJY3KfNz9JxPnzTyW9NYGJHoxgIUA\x26sai\x3dAMfl-YQ_uckmVbT3uhzbWys7nBE9fytdsTK3t9Bcvvsfd88-taPwVV5lTmNaKLSBVWG6I6UC4BgRFkjwCMEm7rL10W34Ptwf8hNC-rDNpx1wXQRTTiUXQfsMnKXoPD_djphfyglVoB3c0M5DgqgTi5pHawlsI6O9_N4eCnzyqBeCraN0E9DIhg32ZpY8U2_CBR_8uJY_mAS7XJes2qRqSl8cB8jl9RBnZG3JVX023S2m8dtqt7Y\x26sig\x3dCg0ArKJSzEySUdvy0mZ2EAE\x26uach_m\x3d%5BUACH%5D\x26urlfix\x3d1\x26adurl\x3d",ebtro: 353,rtit: true,arbpp: true,};</script><script data-jc="42" data-jc-version="r20261028" data-jc-flags="[&quot;x%72;13705!=wu}a($1601;5==&amp;&lt;cbotf+*01247;&gt;1%2bejvf/%72&gt;0&lt;337!=efdwa*'76027;56$?wqrf+*0114564:%2pvs`/!36?;1=46!9abk{a($16;30&gt;;0&amp;&lt;qqvb~&quot;]">(function(){'use strict';/*  Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ var q=this||self;function C(a){C[" "](a);return a}C[" "]=function(){};function D(a){a.F=!0;return a};var aa=D(a=>typeof a==="number"),ba=D(a=>typeof a==="string"),ca=D(a=>typeof a==="function");var F=class{constructor(a,b=!1){this.key=a;this.defaultValue=b;this.valueType="boolean"}};var da=new F("45368259"),ea=new F("45357156",!0),H=new F("45414892"),fa=new F("45648564"),ha=new F("45835923"),ia=new F("45843934",!0),ja=new F("45716539",!0);var ka=/(google|doubleclick).*\/(pagead\/adview|pcs\/view|dbm\/ad)/,J=(a,b)=>a.substring(a.length-7)=="&adurl="?a.substring(0,a.length-7)+b+"&adurl=":a+b;var M=q.dicnf||{};function la(a,b){if(a)for(let c in a)Object.prototype.hasOwnProperty.call(a,c)&&b(a[c],c,a)};function ma(a){try{var b;if(b=!!a&&a.location.href!=null)a:{try{C(a.foo);b=!0;break a}catch(c){}b=!1}return b}catch{return!1}}function na(a){return ma(a.top)?a.top:null};function oa(){if(!globalThis.crypto)return Math.random();try{let a=new Uint32Array(1);globalThis.crypto.getRandomValues(a);return a[0]/65536/65536}catch(a){return Math.random()}};function pa(a=document){return a.createElement("img")};var N=[];function qa(){var a=N;N=[];for(let b of a)try{b()}catch{}};function P(a,b,c){typeof a.addEventListener==="function"&&a.addEventListener(b,c,!1)}function ra(a,b,c){typeof a.removeEventListener==="function"&&a.removeEventListener(b,c,!1)}function sa(a,b){a.readyState==="complete"||a.readyState==="interactive"?(N.push(b),N.length===1&&(window.Promise?Promise.resolve().then(qa):(a=window.setImmediate,ca(a)?a(qa):setTimeout(qa,0)))):a.addEventListener("DOMContentLoaded",b)};function ta(a,b=null){ua(a,b)}function ua(a,b){q.google_image_requests||(q.google_image_requests=[]);var c=pa(q.document);if(b){let d=g=>{b&&b(g);ra(c,"load",d);ra(c,"error",d)};P(c,"load",d);P(c,"error",d)}c.src=a;q.google_image_requests.push(c)};var va=0;function wa(a,b=null){return b&&b.getAttribute("data-jc")===String(a)?b:document.querySelector(`[data-jc="${a}"]`)};function Q(a){xa||(xa=new ya);var b=xa.h[a.key];if(a.valueType==="proto"){try{let c=JSON.parse(b);if(Array.isArray(c))return c}catch(c){}return a.defaultValue}return typeof b===typeof a.defaultValue?b:a.defaultValue}var za=class{constructor(){this.h={}}};var ya=class extends za{constructor(){super();var a=wa(va,document.currentScript);a=a&&a.getAttribute("data-jc-flags")||"";try{let b=JSON.parse(a)[0];a="";for(let c=0;c<b.length;c++)a+=String.fromCharCode(b.charCodeAt(c)^"\u0003\u0007\u0003\u0007\b\u0004\u0004\u0006\u0005\u0003".charCodeAt(c%10));this.h=JSON.parse(a)}catch(b){}}},xa;var Aa=class{constructor(a,b){this.error=a;this.meta={};this.context=b.context;this.msg=b.message||"";this.id=b.id||"jserror"}};function Ba(a){var b=a.toString();a.name&&b.indexOf(a.name)==-1&&(b+=": "+a.name);a.message&&b.indexOf(a.message)==-1&&(b+=": "+a.message);if(a.stack)a:{a=a.stack;var c=b;try{a.indexOf(c)==-1&&(a=c+"\n"+a);let d;for(;a!=d;)d=a,a=a.replace(RegExp("((https?:/..*/)[^/:]*:\\d+(?:.|\n)*)\\2"),"$1");b=a.replace(RegExp("\n *","g"),"\n");break a}catch(d){b=c;break a}b=void 0}return b};var Ca=RegExp("^https?://(\\w|-)+\\.cdn\\.ampproject\\.(net|org)(\\?|/|$)"),Da=class{constructor(a,b){this.h=a;this.i=b}},Ea=class{constructor(a,b){this.url=a;this.h=!!b;this.depth=null}};var R=null;function Fa(){var a=q.performance;return a&&a.now&&a.timing?Math.floor(a.now()+a.timing.navigationStart):Date.now()}function Ga(){var a=q.performance;return a&&a.now?a.now():null};var Ha=class{constructor(a,b){var c=Ga()||Fa();this.label=a;this.type=b;this.value=c;this.duration=0;this.taskId=this.slotId=void 0;this.uniqueId=Math.random()}};var S=q.performance,Ia=!!(S&&S.mark&&S.measure&&S.clearMarks),T=function(a){var b=!1,c;return function(){b||(c=a(),b=!0);return c}}(()=>{var a;if(a=Ia){var b;a=window;if(R===null){R="";try{let c="";try{c=a.top.location.hash}catch(d){c=a.location.hash}c&&(R=(b=c.match(/\bdeid=([\d,]+)/))?b[1]:"")}catch(c){}}b=R;a=!!b.indexOf&&b.indexOf("1337")>=0}return a});function Ja(a){a&&S&&T()&&(S.clearMarks(`goog_${a.label}_${a.uniqueId}_start`),S.clearMarks(`goog_${a.label}_${a.uniqueId}_end`))};function U(a,b){var c={};c[a]=b;return[c]}function Ka(a,b,c,d,g){var e=[];la(a,(f,l)=>{(f=La(f,b,c,d,g))&&e.push(`${encodeURIComponent(l)}=${f}`)});return e.join(b)} function La(a,b,c,d,g){if(a==null)return"";b=b||"&";c=c||",$";ba(c)&&(c=c.split(""));if(a instanceof Array){if(d||(d=0),d<c.length){let e=[];for(let f=0;f<a.length;f++)e.push(La(a[f],b,c,d+1,g));return e.join(c[d])}}else if(typeof a==="object")return g||(g=0),g<2?encodeURIComponent(Ka(a,b,c,d,g+1)):"...";return encodeURIComponent(String(a))}function Ma(a){var b=1;for(let c in a.i)c.length>b&&(b=c.length);return 3997-b-a.j.length-1} function Na(a,b){var c=Ma(a)-b.length;if(c<0)return"";b="";a.h.sort((e,f)=>e-f);var d=null,g="";for(let e=0;e<a.h.length;e++){let f=a.h[e],l=a.i[f];for(let m=0;m<l.length;m++){if(!c){d=d==null?f:d;break}let p=Ka(l[m],a.j,",$");if(p){p=g+p;if(c>=p.length){c-=p.length;b+=p;g=a.j;break}d=d==null?f:d}}}a="";d!=null&&(a=`${g}trn=${d}`);return b+a}function Oa(a,b,c,d){return Ma(a)-d.length<0?"":b+"//"+c+d+Na(a,d)}var Pa=class{constructor(){this.j="&";this.i={};this.l=0;this.h=[]}};var Qa=RegExp("^(?:([^:/?#.]+):)?(?://(?:([^\\\\/?#]*)@)?([^\\\\/?#]*?)(?::([0-9]+))?(?=[\\\\/?#]|$))?([^?#]+)?(?:\\?([^#]*))?(?:#([\\s\\S]*))?$");function Ra(a,b,c,d){try{if(a.h&&a.h.h){var g=a.h.start(b.toString(),3);var e=c();a.h.end(g)}else e=c()}catch(f){c=!0;try{Ja(g),c=a.o(b,new Aa(f,{message:Ba(f)}),void 0,d)}catch(l){a.l(217,l)}if(c)window.console?.error?.(f);else throw f;}return e}function Sa(a,b,c,d){var g=V;return(...e)=>Ra(g,a,()=>b.apply(c,e),d)} var Ua=class{constructor(a=null){this.m=W;this.h=a;this.i=null;this.j=!1;this.o=this.l}l(a,b,c,d,g){g=g||"jserror";var e=void 0;try{let A=new Pa;var f=A;f.h.push(1);f.i[1]=U("context",a);b.error&&b.meta&&b.id||(b=new Aa(b,{message:Ba(b)}));f=b;if(f.msg){b=A;var l=f.msg.substring(0,512);b.h.push(2);b.i[2]=U("msg",l)}var m=f.meta||{};l=m;if(this.i)try{this.i(l)}catch(r){}if(d)try{d(l)}catch(r){}d=A;m=[m];d.h.push(3);d.i[3]=m;var p;if(!(p=v)){d=q;m=[];l=null;do{var h=d;if(ma(h)){var k=h.location.href; l=h.document&&h.document.referrer||null}else k=l,l=null;m.push(new Ea(k||""));try{d=h.parent}catch(r){d=null}}while(d&&h!==d);for(let r=0,w=m.length-1;r<=w;++r)m[r].depth=w-r;h=q;if(h.location&&h.location.ancestorOrigins&&h.location.ancestorOrigins.length===m.length-1)for(k=1;k<m.length;++k){let r=m[k];r.url||(r.url=h.location.ancestorOrigins[k-1]||"",r.h=!0)}p=m}var v=p;let I=new Ea(q.location.href,!1);p=null;let n=v.length-1;for(h=n;h>=0;--h){var u=v[h];!p&&Ca.test(u.url)&&(p=u);if(u.url&&!u.h){I= u;break}}u=null;let t=v.length&&v[n].url;I.depth!==0&&t&&(u=v[n]);e=new Da(I,u);if(e.i){v=A;var x=e.i.url||"";v.h.push(4);v.i[4]=U("top",x)}var B={url:e.h.url||""};if(e.h.url){let r=e.h.url.match(Qa);var y=r[1],O=r[3],K=r[4];x="";y&&(x+=y+":");O&&(x+="//",x+=O,K&&(x+=":"+K));var L=x}else L="";y=A;B=[B,{url:L}];y.h.push(5);y.i[5]=B;Ta(this.m,g,A,this.j,c)}catch(A){try{Ta(this.m,g,{context:"ecmserr",rctx:a,msg:Ba(A),url:e?.h.url??""},this.j,c)}catch(I){}}return!0}};class Va{};function Ta(a,b,c,d=!1,g,e){if((d?a.h:Math.random())<(g||.01))try{let f;c instanceof Pa?f=c:(f=new Pa,la(c,(m,p)=>{var h=f,k=h.l++;m=U(p,m);h.h.push(k);h.i[k]=m}));let l=Oa(f,a.protocol,a.domain,a.path+b+"&");l&&(typeof e!=="undefined"?ta(l,e):ta(l))}catch(f){}}function Wa(){var a=W,b=window.google_srt;b>=0&&b<=1&&(a.h=b)}var Xa=class{constructor(){this.domain="pagead2.googlesyndication.com";this.path="/pagead/gen_204?id=";this.protocol="https:";this.h=Math.random()}};var W,V,X=new class{constructor(a,b){this.i=[];this.j=b||q;var c=null;b&&(b.google_js_reporting_queue=b.google_js_reporting_queue||[],this.i=b.google_js_reporting_queue,c=b.google_measure_js_timing);this.h=T()||(c!=null?c:Math.random()<a)}start(a,b){if(!this.h)return null;a=new Ha(a,b);b=`goog_${a.label}_${a.uniqueId}_start`;S&&T()&&S.mark(b);return a}end(a){if(this.h&&aa(a.value)){a.duration=(Ga()||Fa())-a.value;var b=`goog_${a.label}_${a.uniqueId}_end`;S&&T()&&S.mark(b);!this.h||this.i.length>2048|| this.i.push(a)}}}(1,window);function Ya(){window.google_measure_js_timing||(X.h=!1,X.i!==X.j.google_js_reporting_queue&&(T()&&Array.prototype.forEach.call(X.i,Ja,void 0),X.i.length=0))} (function(a){W=a??new Xa;typeof window.google_srt!=="number"&&(window.google_srt=Math.random());Wa();V=new Ua(X);V.i=b=>{var c=va;c!==0&&(b.jc=String(c),c=(c=wa(c,document.currentScript))&&c.getAttribute("data-jc-version")||"unknown",b.shv=c)};V.j=!0;window.document.readyState==="complete"?Ya():X.h&&P(window,"load",()=>{Ya()})})();function Za(a,b,c,d){return Sa(a,b,c,d)} function $a(a,b,c,d){var g=Va;var e="v";g.v&&g.hasOwnProperty(e)||(e=new g,g.v=e);g=[];!b.eid&&g.length&&(b.eid=g.toString());Ta(W,a,b,!0,c,d)};var Y=["FRAME","IMG","IFRAME"],ab=/^[01](px)?$/,bb=class{constructor(){this.C=this.i=this.l=this.m=this.D=this.h=this.o=this.j=!1}};function cb(a){return ba(a)?document.getElementById(a):a}function db(a,b=!1){return a.tagName==="IMG"&&(a.complete&&(!a.naturalWidth||!a.naturalHeight)||b&&a.style?.display==="none")?!0:ab.test(a.getAttribute("width")??"")&&ab.test(a.getAttribute("height")??"")} function eb(a,b=!1){if(a.tagName==="IMG")return!(!a.naturalWidth||!a.naturalHeight);try{return(a.readyState?a.readyState:a.contentWindow?.document?.readyState)==="complete"}catch(c){return b}}function fb(a){a||(a=(b,c,d)=>{b.addEventListener(c,d)});return a} function gb(a,b,c=new bb,d){a=cb(a);if(!a)return!1;d=fb(d);var g=!1,e=u=>{g||(g=!0,b(u))},f=2;for(var l=0;l<Y.length;++l)if(Y[l]===a.tagName){f=3;var m=[a];break}m||(m=a.querySelectorAll(Y.join(",")));var p=0,h=0,k=!c.h,v=a=!1;for(l=0;l<m.length;l++){let u=m[l];if(db(u,c.h))continue;let x=u.tagName==="IMG";if(eb(u,c.j))a=!0,x&&(k=!0);else{p++;let B=y=>{p--;!p&&k&&e(f);x&&(y=y&&y.type==="error",h--,y||(k=!0),!h&&v&&k&&e(f))};d(u,"load",B);x&&(h++,d(u,"error",B))}}h===0&&(k=!0);m=null;m=q.document.readyState=== "complete";if(c.D&&m){if(h>0)return v=!0,!1;f=5}else if(p===0&&!a&&m)f=5;else if(p||!a)return d(q,"load",()=>{!c.o||!h&&k?e(4):v=!0}),!1;e(f);return!0} function hb(a,b,c=new bb,d){function g(n){for(let {type:t,handler:r}of n.u)n.element.removeEventListener(t,r);n.u=[]}function e(){var n=q.document.readyState==="complete",t=!c.h,r=!1,w=!1,E=!1,G=!0;for(let z of h)z.completed?(r=!0,z.B&&(w=!0,z.A||(t=!0))):(G=!1,z.B&&(E=!0));t=!w||t;if(G&&r&&t)return K(A),!0;n&&(L=!0,A=5);n=!c.o||!E&&t;return L&&n?(K(A),!0):!1}function f(n){for(let t of n){if(h.some(E=>E.element===t))continue;if(db(t,c.h))continue;let r=t.tagName==="IMG",w={element:t,B:r,A:!1,u:[], completed:!1};eb(t,c.j)?w.completed=!0:(n=E=>{w.completed=!0;r&&E&&E.type==="error"&&(w.A=!0);g(w);e()},d(t,"load",n),w.u.push({type:"load",handler:n}),r&&(d(t,"error",n),w.u.push({type:"error",handler:n})));h.push(w)}}function l(n){return Y.some(t=>String(t)===n.tagName)?(A=3,[n]):Array.from(n.querySelectorAll(Y.join(",")))}function m(n){p=new q.MutationObserver(w=>{h=h.filter(G=>{if(c.l){var z=G.element;z=!(typeof z.isConnected==="boolean"?z.isConnected:z.ownerDocument?.documentElement?.contains(z)?? !1)}else z=!G.element.isConnected;return z?(g(G),!1):!0});var E=[];for(let G of w)for(w=0;w<G.addedNodes.length;w++){let z=G.addedNodes[w];z.nodeType===1&&E.push(...l(z))}f(E);e()});var t;if(t=n.tagName==="BODY"&&n.ownerDocument){try{var r=q.top===q}catch(w){r=!1}t=!r}n=t?n.ownerDocument:n;p?.observe(n,{childList:!0,subtree:!0})}a=cb(a);if(!a)return!1;d=fb(d);var p=null,h=[],k=!1,v=()=>{e()},u=!1,x=()=>{u=!0},B=c.i&&c.C,y=B?na(q):null;B&&(y?y.addEventListener("pagehide",x):u=!0);var O=()=>{if(!k){var n= B&&u;h.length!==0||n||K(5)}},K=n=>{if(!k){k=!0;p&&p.disconnect();for(let t of h)g(t);h=[];c.m&&q.document.removeEventListener&&q.document.removeEventListener("readystatechange",v);c.i&&(q.removeEventListener&&q.removeEventListener("pagehide",O),B&&y?.removeEventListener("pagehide",x));b(n)}},L=!1,A=2;f(l(a));c.l?typeof q.MutationObserver==="function"&&m(a):m(a);if(e())return!0;var I=()=>{L=!0;A=4;e();q.removeEventListener("load",I)};d(q,"load",I);c.m&&d(q.document,"readystatechange",v);c.i&&d(q,"pagehide", O);return!1};function ib(a){var b;a.visibilityState?b="visibilitychange":a.mozVisibilityState?b="mozvisibilitychange":a.webkitVisibilityState&&(b="webkitvisibilitychange");return b};function jb(){var a=window;if(a.gmaSdk||a.webkit?.messageHandlers?.getGmaViewSignals)return a;try{let b=window.parent;if(b.gmaSdk||b.webkit?.messageHandlers?.getGmaViewSignals)return b}catch(b){}return null} function kb(a,b={},c=()=>{},d=()=>{},g=200,e,f){var l=String(Math.floor(oa()*2147483647)),m=0,p=h=>{try{let k=typeof h.data==="object"?h.data:JSON.parse(h.data);l===k.paw_id&&(window.clearTimeout(m),window.removeEventListener("message",p),k.signal?c(k.signal):k.error&&d(k.error))}catch(k){f("paw_sigs",{msg:"postmessageError",err:k instanceof Error?k.message:"nonError",data:h.data==null?"null":h.data.length>500?h.data.substring(0,500):h.data})}};window.addEventListener("message",h=>{e(903,()=>{p(h)})()}); a.postMessage({paw_id:l,...b});m=window.setTimeout(()=>{window.removeEventListener("message",p);d("PAW GMA postmessage timed out.")},g)};class lb{constructor(){this.promise=new Promise((a,b)=>{this.resolve=a;this.reject=b})}};window.viewReq=[];function Z(a){var b=new Image;b.src=a.replace("&amp;","&");window.viewReq.push(b)} function mb(a){var b={keepalive:!0,credentials:"include",redirect:"follow",method:"get",mode:"no-cors"};if(Q(ha)){let d=null;try{d=na(window)}catch{}if(d&&d!==window&&typeof d.fetch==="function")try{var c=d.fetch(a,b).catch(()=>{Z(a)})}catch{Z(a)}else c=fetch(a,b).catch(()=>{Z(a)})}else c=fetch(a,b).catch(()=>{Z(a)});Q(ja)&&c instanceof Promise&&c.then(d=>{if(d instanceof Response){var g=window;let f={};if(d=d.headers.get("X-Ad-Event-Value"))try{let l=JSON.parse(d);f.revenueCurrency=l.currency;f.revenueMicros= l.value;var e=g.parent;f.googMsgType="aevi";e.postMessage(JSON.stringify(f),"*")}catch{}}})}function nb(a){window.fetch?mb(a):Z(a)}function ob(a,b){b.length>0?Promise.all(b).then(()=>{nb(a())}):nb(a())}function pb(){var a=q.document;return new Promise(b=>{var c=ib(a);if(c){var d=()=>{(a.prerendering?3:{visible:1,hidden:2,prerender:3,preview:4,unloaded:5,"":0}[a.visibilityState||a.webkitVisibilityState||a.mozVisibilityState||""]??0)!==3&&(ra(a,c,d),b())};P(a,c,d)}})} function qb(a){a=a??0;var b=new bb;b.j=!!(a&2);b.o=!!(a&4);b.h=!!(a&8);b.D=!!(a&16);b.m=!!(a&64);b.l=!!(a&128);b.i=!!(a&256);b.C=!!(a&512);return b}va=42; window.vu=a=>{var b=M.sbtru,c=!!M.arbpp,d=(!Q(ia)||ka.test(a))&&!/[?&]vt=\d+(&|$)/.test(a);b?c&&(b=J(b,c&&b.includes("/pcs/view")?"&vt=11&igpp=1":"&vt=11")):d&&(b=M.rcsbtr||(M.eppbtr?J(a,c&&a.includes("/pcs/view")?"&vt=11&igpp=1":"&vt=11"):void 0));var g=k=>{a=J(a,k);b&&(b=J(b,k))};c=Q(ea)||Q(H);d=jb();if(c&&d?.gmaSdk?.getViewSignals){var e=d.gmaSdk.getViewSignals();e&&!Q(H)&&g(`&ms=${e}`)}Q(da)&&"__google_lidar_radf_"in window&&g("&avradf=1");var f=[];e=()=>{var k=new lb;f.push(k.promise);return k.resolve}; if(Q(fa)){var l=pb();if(l!=null){let k=e();l.then(()=>{g("&sbtr=1");k()})}}if(M.ebtrg&&(b||!M.eppbtr)){let k=e(),v=y=>{y&&g(`&dett=${y}`);k()},u=q.document;l=M.ebtro;let x=qb(l),B=(l??0)&32?hb:gb;l&&l&1?B(u.body,v,x):sa(u,()=>{B(u.body,v,x)})}if(c&&d?.webkit?.messageHandlers?.getGmaViewSignals){let k=e();kb(d.webkit.messageHandlers.getGmaViewSignals,{},v=>{Q(H)||g("&"+v);k()},()=>{k()},200,Za,$a)}ob(()=>a,f);if(b)if(M.ebtrg)ob(()=>b||"",f);else{var m=q.document;c=M.ebtro;var p=qb(c),h=(c??0)&32?hb: gb;d=()=>{h(m.body,k=>{k!==void 0&&b&&!M.rcsbtr&&(b=J(b,`&dett=${k}`));ob(()=>b||"",f)},p)};c&&c&1?d():sa(m,d)}};}).call(this);</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsuU4bBpjjzAjs4YQbqZV7oHsxGLTygkqWUKw1Go3ZArR0HLPDmufIJ02sSMXx_YA78-klooIsubCu9Lz3rQycn1eAoQ4B8RNSiFUR5BY5M1ylvmxxWQQ5MiKQhuwW7MBBE-RfBXT1b4KfgeFB_RH72il_4ehJcs5Hh_jXXrijLrh_Zu60glePPrishlftLFNpwGiB5yQ7649jtCopsYZBT7g-dvRsF5ILYHU52kd2ZWyEeRFz4YC9V5d1iry5UWs9L-UyZkZu3_lzSdooj2TqGhL7CdjzfitxfJ7OKMEObtWTtqBBYqAkjjBH1kqo8WMhQ4i9vzbY4WQaaeLBdM8F2bbWu1eCxitdkfDwfXr88VihM5oOyjiXYW2OW40KGxewiutWOG6GPalg5Mj2U5s_WVEbwLvb3wBSBNSaXbljGWO0IY6OY75BtmLP-DS9v3ieCzfKN8nsnbRW2Z2IAu7TjoKIr_X9xg3RPQmjU13n5zIfA5Z2U-MRkHuXxHEhWUuy7MDEhvL3VbJUhjkw\x26sai\x3dAMfl-YSAiVAqvteXZoVKsXTVtTpFqtFVhcMLNeUW72ZAMhJ9WRLaMMq3eGx7gVuSIPD3-WFXmB3x53oQwsbp-geOgd1_eeO6txhVWoyV1LwHAxl_rfSchSjuuhCo0kDE16LoiEoq4MXuVnJKYArfGFLidbdN42jPwQpAluA5YM-15ZjfEkYCnoZRlW2BQXAcUq8Wr5YzgbyQ1mpIdo9KniwvvmNdjOT6ok-CwEgDXrFlPossnoc\x26sig\x3dCg0ArKJSzPe6ILh0N8i4EAE\x26uach_m\x3d%5BUACH%5D\x26urlfix\x3d1\x26adurl\x3d")</script><style>div{margin:0;padding:0;}.abgc{display:block;height:15px;position:absolute;right:17px;top:1px;text-rendering:geometricPrecision;z-index:2147483646;}.abgb{display:inline-block;height:15px;}.abgc,.jar .abgc,.jar .cbb{opacity:1;}.abgc{cursor:pointer;}.cbb{cursor:pointer;height:15px;width:15px;z-index:2147483646;background-color:#ffffff;opacity:0;}.cbb svg{position:absolute;top:0;right:0;height:15px;width:15px;stroke:;fill:#00aecd;stroke-width:1.25;}.cbb:hover{cursor:pointer;}.abgb{position:absolute;right:0px;top:0px;}.cbb{position:absolute;right:1px;top:1px;}.abgs{display:none;height:100%;}.abgl{text-decoration:none;}.abgs svg,.abgb svg{display:inline-block;height:15px;width:auto;vertical-align:top;}.abgc .il-wrap{background-color:#ffffff;height:15px;white-space:nowrap;}.abgc .il-wrap.exp{border-bottom-left-radius:5px;}.abgc .il-text,.abgc .il-icon{display:inline-block;}.abgc .il-text{padding-right:1px;padding-left:5px;height:15px;width:72px;}.abgc .il-icon{height:15px;width:15px;}.abgc .il-text svg{fill:#000000;}.abgc .il-icon svg{fill:#00aecd}</style><div id="abgc" class="abgc" dir="ltr"><div id="abgb" class="abgb"><div class="il-wrap"><div class="il-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"><path fill="#fff" d="M0 0h15v15H0z"></path><circle cx="6" cy="6" r=".67"></circle><path d="M4.2 11.3q-.9.5-.9-.55V4.1q0-1 1-.6L10.4 7q1.6.5 0 1l-3.75 2V7.75a.65.65 0 1 0-1.3 0v3a.9.9 0 0 0 1.3.8L12.7 8.2q1-.7 0-1.5L3.3 1.6q-1.1-.3-1.5.9v10q.4 1.4 1.5.8l1.5-.8a.3.3 0 1 0-.6-1.2"></path></svg></div></div></div><div id="abgs" class="abgs"><a id="abgl" class="abgl" href="https://adssettings.google.com/whythisad?source=display&amp;reasons=AQSQ1KPZ6AJIbI4pbz1_HuV0jtg8kM9US2LSezvnBgNJAf52ji9cg34GiACYjJZDaqkYjHR8eqAOME5FHnSR3DoQ0m_2yrJhLzlkkgbrj3vULua9QoWEsygqZODTY8kVny2NNlDDFkOXvGOGLtVOMv_SaNqdwhPmbPRQdTY--wKQhXxXk1bXaarmrkR_c9votdxXfz_fEz6jzor0_4rp0tV8FaVvOArq3pPRTIlStFqBu-rc7KLaWTO67BrJoj6sz-SZagYDHYnj32uidAfxKUi0HMbgQSfeCZJl0q1nSka6zk1IIFtfYsAkquzJU9PHxJ3_dRKi9Onsh_g0vfSvwZsCTVA6fU3dq5evTkuF1RrR_Scvnu9v5KU-1gx_hDZd1HdYTi8Jg1dNMxvMDO736WQvjGBeRuO3ebpkPgrWArLlkutPwca587IlqALPvg_Km35bE9U598UUeMngK-ZIQot5M8NPaPe62k4oVbqtED3S5jggL9p7P7B7LqarMkEhblOqvj2wuOxG9JxKCFcQzANlWaEbQJhWYy528Z2F5xtUWLRDjcB_GvtLAH0GWnKeVsnQTf5xlia_bgh5gQbgKh8MT0BuQEYbt7_545rvidPpclX0lpwFPZAD_br8HvM6Gwkv36xysxOpjkzD3nVXM4qbz3S3i1HLU7cbk7VRrjHKpA06KbvYQdKi1AhOy4LMB0T42XXkosihEP0Lh6eZ9poOpg1-J53Ur2JL2ydkeVJr2FBweQ2WJ4sHf8_3Jh_esaw2s2xjovNwcnuQveR3mghtJNh6Lqr_A88qzPpTw00TDYu0NqE9dHCZl5b1M9fd9_f67O0lJrGtUExU77WR2e05KK03TC9ZMqMHuiUz1hOyhkB9hSoDySxJzEU4CsgCflabjh3HNWMN0VCGFo-je13tat3SAQgwB5fYkHS3qYqGOaxzFvvaHwEb1NK70uyiLkYyEgA2qz9J1RHODJheidMdc4n2h0wL9DCKoiow-gOSQ6YFbqFkbgV6Uaqpuju3IfRR021uN7uxz4mYJE-rXMW9QyRphQzJpWA-EVbB0daVJoKI-vyyl6Qk0B8iLo8S6cKbjcw0iNi8Hg6GjdWKloocZ-4fC1gWwQbKQI8JLEyVh-VgEwEf5XJSjxWlIHau8iyo37vbPQ_TnGsQGvKS0FO9GWrpSderDzeMoGKfxzAePWwWRuvijq9mRh_VdcTHa6VYgBn2NsMOirtiAK2SBQiYqdS8lkPLAY72DWLdPXJmFg2wAFPCQBsw-1CO7bDL5yp-jLkHZWQnxewXtqYcNa1bOyCHyYJUjOdIWCtFkubmKr5DYBJeozEiGtHXJNDsaC-m5R5OiqtwtVLQLk0R2E8lGEaGql-yn_vCtOEYN-AcLgbRz8pTxq66bLYY-PnFTE9bK7ggunO2iy9ktmb3c5MvLO7iQ5tMMosPvnNHjzqgfcYvG_3OLmuRW4JgSIE3e6qrN1qO5CF37MLzCVCuM5ezcUtqr706Wx7cGoe3nc1QVxTlTUE1g8WZusWSOi83a3oWnprqD4GSzadJoqAn2lSFzOjW8emC8tMkhB9BX6A5DCtnySrpwiX8GXRaCZQXkDwFKIZtBmhzGAbg5A5Yjg&amp;opi=122715837" target="_blank"><div class="il-wrap exp"><div class="il-text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 16"><path d="m7.07 9.81 1.13.29q-.38 1.45-1.31 2.16-.94.71-2.24.71-2.11 0-3.08-1.32-.96-1.32-.96-3.18 0-2.05 1.13-3.22 1.14-1.16 2.92-1.16 1.25 0 2.14.64T8.05 6.6l-1.11.26q-.28-.9-.86-1.35-.57-.45-1.43-.45-1.41 0-2.14.93-.72.92-.72 2.47 0 1.79.76 2.67.77.87 2 .87 1 0 1.63-.54.63-.55.89-1.65m7.48-.92v3.94h-1.06V8.9q0-.76-.33-1.14t-.98-.38q-.64 0-1.15.45-.51.44-.51 1.6v3.4H9.47V4.24h1.05v3.08q.75-.85 1.88-.85.6 0 1.15.24.55.25.78.76.22.51.22 1.42m4.12-2.42q1.26 0 2.09.82t.83 2.33q0 1.84-.89 2.59-.9.76-2.03.76-1.17 0-2.04-.78t-.87-2.47q0-1.64.84-2.45.84-.8 2.07-.8m0 5.64q.91 0 1.37-.67.47-.67.47-1.76 0-1.17-.53-1.76t-1.31-.59q-.8 0-1.31.6-.52.6-.52 1.79 0 1.18.52 1.78.53.61 1.31.61m5.2-5.5v6.22h-1.05V6.61zm0-2.37v1.19h-1.05V4.24zm6.11 3.97-1.03.14q-.07-.51-.41-.77-.34-.25-.95-.25t-.98.21q-.37.2-.37.59 0 .37.29.53.3.16 1.17.39.99.25 1.48.44.49.2.76.54.27.35.27.97 0 .84-.68 1.4-.68.57-1.82.57-1.18 0-1.84-.5-.67-.5-.82-1.5l1.05-.16q.08.65.48.97.4.33 1.12.33.69 0 1.06-.29t.37-.71q0-.28-.17-.45t-.42-.26q-.26-.08-1.15-.3-1.32-.31-1.75-.77-.42-.45-.42-1.07 0-.78.62-1.29.62-.5 1.67-.5 1.11 0 1.73.44.62.43.74 1.3m2.56-1.6v6.22h-1.06V6.61zm0-2.37v1.19h-1.06V4.24zM37.5 6.8l-.36.98q-.4-.23-.77-.23-.59 0-.9.53-.3.53-.3 1.48v3.27h-1.06V6.61h.96v.94h.03q.5-1.08 1.32-1.08.54 0 1.08.33m8.48 1.41-1.03.14q-.07-.51-.42-.77-.34-.25-.95-.25-.6 0-.97.21-.38.2-.38.59 0 .37.3.53t1.17.39q.98.25 1.47.44.49.2.76.54.28.35.28.97 0 .84-.68 1.4-.68.57-1.82.57-1.18 0-1.85-.5-.66-.5-.82-1.5l1.05-.16q.09.65.49.97.4.33 1.12.33.69 0 1.06-.29t.37-.71q0-.28-.17-.45t-.43-.26q-.25-.08-1.14-.3-1.33-.31-1.75-.77-.43-.45-.43-1.07 0-.78.63-1.29.62-.5 1.67-.5 1.11 0 1.73.44.62.43.74 1.3m6.89 4.62h-1.11q-.15-.3-.22-.77-1.06.91-2.29.91-.98 0-1.55-.49t-.57-1.3q0-.77.55-1.27.55-.51 1.9-.67l.99-.15q.55-.08.9-.21 0-.48-.02-.67-.03-.2-.18-.41-.14-.21-.46-.34-.31-.13-.85-.13-.68 0-1.07.25-.4.25-.54.94l-1.04-.14q.17-.95.88-1.43.7-.48 1.93-.48 1.12 0 1.64.33.53.33.65.8t.12 1.21v1.41q0 1.3.05 1.74t.29.87m-1.4-2.74v-.38q-.82.27-2.02.44-1.19.16-1.19 1.01 0 .42.32.7t.93.28q.78 0 1.37-.47.59-.46.59-1.58m6.99-2.68h.02q.59-.94 1.78-.94 1.22 0 1.93.89.71.88.71 2.31 0 1.52-.78 2.41-.79.89-1.93.89-1 0-1.61-.79h-.03v3.04H57.5V6.61h.96zm1.66 4.7q.74 0 1.22-.62.48-.61.48-1.82 0-1.14-.46-1.76-.47-.62-1.2-.62-.75 0-1.23.69t-.48 1.78q0 1.15.46 1.75t1.21.6m9.08-5.5v6.22h-.94v-.92h-.03q-.72 1.06-1.95 1.06-.65 0-1.21-.3-.55-.3-.74-.83-.18-.53-.18-1.38V6.61h1.05v3.44q0 .83.08 1.19t.42.59q.33.23.79.23.6 0 1.13-.41.52-.42.52-1.72V6.61zm2.69.7h.03q.58-.84 1.67-.84 1.2 0 1.93.87.72.87.72 2.28 0 1.62-.81 2.49-.8.86-1.88.86-1.1 0-1.71-.92h-.02v.78h-.99V4.24h1.06zm1.57 4.8q.74 0 1.21-.63.48-.63.48-1.77 0-1.1-.44-1.74t-1.21-.64q-.76 0-1.23.66-.46.66-.46 1.68 0 .99.19 1.41t.58.72q.39.31.88.31"></path></svg></div><div class="il-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"><path fill="#fff" d="M0 0h15v15H0z"></path><circle cx="6" cy="6" r=".67"></circle><path d="M4.2 11.3q-.9.5-.9-.55V4.1q0-1 1-.6L10.4 7q1.6.5 0 1l-3.75 2V7.75a.65.65 0 1 0-1.3 0v3a.9.9 0 0 0 1.3.8L12.7 8.2q1-.7 0-1.5L3.3 1.6q-1.1-.3-1.5.9v10q.4 1.4 1.5.8l1.5-.8a.3.3 0 1 0-.6-1.2"></path></svg></div></div></a></div></div><div id="cbb" class="cbb" tabindex="0" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 15 15"><g clip-path="url(#clip0_2157_481)"><path fill="#fff" d="M15 0v15H0V0z"></path><path fill="#fff" d="M15 0v15H0V0z"></path><circle cx="7.5" cy="11.5" r="1.5" fill="#00aecd" transform="rotate(-180 7.5 11.5)"></circle><circle cx="7.5" cy="7.5" r="1.5" fill="#00aecd" transform="rotate(-180 7.5 7.5)"></circle><circle cx="7.5" cy="3.5" r="1.5" fill="#00aecd" transform="rotate(-180 7.5 3.5)"></circle></g><defs><clipPath id="clip0_2157_481"><path fill="#fff" d="M15 0v15H0V0z"></path></clipPath></defs></svg></div><style>.mute_panel{z-index:2147483646;}.abgac{position:absolute;left:0px;top:0px;z-index:2147483646;display:none;width:100%;height:100%;background-color:#FAFAFA;}.mlsc{height:100%;display:flex;justify-content:center;align-items:center;}.mls{animation:mlskf 2s linear infinite;height:50%;width:50%;}.mlsd{stroke-dasharray:1,189;stroke-dashoffset:0;animation:mlsdkf 1.4s ease-in-out infinite;}@keyframes mlskf{100%{transform:rotate(360deg);}}@keyframes mlsdkf{0%{stroke-dasharray:1,189;stroke-dashoffset:0;}50%{stroke-dasharray:134,189;stroke-dashoffset:-53px;}100%{stroke-dasharray:134,189;stroke-dashoffset:-188px;}}</style><div id="mute_panel" class="mute_panel" aria-hidden="true"><div id="abgac" class="abgac" aria-hidden="true"><div id="mlsc" class="mlsc"><svg class="mls" viewBox="50 50 100 100"><circle class="mlsd" cx="100" cy="100" r="30" fill="none" stroke="#9E9E9E" stroke-width="3"></circle></svg></div></div></div><script data-jc="60" src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/f_002_1tJk.txt" async="" data-jc-version="r20261028" data-jcp-attribution-data="[[null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/x_blue.png&quot;,null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/x_blue.png&quot;,&quot;https://googleads.g.doubleclick.net/pagead/interaction/?ai=BlJV89e7iardA1Y71-A_4jNXhBsie8txHAAAAEAEg6fXTMTgBWN-h-bSEBGD7gYCAiAqyAQ53d3cubGVtb25kZS5mcroBCWdmcF9pbWFnZcgBCdoBY2h0dHBzOi8vd3d3LmxlbW9uZGUuZnIvY3VsdHVyZS9hcnRpY2xlLzIwMTIvMDcvMDUvdG9sa2llbi1sLWFubmVhdS1kZS1sYS1kaXNjb3JkZV8xNzI5ODU4XzMyNDYuaHRtbJgCoB-pAjSXqHgltLI-wAIC4AIA6gI8LzEyODEzOTg4MS9sbV9sZW1vbmRlL2N1bHR1cmUvY3VsdHVyZS9hcnRpY2xlL2Jhbm5pZXJlX2hhdXRl-AKF0h6QA4wGmAOMBqgDAeAEAdIFBhDOovfmG5AGAaAGH6gHuL6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB6nrsQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA4AcP0gg4CIDhgBAQARidATIJqoKAgICAoIgBOhGAwAOAgISAgJSu4AOoh4CYAUi9_cE6WJOgxtXT3pcDYAHYCAKACgWYCwGADAGqDQJGUtoNEwjF3tfV096XAxVVRx0JHXhGNWzqDRMI87rK1dPelwMVVUcdCR14RjVs0BUB-BYBgBcBshkBNQ\u0026sigh=GICtxGgS5yA\u0026cid=CAQSjgEAQM4h3OCSAa1aHBiy9ZWoMBOyYbhxqFuTVP4hz45ZLLjTe95phR5lVmPCDPPzdTkubXSK8_WkMsFoJwayiK7J-6X6B5Q2c_k4zUuoNutNR6G9DxD3pyU_ksmpGao_g85Ps4iRsEboR9fhQ1g_watmLDiz2ncbpHvHjSsfXcjg4Ks51jsA5dKNcD63BqA7&quot;,&quot;GnIGETPHBgAIABDWncTfDxgAIgBCF2NhLXB1Yi0zMjUwOTM1NjAzMDU0MzMxSAJYH2Ch3dcFcAG4Ad-h-bSEBNoBEwj3jsjV096XAxVVRx0JHXhGNWw&quot;,[&quot;user_feedback_menu_interaction&quot;,&quot;&quot;,0],null,null,null,null,&quot;Qu'est-ce qui ne vous convenait pas dans l'annonce&nbsp;?&quot;,null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/back_blue.png&quot;,&quot;Merci de vos commentaires.&quot;,&quot;Nous examinerons cette annonce afin d'améliorer l'expérience utilisateur à l'avenir.&quot;,&quot;Merci de vos commentaires.&quot;,&quot;Nous utilisons vos commentaires pour évaluer les annonces sur ce site.&quot;,null,null,null,&quot;Fermeture de l'annonce en cours&nbsp;: %1$d&quot;,null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/ad_choices_blue.png&quot;,&quot;https://www.google.com/url?ct=abg\u0026q=https://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttps://www.lemonde.fr/culture/article/2012/07/05/tolkien-l-anneau-de-la-discorde_1729858_3246.html%26gl%3DFR%26hl%3Dfr%26client%3Dca-pub-3250935603054331%26ai0%3DBlJV89e7iardA1Y71-A_4jNXhBsie8txHAAAAEAEg6fXTMTgBWN-h-bSEBGD7gYCAiAqyAQ53d3cubGVtb25kZS5mcroBCWdmcF9pbWFnZcgBCdoBY2h0dHBzOi8vd3d3LmxlbW9uZGUuZnIvY3VsdHVyZS9hcnRpY2xlLzIwMTIvMDcvMDUvdG9sa2llbi1sLWFubmVhdS1kZS1sYS1kaXNjb3JkZV8xNzI5ODU4XzMyNDYuaHRtbJgCoB-pAjSXqHgltLI-wAIC4AIA6gI8LzEyODEzOTg4MS9sbV9sZW1vbmRlL2N1bHR1cmUvY3VsdHVyZS9hcnRpY2xlL2Jhbm5pZXJlX2hhdXRl-AKF0h6QA4wGmAOMBqgDAeAEAdIFBhDOovfmG5AGAaAGH6gHuL6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB6nrsQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA4AcP0gg4CIDhgBAQARidATIJqoKAgICAoIgBOhGAwAOAgISAgJSu4AOoh4CYAUi9_cE6WJOgxtXT3pcDYAHYCAKACgWYCwGADAGqDQJGUtoNEwjF3tfV096XAxVVRx0JHXhGNWzqDRMI87rK1dPelwMVVUcdCR14RjVs0BUB-BYBgBcBshkBNQ\u0026usg=AOvVaw3CUHyf7iEjM1vmKqYRnwLV&quot;,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/x_blue.png&quot;,0,[[&quot;Envoyer un commentaire&quot;,[&quot;user_feedback_menu_option&quot;,&quot;1&quot;,1],[&quot;Qu'est-ce qui ne vous convenait pas dans l'annonce&nbsp;?&quot;,[[&quot;Annonce affichée trop souvent&quot;,[&quot;mute_survey_option&quot;,&quot;2&quot;,1]],[&quot;Annonce inappropriée&quot;,[&quot;mute_survey_option&quot;,&quot;8&quot;,1]],[&quot;Contenu masqué&quot;,[&quot;mute_survey_option&quot;,&quot;3&quot;,1]],[&quot;Annonce inintéressante&quot;,[&quot;mute_survey_option&quot;,&quot;7&quot;,1]]]],[&quot;user_feedback_undo&quot;,&quot;1&quot;,1]]],[&quot;https://googleads.g.doubleclick.net/pagead/images/adchoices/iconx2-000000.png&quot;,&quot;Choisir sa pub&quot;,&quot;Annonce fermée par %1$s&quot;,null,&quot;https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_dark_color_84x28dp.png&quot;,&quot;Envoyer un commentaire&quot;,&quot;Merci. Vos commentaires nous permettent d'améliorer les annonces Google&quot;,null,null,null,null,null,null,&quot;Afficher mes paramètres relatifs aux annonces Google&quot;,null,&quot;https://www.gstatic.com&quot;,&quot;&quot;,&quot;Annonce diffusée par %1$s&quot;,&quot;Paramètres des annonces&quot;,&quot;https://adssettings.google.com&quot;,null,null,null,0,null,null,null,0,1],&quot;AJdnK60AAAWpW1tbW10sW251bGwsImh0dHBzOi8vZ29vZ2xlYWRzLmcuZG91YmxlY2xpY2submV0L3BhZ2VhZC9pbnRlcmFjdGlvbi8_YWk9QmxKVjg5ZTdpYXJkQTFZNzEtQV80ak5YaEJzaWU4dHhIQUFBQUVBRWc2ZlhUTVRnQldOLWgtYlNFQkdEN2dZQ0FpQXF5QVE1M2QzY3ViR1Z0YjI1a1pTNW1jcm9CQ1dkbWNGOXBiV0ZuWmNnQkNkb0JZMmgwZEhCek9pOHZkM2QzTG14bGJXOXVaR1V1Wm5JdlkzVnNkSFZ5WlM5aGNuUnBZMnhsTHpJd01USXZNRGN2TURVdmRHOXNhMmxsYmkxc0xXRnVibVZoZFMxa1pTMXNZUzFrYVhOamIzSmtaVjh4TnpJNU9EVTRYek15TkRZdWFIUnRiSmdDb0ItcEFqU1hxSGdsdExJLXdBSUM0QUlBNmdJOEx6RXlPREV6T1RnNE1TOXNiVjlzWlcxdmJtUmxMMk4xYkhSMWNtVXZZM1ZzZEhWeVpTOWhjblJwWTJ4bEwySmhibTVwWlhKbFgyaGhkWFJsLUFLRjBoNlFBNHdHbUFPTUJxZ0RBZUFFQWRJRkJoRE9vdmZtRzVBR0FhQUdINmdIdUw2eEFxZ0g4OUVicUFlVzJCdW9CNnFic1FLb0JfN29zUUtvQjZucnNRS29CNW9HcUFmX25yRUNxQWZmbjdFQ3FBZjR3ckVDcUFmN3dyRUNxQWZuMTdFQzJBY0E0QWNQMGdnNENJRGhnQkFRQVJpZEFUSUpxb0tBZ0lDQW9JZ0JPaEdBd0FPQWdJU0FnSlN1NEFPb2g0Q1lBVWk5X2NFNldKT2d4dFhUM3BjRFlBSFlDQUtBQ2dXWUN3R0FEQUdxRFFKR1V0b05Fd2pGM3RmVjA5NlhBeFZWUngwSkhYaEdOV3pxRFJNSTg3cksxZFBlbHdNVlZVY2RDUjE0UmpWczBCVUItQllCZ0JjQnNoa0JOUVx1MDAyNnNpZ2g9R0lDdHhHZ1M1eUFcdTAwMjZjaWQ9Q0FRU2pnRUFRTTRoM09DU0FhMWFIQml5OVpXb01CT3lZYmh4cUZ1VFZQNGh6NDVaTExqVGU5NXBoUjVsVm1QQ0RQUHpkVGt1YlhTSzhfV2tNc0ZvSndheWlLN0otNlg2QjVRMmNfazR6VXVvTnV0TlI2RzlEeEQzcHlVX2tzbXBHYW9fZzg1UHM0aVJzRWJvUjlmaFExZ193YXRtTERpejJuY2JwSHZIalNzZlhjamc0S3M1MWpzQTVkS05jRDYzQnFBNyIsbnVsbCxudWxsLG51bGwsMSwiR25JR0VUUEhCZ0FJQUJEV25jVGZEeGdBSWdCQ0YyTmhMWEIxWWkwek1qVXdPVE0xTmpBek1EVTBNek14U0FKWUgyQ2gzZGNGY0FHNEFkLWgtYlNFQk5vQkV3ajNqc2pWMDk2WEF4VlZSeDBKSFhoR05XdyIsIjQyMjY4NzkxOTAiXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIjEzODYyMzczMzk4MyIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCwiQ2haaVJGWkhaVUZyWkZJeFZuRTBkVGN4UVVGQlowNTNFZ2hmUTBKSGJteEVaZyIsbnVsbCxudWxsLG51bGwsNV1dLFsxLDEsMSwxLDEsbnVsbCxudWxsLG51bGwsbnVsbCw1LDEsbnVsbCxmYWxzZV0sW251bGwsbnVsbCwiRlIiXSxudWxsLG51bGwsWzEyMjcxNTgzN11dOM81hmNuI4pJ9MKMXpNWZAvIMGIVK7MDJMmbzLp0QEGUAOqZFBRAc0jT067eVPijLxAckpWiyIcmUbdrzHzJrwgN5YDryixqGHYpp86hL9nT08tZVc4_VkF8KW42kfL34TIy-zJqa8IzLyP1GN9P1h2wUX-_xKpWjU1Xx5ndBOMzIDs3aXvzzt_5gEuFKSdXsD1R4tOWkImPbDk4DiwPYRxvT-uqrA5Pa8AZ7WOPO9nNjv8ZGxuXCjbGThFOmGmD6GiZi8EPJmvR56oZXJDcFwSo5Oqilmd0vHrl2eHd1btHuHdtTS6bAj9SLxoJfFbZi51Y954wjzk86iLTRI6K5g,EPAIYKCytbUj6iUdh0zuNw&quot;,&quot;https://adssettings.google.com/whythisad?source=display\u0026reasons=AQSQ1KPZ6AJIbI4pbz1_HuV0jtg8kM9US2LSezvnBgNJAf52ji9cg34GiACYjJZDaqkYjHR8eqAOME5FHnSR3DoQ0m_2yrJhLzlkkgbrj3vULua9QoWEsygqZODTY8kVny2NNlDDFkOXvGOGLtVOMv_SaNqdwhPmbPRQdTY--wKQhXxXk1bXaarmrkR_c9votdxXfz_fEz6jzor0_4rp0tV8FaVvOArq3pPRTIlStFqBu-rc7KLaWTO67BrJoj6sz-SZagYDHYnj32uidAfxKUi0HMbgQSfeCZJl0q1nSka6zk1IIFtfYsAkquzJU9PHxJ3_dRKi9Onsh_g0vfSvwZsCTVA6fU3dq5evTkuF1RrR_Scvnu9v5KU-1gx_hDZd1HdYTi8Jg1dNMxvMDO736WQvjGBeRuO3ebpkPgrWArLlkutPwca587IlqALPvg_Km35bE9U598UUeMngK-ZIQot5M8NPaPe62k4oVbqtED3S5jggL9p7P7B7LqarMkEhblOqvj2wuOxG9JxKCFcQzANlWaEbQJhWYy528Z2F5xtUWLRDjcB_GvtLAH0GWnKeVsnQTf5xlia_bgh5gQbgKh8MT0BuQEYbt7_545rvidPpclX0lpwFPZAD_br8HvM6Gwkv36xysxOpjkzD3nVXM4qbz3S3i1HLU7cbk7VRrjHKpA06KbvYQdKi1AhOy4LMB0T42XXkosihEP0Lh6eZ9poOpg1-J53Ur2JL2ydkeVJr2FBweQ2WJ4sHf8_3Jh_esaw2s2xjovNwcnuQveR3mghtJNh6Lqr_A88qzPpTw00TDYu0NqE9dHCZl5b1M9fd9_f67O0lJrGtUExU77WR2e05KK03TC9ZMqMHuiUz1hOyhkB9hSoDySxJzEU4CsgCflabjh3HNWMN0VCGFo-je13tat3SAQgwB5fYkHS3qYqGOaxzFvvaHwEb1NK70uyiLkYyEgA2qz9J1RHODJheidMdc4n2h0wL9DCKoiow-gOSQ6YFbqFkbgV6Uaqpuju3IfRR021uN7uxz4mYJE-rXMW9QyRphQzJpWA-EVbB0daVJoKI-vyyl6Qk0B8iLo8S6cKbjcw0iNi8Hg6GjdWKloocZ-4fC1gWwQbKQI8JLEyVh-VgEwEf5XJSjxWlIHau8iyo37vbPQ_TnGsQGvKS0FO9GWrpSderDzeMoGKfxzAePWwWRuvijq9mRh_VdcTHa6VYgBn2NsMOirtiAK2SBQiYqdS8lkPLAY72DWLdPXJmFg2wAFPCQBsw-1CO7bDL5yp-jLkHZWQnxewXtqYcNa1bOyCHyYJUjOdIWCtFkubmKr5DYBJeozEiGtHXJNDsaC-m5R5OiqtwtVLQLk0R2E8lGEaGql-yn_vCtOEYN-AcLgbRz8pTxq66bLYY-PnFTE9bK7ggunO2iy9ktmb3c5MvLO7iQ5tMMosPvnNHjzqgfcYvG_3OLmuRW4JgSIE3e6qrN1qO5CF37MLzCVCuM5ezcUtqr706Wx7cGoe3nc1QVxTlTUE1g8WZusWSOi83a3oWnprqD4GSzadJoqAn2lSFzOjW8emC8tMkhB9BX6A5DCtnySrpwiX8GXRaCZQXkDwFKIZtBmhzGAbg5A5Yjg\u0026opi=122715837&quot;,&quot;Pourquoi cette annonce&nbsp;?&quot;,1,0],null,null,0,null,0,0,1,0,0,0,0,0,0,0,null,0,1,0,null,[[&quot;post_click_menu_height_when_bottom_anchor_on_mobile&quot;,&quot;150&quot;],[&quot;show_ad_after_mute&quot;,&quot;true&quot;],[&quot;jake_ui_extension&quot;,&quot;jake_default_ui&quot;],[&quot;mute_survey_version&quot;,&quot;mute_panel&quot;],[&quot;survey_panel_version&quot;,&quot;survey_panel&quot;],[&quot;attribution_close_button_size&quot;,&quot;15&quot;],[&quot;survey_panel_enable_arrow_padding&quot;,&quot;false&quot;],[&quot;attribution_close_button_use_rounded_square&quot;,&quot;false&quot;]],1000,1800,0,null,null,0,null,null,&quot;right&quot;,0,null,&quot;r20261028/r20110914&quot;,null,0,null,0,null,0]"></script><div class="GoogleActiveViewInnerContainer" id="avic_CPeOyNXT3pcDFVVHHQkdeEY1bA" style="left:0px;top:0px;width:100%;height:100%;position:fixed;pointer-events:none;z-index:-9999;"></div><div style="display:inline" class="GoogleActiveViewElement" data-google-av-cxn="https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsslihG9u6cTzcy_J1uYJm1QxqVzeQedARBszDN1G5CbPkP0veyrPyGyuGWJ_0MaivJdTUJatEF3QMevee8dos6pnNZFKaWtPB4-4r2MzBsLafJv4-YoGFkK84q1kjhlHSvLngtcVGRVGyMqThww_F3bO7Ua7fVcqe5M-1eZvSYLanLQdoILwc-cFRmIvMgcv-Ra&amp;sig=Cg0ArKJSzPhkGKBlMuYZEAE" data-google-av-adk="1358503704" data-google-av-metadata="la=1&amp;xdi=0&amp;mm=d&amp;" data-google-av-ufs-integrator-metadata="CgIYABKsAgqdAmh0dHBzOi8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGNzL2FjdGl2ZXZpZXc_eGFpPUFLQU9qc3NsaWhHOXU2Y1R6Y3lfSjF1WUptMVF4cVZ6ZVFlZEFSQnN6RE4xRzVDYlBrUDB2ZXlyUHlHeXVHV0pfME1haXZKZFRVSmF0RUYzUU1ldmVlOGRvczZwbk5aRkthV3RQQjQtNHIyTXpCc0xhZkp2NC1Zb0dGa0s4NHExa2pobEhTdkxuZ3RjVkdSVkd5TXFUaHd3X0YzYk83VWE3ZlZjcWU1TS0xZVp2U1lMYW5MUWRvSUx3Yy1jRlJtSXZNZ2N2LVJhJnNpZz1DZzBBcktKU3pQaGtHS0JsTXVZWkVBRRIAGgAgASgAMAQ4ABoeChpDUGVPeU5YVDNwY0RGVlZISFFrZGVFWTFiQRAF" data-google-av-override="-1" data-google-av-dm="2" data-google-av-aid="0" data-google-av-naid="1" data-google-av-slift="" data-google-av-cpmav="" =""data-google-av-itpl="19" data-google-av-rs="4" data-google-av-flags="[&quot;x%278440'9efotm(&amp;753374%2bejvf/%27844?'9wuvb$&amp;565327!=|vqc)!72028751'9efotm(&amp;2006545?&amp;&gt;`dopb/%&lt;1731052!=nehu`/!364=0234!9abk{a($16025?;4&amp;&lt;cbotf+*01531244%24($160113:3&amp;&lt;cbotf+*0153046;%2pvs`/!364&gt;7=73!9sqrm(&amp;2004521;&amp;&gt;`dopb/%&lt;1712702!=nehu`/!364?&lt;206!9abk{a($160?23?=&amp;&lt;cbotf+*015=1304%2bejvf/%72&lt;4346:!=efdwa*'76330:04$?wqrf+*01254132%2bejvf/%72&lt;60530!=wu}a($1675;0=3&amp;&lt;cbotf+*012635?1%2bejvf/%72&gt;06256!=efdwa*'76164&lt;71$?ebkpb$&amp;0336;2;&gt;*&gt;bgipf+!3=22705:%9aihwc)!7245:==7'9wuvb$&amp;0320;20&gt;*&gt;6{&quot;]" data-creative-load-listener="">
+<script>
+  var format = "Habillage 3 tranches v3.0_Madjaba_Edition";
+  console.log("Load: " + format);
+
+  // ───────────────────────────────────────────────────────────────────────────
+  // PARAMETRES CREA (variables GAM — identiques au template v2.8)
+  // ───────────────────────────────────────────────────────────────────────────
+  var skinParams = {
+    clickThroughUrl: "https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstrThvtp4ylfb3ANr3Yy7Xblre7DP068u6rBYkUBkR0Jz69cCL8D3n1nm0x0QdYKYqDmf7PerCpe2TFAW5Jh-EIzvC2RexZlaobdUPKgTyaT0-oe5rGVCGbR_O-Sco3_sFgZ5CsuG6Y8g36-bOyymHZO5h2dXqwf15YVVp-h-G5BTEAQ0lVX8itbxtySCFIY8PjpyUQ25-_ZZxjb360COWAFeOzznjWsK20ZYqeqw5rbIXEc8A2oltQn8PgtTWut9T8dRf5VJsy2RDk9Ilm-hUxMMdGtiu6m-piTBCc4rE7LkzGkdABBrKxnB0FhsA7RitXnQsfthHvtqwxbEYsVdLYp-l5yiYZI_bZWSoG3bfBlDR7SwbOQG2phYqJi0dqPW-3iruGkMGJetYa5uLPPRjyULYMQ5JS7Nob-1WEpbz3PYU9cP4JX20o2iDLarIHkOAz8TbtSE8jXVy5huPDZlH9-_6jXbDkxGTQi2A&sai=AMfl-YSFrhbX5LPcwrofH1oYMdquQJCAmsIVi6YCdiGmY3bjfl_KIMKp3lXM3I44-M8Bjkkw1Ix09EKqhK65W5nhE80Fp5rWeP0fduuuP4QXw086v9X_xE0jkirgcXvvSjwz2rrtMAI5IZDYDxtcmYI2J6TvMOyyRJW7aT_UwNDGy_wfEwpIF606WwTKCz0UbNcjhxUzgnAAwzDjThbujrEcMdG02G13-m2c7pGGbwNpojfPBpI&sig=Cg0ArKJSzCuvUxqx4glwEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.lemonde.fr/immersion-chez-gaud/article/2026/10/15/cent-ans-apres-gaud-la-casa-batllo-ne-cesse-de-se-reinventer_6794447_1022.html",
+    gap: parseInt("210", 10) || 0,
+    content: {
+      width: parseInt("1000", 10) || 1000,
+      gutter: parseInt("0", 10) || 0
+    },
+    image: {
+      source: "https://tpc.googlesyndication.com/simgad/17649421803449831608?",
+      width: parseInt("1800", 10) || 1800,
+      height: parseInt("1000", 10) || 1000,
+      backgroundColor: "#000" // unused (conservé pour compat)
+    },
+    fixed: "true" == "true",
+    scrollOffset: parseInt("0", 10) || 0,
+    thirdParty: {
+      imps: ["", "", "", "", ""],
+      clks: ["", "", ""]
+    }
+  };
+
+  // ───────────────────────────────────────────────────────────────────────────
+  // CONFIG PAR SITE — tout le comportement est ICI, plus de if/else éparpillés.
+  //  behavior.topRow  : "fixed" (reste épinglé sous le header) | "scroll"
+  //  behavior.gutters : "fixed" | "scroll" (défilent avec la page)
+  //  offset : hauteur du header PERSISTANT (replié) du site, en px ou fonction
+  //  insert : sélecteur du conteneur d'insertion (sinon parent de l'iframe)
+  //  hideAt : sélecteur d'une bannière basse → masque l'habillage à l'approche
+  //  hideTopAt : sélecteur d'un élément (ex. bannière basse) → masque l'ARCHE
+  //              seule tant que cet élément chevauche sa zone épinglée
+  //  contentWidth : largeur du bloc central du SITE si plus étroite que la zone
+  //                 centrale de la créa (ex. Le Monde 983px < 1000px) : l'arche
+  //                 est rognée symétriquement et les gouttières glissées sous le
+  //                 bord du contenu pour que rien ne dépasse
+  //  gapAdjust : ajustement (px) de la hauteur d'arche propre au site, ajouté à
+  //              la valeur de la créa (AdPlaceholderHeight). Optionnel.
+  // ───────────────────────────────────────────────────────────────────────────
+  var SITES = [
+    {
+      name: "nouvelobs",
+      match: /nouvelobs/,
+      insert: "#dfp-habillage, .banniere_haute_div",
+      // Comme Adnami : le bandeau haut reste dans la page (scrolle avec le
+      // contenu), les gouttières suivent le viewport, épinglées sous le header.
+      behavior: { topRow: "scroll", gutters: "fixed" },
+      offset: function (doc, host) {
+        if (/programme-tv/.test(host)) return 51;
+        if (/la-conjugaison/.test(host)) return 101;
+        return 80; // #header/.obs_header replié = 80px (mesuré, aligné Adnami)
+      }
+    },
+    {
+      name: "lemonde",
+      match: /lemonde/,
+      behavior: { topRow: "fixed", gutters: "fixed" },
+      // Bloc central Le Monde mesuré à 983px : on cale l'habillage sur 982px
+      // (bords intérieurs ~0,7px SOUS le contenu, aucun débord visible).
+      contentWidth: 982,
+      // La créa envoie 220 ; la hauteur visuelle validée sur le site est 210.
+      // Si la créa passe un jour à 210, mettre 0 (ou supprimer cette ligne).
+      gapAdjust: -10,
+      offset: function (doc) {
+        var nav = doc.querySelector(".Nav");
+        return nav ? nav.offsetHeight : 0;
+      }
+    },
+    {
+      name: "telerama",
+      match: /telerama/,
+      behavior: { topRow: "fixed", gutters: "fixed" },
+      // Plus de hideAt : #banniere_basse est rendue position:relative (bloc CSS
+      // telerama) et repasse donc au-dessus des gouttières par ordre DOM — comme
+      // le footer (relative z1). L'habillage reste affiché jusqu'en bas.
+      // hideTopAt : en fin de page (surtout les articles, courts), la bannière
+      // basse remonte jusque dans la zone de l'arche épinglée et la recouvrait ;
+      // on masque l'arche SEULE pendant le chevauchement réel (gouttières
+      // conservées, réapparition dès qu'on remonte).
+      hideTopAt: "#banniere_basse",
+      // Header persistant au scroll = .js-header-main-container (93px, fixed).
+      // (L'ancien calage bas de .header__category+25 épinglait ~95px trop bas.)
+      offset: function (doc) {
+        var h = doc.querySelector(".js-header-main-container, .header__main-container");
+        return h ? Math.round(h.getBoundingClientRect().height) : 93;
+      }
+    },
+    {
+      name: "courrierinternational",
+      match: /courrierinternational/,
+      behavior: { topRow: "fixed", gutters: "fixed" },
+      // Même logique que Télérama : plus de hideAt global. #banniere_basse et le
+      // footer sont rendus position:relative (bloc CSS courrier) pour repasser
+      // au-dessus des gouttières, et seule l'ARCHE se masque pendant un
+      // chevauchement réel avec la bannière basse.
+      hideTopAt: "#banniere_basse",
+      // Header persistant = #site-header (sticky, 84px mesurés).
+      offset: function (doc) {
+        var h = doc.querySelector("#site-header");
+        return h ? Math.round(h.getBoundingClientRect().height) : 84;
+      }
+    },
+    {
+      name: "huffingtonpost",
+      match: /huffingtonpost/,
+      behavior: { topRow: "fixed", gutters: "fixed" },
+      offset: 45
+    }
+  ];
+  var SITE_DEFAULT = { name: "default", behavior: { topRow: "fixed", gutters: "fixed" }, offset: 0 };
+
+  // ───────────────────────────────────────────────────────────────────────────
+  // OUTILS
+  // ───────────────────────────────────────────────────────────────────────────
+  function whichStyle(_siteDomain) {
+    var styleDoms = document.getElementsByTagName("style");
+    for (var i = 0; i < styleDoms.length; i++) {
+      if (styleDoms[i].innerText.match(_siteDomain)) {
+        return styleDoms[i].innerText;
+      }
+    }
+    return "";
+  }
+
+  function removeElements(elems) {
+    elems = [].concat(elems);
+    for (var i = 0, l = elems.length; i < l; i++) {
+      if (elems[i] && elems[i].parentNode) {
+        elems[i].parentNode.removeChild(elems[i]);
+      }
+    }
+  }
+
+  function firePixels(urls) {
+    for (var i = 0; i < urls.length; i++) {
+      if (urls[i] != "") {
+        var img = document.createElement("img");
+        img.setAttribute("src", urls[i]);
+      }
+    }
+  }
+
+  // ───────────────────────────────────────────────────────────────────────────
+  // INIT
+  // ───────────────────────────────────────────────────────────────────────────
+  function init() {
+    var top = window.top;
+    var doc = top.document;
+    var frame = window.frameElement;
+
+    // Nettoyage d'un habillage précédent (même clé globale que v2.8)
+    if (typeof top.leaderboardSkin !== "undefined") {
+      removeElements(top.leaderboardSkin);
+    }
+
+    var siteDomain = top.location.hostname.toString().toLowerCase();
+    var site = SITE_DEFAULT;
+    for (var i = 0; i < SITES.length; i++) {
+      if (SITES[i].match.test(siteDomain)) { site = SITES[i]; break; }
+    }
+    console.log("Madlab site detected : " + siteDomain + " → config: " + site.name);
+
+    var offset = (typeof site.offset === "function") ? site.offset(doc, siteDomain, frame) : site.offset;
+    offset = offset || 0;
+    var effOffset = offset - skinParams.scrollOffset;
+
+    // Si ScrollFixed=false : rien n'est épinglé, tout défile.
+    var behavior = skinParams.fixed ? site.behavior : { topRow: "scroll", gutters: "scroll" };
+
+    // ── Géométrie des 3 tranches (une seule image, découpée par background-position)
+    var imgW = skinParams.image.width;
+    var imgH = skinParams.image.height;
+    var contentW = skinParams.content.width;
+    var gs = skinParams.content.gutter;
+    var colFull = Math.round((imgW - contentW) / 2); // largeur totale d'un côté
+    var colW = colFull - gs;                          // largeur visible d'une gouttière
+    // Largeur centrale EFFECTIVE : celle du site si déclarée plus étroite que
+    // la créa (ex. Le Monde). PAS de rognage — le visuel est continu entre
+    // l'arche et le haut des gouttières, couper créerait un raccord visible.
+    // On met la créa à l'échelle EN LARGEUR seulement : fenêtre centrale
+    // = effContentW, artwork intact, gouttières toujours soudées à l'arche.
+    // Les hauteurs restent celles de la créa (pas de réduction verticale).
+    var effContentW = Math.min(site.contentWidth || contentW, contentW);
+    var s = effContentW / contentW;                   // 1 partout sauf site étroit
+    var r2 = function (x) { return Math.round(x * 100) / 100; };
+    var bgSize = r2(imgW * s) + "px " + imgH + "px";  // compression horizontale seulement
+    var gapS = r2(skinParams.gap + (site.gapAdjust || 0)); // hauteur créa + ajustement site
+    var colWS = r2(colW * s);                         // largeur gouttière à l'échelle
+    var imgHS = imgH;
+
+    console.log("Offset:", offset, "| effOffset:", effOffset, "| behavior:", behavior.topRow + "/" + behavior.gutters);
+    console.log("Image:", imgW + "x" + imgH, "| Content:", contentW, "| effectif:", effContentW, "| Gutter col:", colW);
+
+    // ── CSS
+    var css =
+      "body{overflow-x:hidden;}" +
+      ".main{padding-top:0px}" +
+      ".skinnerGap{display:none}" +
+      ".adBannerParent{position:relative;}" +
+      ".hab3-root{position:relative;width:100%;}" +
+      ".hab3-spacer{width:" + effContentW + "px;height:" + gapS + "px;margin:0 auto;}" +
+      ".hab3-top{position:absolute;top:0;left:50%;margin-left:-" + (effContentW / 2) + "px;" +
+        "width:" + effContentW + "px;height:" + gapS + "px;" +
+        "background:url(" + skinParams.image.source + ") no-repeat;" +
+        "background-position:" + (-r2(colFull * s)) + "px 0;background-size:" + bgSize + ";cursor:pointer;}" +
+      ".hab3-gutter{position:absolute;top:0;width:" + colWS + "px;height:" + imgHS + "px;" +
+        "background:url(" + skinParams.image.source + ") no-repeat;background-size:" + bgSize + ";cursor:pointer;}" +
+      ".hab3-gutter-left{right:50%;margin-right:" + (effContentW / 2) + "px;" +
+        "background-position:" + (-r2(gs * s)) + "px 0;}" +
+      ".hab3-gutter-right{left:50%;margin-left:" + (effContentW / 2) + "px;" +
+        "background-position:" + (-r2((imgW - colFull) * s)) + "px 0;}" +
+      ".hab3-pin-top .hab3-top{position:fixed;top:" + effOffset + "px;}" +
+      ".hab3-pin-gut .hab3-gutter{position:fixed;top:" + effOffset + "px;}" +
+      ".hab3-top-off .hab3-top{visibility:hidden;}" +
+      // Conteneurs pub du site (min-height / fond blanc) libérés pour épouser l'arche
+      ".hab3-release{min-height:0!important;height:auto!important;background:transparent!important;}" +
+      "#oop{display:none}" +
+      ".position_pub.banniere, .dfp_slot.banniere{display:none!important}" +
+      "#dfp-habillage{z-index:auto!important;}" +
+      ".ombrelle, #nav-section, .ombrelle+div{position:relative;}" +
+      ".site-gratuit #header-page{margin-bottom:0;}" +
+      "#habillagepub{position:relative;}";
+
+    css += whichStyle(siteDomain);
+
+    var styleEl = doc.createElement("style");
+    styleEl.type = "text/css";
+    styleEl.appendChild(doc.createTextNode(css));
+
+    // ── DOM : root > spacer (réserve l'espace, TOUJOURS dans le flux) + 3 tranches
+    var root = doc.createElement("div");
+    root.className = "hab3-root";
+    root.id = "leaderboardSkin";
+
+    var spacer = doc.createElement("div");
+    spacer.className = "hab3-spacer";
+
+    var topRow = doc.createElement("div");
+    topRow.className = "hab3-top";
+
+    var gutL = doc.createElement("div");
+    gutL.className = "hab3-gutter hab3-gutter-left";
+
+    var gutR = doc.createElement("div");
+    gutR.className = "hab3-gutter hab3-gutter-right";
+
+    root.appendChild(spacer);
+    root.appendChild(topRow);
+    root.appendChild(gutL);
+    root.appendChild(gutR);
+
+    top.leaderboardSkin = [root, styleEl];
+
+    // ── Clic (un seul handler pour les 3 tranches)
+    function onClick(event) {
+      if (event) event.stopPropagation();
+      firePixels(skinParams.thirdParty.clks);
+      window.open(skinParams.clickThroughUrl);
+    }
+    topRow.onclick = onClick;
+    gutL.onclick = onClick;
+    gutR.onclick = onClick;
+
+    // ── Insertion
+    var host = site.insert ? doc.querySelector(site.insert) : null;
+    if (host) {
+      host.insertBefore(root, host.firstChild);
+      host.insertBefore(styleEl, host.firstChild);
+    } else {
+      frame.parentNode.insertBefore(root, frame.nextSibling);
+      frame.parentNode.insertBefore(styleEl, frame.nextSibling);
+    }
+    frame.parentNode.className += " adBannerParent";
+    frame.setAttribute("class", "skinnerGap");
+
+    // ── Libère les conteneurs pub du site (min-height / fond blanc) qui
+    // entourent l'habillage, sans sélecteur par site. Garde-fou : on ne touche
+    // qu'aux ancêtres de la taille du slot, jamais aux gros blocs de la page.
+    function releaseAdContainers() {
+      // 1) Conteneur pub connu du site : libéré sans condition de taille
+      // (on n'écrit que si la classe manque : toute écriture déclenche
+      //  l'observateur, même quand la classe est déjà là)
+      var known = root.closest(".dfp__container");
+      if (known && !known.classList.contains("hab3-release")) known.classList.add("hab3-release");
+
+      // 2) Autres ancêtres de la taille du slot (garde-fou élargi : un site
+      //    peut réserver plus que la créa selon la largeur de fenêtre)
+      var maxH = gapS + 150;
+      var el = root.parentElement, n = 0;
+      while (el && el !== doc.body && el !== doc.documentElement && n < 8) {
+        if (el.offsetHeight > maxH || el.querySelector("main, #main, .main")) break; // page atteinte : stop
+        var cs = top.getComputedStyle(el);
+        var minH = parseFloat(cs.minHeight) || 0;
+        var bg = cs.backgroundColor;
+        var opaque = bg && bg !== "transparent" && bg !== "rgba(0, 0, 0, 0)";
+        if ((minH > 0 || opaque) && !el.classList.contains("hab3-release")) el.classList.add("hab3-release");
+        el = el.parentElement;
+        n++;
+      }
+    }
+    releaseAdContainers();
+
+    // Le site peut recréer ou restyler le conteneur après coup (slot rafraîchi,
+    // pub lente) : on réapplique à chaque mutation autour du slot.
+    try {
+      var anchor = root.closest(".dfp__container");
+      var obsTarget = (anchor && anchor.parentElement) || root.parentElement || doc.body;
+      var relQueued = false;
+      new top.MutationObserver(function () {
+        if (relQueued) return;               // au plus un passage par frame
+        relQueued = true;
+        top.requestAnimationFrame(function () {
+          relQueued = false;
+          releaseAdContainers();
+        });
+      }).observe(obsTarget, {
+        childList: true, subtree: true, attributes: true, attributeFilter: ["style"]
+      });
+    } catch (e) {}
+    setTimeout(releaseAdContainers, 1500);
+    setTimeout(releaseAdContainers, 4000);
+
+    // ── Impressions
+    firePixels(skinParams.thirdParty.imps);
+    var viewImg = document.createElement("img");
+    viewImg.setAttribute("src", "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuU4bBpjjzAjs4YQbqZV7oHsxGLTygkqWUKw1Go3ZArR0HLPDmufIJ02sSMXx_YA78-klooIsubCu9Lz3rQycn1eAoQ4B8RNSiFUR5BY5M1ylvmxxWQQ5MiKQhuwW7MBBE-RfBXT1b4KfgeFB_RH72il_4ehJcs5Hh_jXXrijLrh_Zu60glePPrishlftLFNpwGiB5yQ7649jtCopsYZBT7g-dvRsF5ILYHU52kd2ZWyEeRFz4YC9V5d1iry5UWs9L-UyZkZu3_lzSdooj2TqGhL7CdjzfitxfJ7OKMEObtWTtqBBYqAkjjBH1kqo8WMhQ4i9vzbY4WQaaeLBdM8F2bbWu1eCxitdkfDwfXr88VihM5oOyjiXYW2OW40KGxewiutWOG6GPalg5Mj2U5s_WVEbwLvb3wBSBNSaXbljGWO0IY6OY75BtmLP-DS9v3ieCzfKN8nsnbRW2Z2IAu7TjoKIr_X9xg3RPQmjU13n5zIfA5Z2U-MRkHuXxHEhWUuy7MDEhvL3VbJUhjkw&sai=AMfl-YSAiVAqvteXZoVKsXTVtTpFqtFVhcMLNeUW72ZAMhJ9WRLaMMq3eGx7gVuSIPD3-WFXmB3x53oQwsbp-geOgd1_eeO6txhVWoyV1LwHAxl_rfSchSjuuhCo0kDE16LoiEoq4MXuVnJKYArfGFLidbdN42jPwQpAluA5YM-15ZjfEkYCnoZRlW2BQXAcUq8Wr5YzgbyQ1mpIdo9KniwvvmNdjOT6ok-CwEgDXrFlPossnoc&sig=Cg0ArKJSzPe6ILh0N8i4EAE&uach_m=%5BUACH%5D&urlfix=1&adurl=");
+
+    // ── Epinglage au scroll : on bascule des CLASSES, le CSS fait le reste.
+    var pinned = false;
+    var limitEl = site.hideAt ? doc.querySelector(site.hideAt) : null;
+    function onScroll() {
+      var t = root.getBoundingClientRect().top;
+      var pin = t <= effOffset;
+      if (pin !== pinned) {
+        pinned = pin;
+        if (behavior.topRow === "fixed") root.classList.toggle("hab3-pin-top", pin);
+        if (behavior.gutters === "fixed") root.classList.toggle("hab3-pin-gut", pin);
+      }
+      if (limitEl) {
+        var lt = limitEl.getBoundingClientRect().top;
+        root.style.visibility = (lt < top.innerHeight) ? "hidden" : "visible";
+      }
+      // Masque l'ARCHE seule quand l'élément hideTopAt (ex. bannière basse)
+      // remonte dans sa zone épinglée. Re-query à chaque frame : l'élément
+      // peut être créé par GPT après notre init.
+      if (site.hideTopAt && behavior.topRow === "fixed") {
+        var hb = doc.querySelector(site.hideTopAt);
+        var conflict = !!(hb && hb.offsetHeight > 0 &&
+          hb.getBoundingClientRect().top < (effOffset + gapS));
+        root.classList.toggle("hab3-top-off", conflict);
+      }
+    }
+    // Boucle rAF plutôt qu'écouteurs scroll/resize : certains sites (ex. OBS)
+    // réagencent leur page SANS émettre d'événement scroll (header replié/déplié
+    // par mutation CSS sur la molette) — un état d'épinglage calculé sur le seul
+    // événement scroll resterait alors périmé. Un getBoundingClientRect par
+    // frame est un coût négligeable.
+    onScroll();
+    (function rafLoop() {
+      onScroll();
+      top.requestAnimationFrame(rafLoop);
+    })();
+  }
+
+  init();
+  //-->
+</script>
+
+<style>
+  .courrierinternational_css_correction {
+  }
+
+  /* Bannière basse : positionnée (repasse au-dessus des gouttières par ordre
+     DOM) + fond blanc limité à la zone de contenu 1000px — la bande est
+     transparente et laissait transparaître l'habillage autour de la pub. */
+  #banniere_basse {
+    position: relative;
+    background: linear-gradient(#fff, #fff) top center / 1000px 100% no-repeat;
+  }
+  /* Footer static chez Courrier : positionné pour repasser au-dessus des
+     gouttières (sinon elles peindraient sur lui une fois le hideAt retiré). */
+  footer {
+    position: relative;
+  }
+  /* FIX HEADER STICKY - empêche overflow-x:hidden de casser position:sticky */
+  body {
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+  }
+  .adBannerParent {
+    display: block !important;
+  }
+  #banniere_haute {
+    overflow: visible;
+  }
+  .dfpcontainer #banniere_haute {
+    background-color: transparent;
+  }
+  .site-main {
+    padding-top: 10px !important;
+  }
+  .ad.load {
+    overflow: visible !important;
+    padding-top: 0px !important;
+  }
+  /* Neutraliser le transform du conteneur Google Ads */
+  #banniere_haute.adm-ad-skin div[id^="google_ads_iframe_"] {
+    transform: none !important;
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    width: 1000px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #banniere_haute.adm-ad-skin {
+    display: flex !important;
+    justify-content: center !important;
+  }
+</style>
+<style>
+  .telerama_sdv_css_correction {
+  }
+
+  /* Positionnée => repasse au-dessus des gouttières par ordre DOM (comme le
+     footer, relative z1). Permet de garder l'habillage affiché jusqu'en bas
+     sans le masquage hideAt d'antan.
+     Fond opaque : la bande est transparente de l'iframe au body — sans fond,
+     l'habillage fixed transparaît autour de la pub centrée. Blanc = couleur
+     réelle du canvas (html et body sont transparents). Le fond est LIMITÉ à
+     un rectangle de 1000px centré (largeur de la zone de contenu) via un
+     gradient dimensionné : pleine largeur, il mordrait sur les gouttières.
+     Sans pub, h=0 : invisible, aucun effet. */
+  #banniere_basse {
+    position: relative;
+    background: linear-gradient(#fff, #fff) top center / 1000px 100% no-repeat;
+  }
+  .container-selection {
+    margin-top: 0;
+  }
+  .page--home .block.advertisement.small .block--container {
+    overflow: visible !important;
+  }
+  #dfp-habillage {
+    display: block !important;
+    position: relative;
+    max-width: none;
+  }
+  #dfp-banniere_haute {
+    display: none;
+  }
+  #habillagepub,
+  .wrapper {
+    position: relative;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  html.mm-opening .mm-slideout {
+    overflow: hidden;
+  }
+  .footer {
+    position: relative;
+    z-index: 1;
+  }
+  #banniere_haute.dfp-slot {
+    margin: 0 auto;
+    max-width: none;
+  }
+  #habillagepub {
+    padding-top: 1.6rem;
+  }
+</style>
+<style>
+  .huffingtonpost_css_correction {
+  }
+  .footer, .blockCodePromo, .ads-footerBanner {
+    position:relative;
+    z-index:5;
+  }
+  #habillagepub > .content {
+    position: relative;
+    z-index: 1;
+  }
+  .ads-topBanner {
+    margin: 0;
+  }
+  .ads-topBanner > .ads-content {
+    display: block;
+  }
+  #modulous_top_1x1 {
+    height: 0px;
+  }
+  body.hamburger-open .left-nav {
+    z-index: 100000;
+  }
+  .adBannerParent .leaderboard-flex-placeholder {
+    height: 0 !important;
+  }
+  .adBannerParent .ad-leaderboard-flex {
+    opacity: 0 !important;
+  }
+  @media (min-width: 414px) {
+    body.hamburger-open .header__content,
+    body.hamburger-open .page-wrapper,
+    body.hamburger-open .shareBarBottom,
+    body.hamburger-open .sticky-advertisement.fixed,
+    body.hamburger-open .stickyNav,
+    body.hamburger-open .top-nav-sticky {
+      left: 0 !important;
+    }
+
+    .leaderboard-flex-placeholder {
+      display: none;
+    }
+  }
+  /* FIX STICKY */
+  .ads-bannerCenterHome, .ads-inreadArticle, .ads-inreadTopSection, .blockHomeCodePromo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* END FIX STICKY */
+</style>
+<style>
+  .lemonde_css_correction {
+  }
+  .adBannerParent {
+    position: static !important;
+  }
+  .site-gratuit #header-page {
+    margin-bottom: 0px;
+  }
+  .main--free .zone--homepage:not(.main--free.zone--municipale) {
+    margin-top: 0;
+  }
+  #en_ce_moment {
+    margin-top: 0px !important;
+  }
+  #LeMondeMain .a-la-une,
+  .LeMondeMain > .zone {
+    position: relative;
+    max-width: 1000px;
+  }
+  .LeMondeMain #banniere_haute {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #footer {
+    position: relative;
+  }
+  #habillagepub {
+    margin: 0 calc(50vw - 50rem);
+    padding: 0;
+  }
+  .paywall {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+<style>
+  .nouvelobs_css_correction {
+  }
+  .main, footer {
+    /* Fix programme-tv & la-conjugaison */
+    position:relative;
+  }
+  .habillagepub {
+    padding-top: 0 !important;
+  }
+  .habillagepub > .page {
+    position: relative;
+  }
+  #header1 ul {
+    border-top: none;
+  }
+  #dfp-habillage {
+    position: relative;
+    display: block !important;
+  }
+#banniere_haute {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+#banniere_haute::before,
+#banniere_haute::after {
+  content: none !important;
+  display: none !important;
+}
+  #dfp-habillage + .main {
+    position: relative;
+    background-color: #fff;
+  }
+  .banniere_haute_div, .banniere_haute_pub {
+     overflow: unset !important;
+  }
+  .mainContainer {
+    margin-top: 0;
+    padding-top: 1.5rem;
+    max-width: 1000px;
+  }
+  .mainContainer > .container {
+    margin-top: 0;
+  }
+  #habillagepub {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+  }
+  #adm-adunit-banniere_haute {
+    padding: 0 !important;
+  }
+  .main-footer{
+    position: relative;
+    z-index: 1;
+  }
+</style>
+<style>
+  body {
+    margin: 0;
+  }
+</style>
+<script>
+  var _d = document;
+  function wS(_sD) {
+    var sDs = _d.getElementsByTagName("style");
+    for (var i = 0; i < sDs.length; i++) {
+      if (sDs[i].innerText.match(_sD)) {
+        return sDs[i].innerText;
+      }
+    }
+    return "";
+  }
+  try {
+    var rv = new RegExp(/(\.[^\.]{0,2})(\.[^\.]{0,2})(\.*$)|(\.[^\.]*)(\.*$)/),
+      sD = window.top.location.hostname.replace(rv, "").split(".").pop();
+    _aS = _d.createElement("style");
+    _aS.type = "text/css";
+    _aS.appendChild(_d.createTextNode(wS(sD)));
+    top.document.body.appendChild(_aS);
+  } catch (e) {}
+</script></div><script id="googleActiveViewDisplayScript" src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/f_004_1tJk.txt"></script><script type="text/javascript">osdlfm();</script><div style="bottom:0;right:0;width:1800px;height:1000px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:-moz-crisp-edges !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWCAMAAABuZ5WBAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB8SURBVCjPlVI7FsAgDIL7X7qDQ8MnvrZOlYCIAH8+ynp3K0YhQkiGTZhj3KmsG2ZlYKmbZ4hu6rD71bumpmdk2pd8Z56oXpkUxHPAx1lUVn8sBpTMbERGxnuZ0iW3fH1sqLNk25yv1en/S3loKdWeOeFDz5DZ9p75Ex/kAZwkAOW/++5VAAAAAElFTkSuQmCC') !important;"></div><iframe style="width: 0px; height: 0px; border: 0px; display: none;" src="javascript:false"></iframe><script id="ias-498145912">
+    (function() {
+        if ('1800x1000' == '3x1') return;
+        if ('https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstrThvtp4ylfb3ANr3Yy7Xblre7DP068u6rBYkUBkR0Jz69cCL8D3n1nm0x0QdYKYqDmf7PerCpe2TFAW5Jh-EIzvC2RexZlaobdUPKgTyaT0-oe5rGVCGbR_O-Sco3_sFgZ5CsuG6Y8g36-bOyymHZO5h2dXqwf15YVVp-h-G5BTEAQ0lVX8itbxtySCFIY8PjpyUQ25-_ZZxjb360COWAFeOzznjWsK20ZYqeqw5rbIXEc8A2oltQn8PgtTWut9T8dRf5VJsy2RDk9Ilm-hUxMMdGtiu6m-piTBCc4rE7LkzGkdABBrKxnB0FhsA7RitXnQsfthHvtqwxbEYsVdLYp-l5yiYZI_bZWSoG3bfBlDR7SwbOQG2phYqJi0dqPW-3iruGkMGJetYa5uLPPRjyULYMQ5JS7Nob-1WEpbz3PYU9cP4JX20o2iDLarIHkOAz8TbtSE8jXVy5huPDZlH9-_6jXbDkxGTQi2A&sai=AMfl-YSFrhbX5LPcwrofH1oYMdquQJCAmsIVi6YCdiGmY3bjfl_KIMKp3lXM3I44-M8Bjkkw1Ix09EKqhK65W5nhE80Fp5rWeP0fduuuP4QXw086v9X_xE0jkirgcXvvSjwz2rrtMAI5IZDYDxtcmYI2J6TvMOyyRJW7aT_UwNDGy_wfEwpIF606WwTKCz0UbNcjhxUzgnAAwzDjThbujrEcMdG02G13-m2c7pGGbwNpojfPBpI&sig=Cg0ArKJSzCuvUxqx4glwEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl='.includes('https://www.google.com/gen_204%3Freason%3DEmptyURL')) return;
+        var iasScriptUrl, hiddenFrame, hiddenDoc, where, domain;
+        iasScriptUrl = '//pixel.adsafeprotected.com/jload?anId=931645&campId=1800x1000&pubId=6194153986&chanId=14931833761&placementId=7463620942&pubCreative=138623733983&pubOrder=4226879190&cb=498145912&adsafe_par&impId=47e9691e-d366-11f1-9329-ea39dcb6fedc'; 
+        hiddenFrame = document.createElement('iframe');
+        (hiddenFrame.frameElement || hiddenFrame).style.cssText = "width: 0; height: 0; border: 0; display: none;";
+        hiddenFrame.src = 'javascript:false';
+        where = document.getElementById('ias-498145912');
+        where.parentNode.insertBefore(hiddenFrame, where);
+        try {
+            hiddenDoc = hiddenFrame.contentWindow.document
+        } catch (e) {
+            domain = document.domain;
+            hiddenFrame.src = "javascript:var d=document.open();d.domain='" + domain + "';void(0);";
+            hiddenDoc = hiddenFrame.contentWindow.document
+        }
+        hiddenDoc.open().write('<body onload="' + 'window.__IntegralASUseFIF = true; ' + 'var js = document.createElement(\'script\');' + 'js.src = \'' + iasScriptUrl + '\';' + 'document.body.appendChild(js);">');
+        hiddenDoc.close()
+    })();
+</script><iframe style="width: 0px !important; height: 0px !important; border: 0px !important; position: absolute !important; top: -10000px !important; left: -10000px !important;" tabindex="-1" src="tolkien-l-anneau-de-la-discorde_1729858_3246_data/a_data/a_011_1tJk.html" class="_ntnrjf7826-hj"></iframe></body></html>

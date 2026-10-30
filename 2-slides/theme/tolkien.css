@@ -1,0 +1,421 @@
+/* @theme tolkien */
+/* @size 4:3 960px 720px */
+/* @size 16:9 1280px 720px */
+
+@import 'default';
+
+/*
+ * Polices système uniquement, pour que la présentation fonctionne hors ligne.
+ * Pour une police dédiée, déposer les fichiers dans theme/fonts/ et les déclarer avec @font-face.
+ */
+:root {
+  --parchment: #f4ecd8;
+  --ink: #2b2118;
+  --ink-soft: #5c4a3a;
+  --gold: #a67c2e;
+  --dark: #1d1a16;
+  --font-serif: 'EB Garamond', 'Cormorant Garamond', Garamond, 'Palatino Linotype', Palatino, Georgia, serif;
+}
+
+section {
+  background: var(--parchment);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 32px;
+  padding: 70px 90px;
+}
+
+h1, h2, h3 {
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+h1 { font-size: 1.9em; }
+h2 {
+  font-size: 1.4em;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.2em;
+}
+
+strong { color: var(--gold); }
+
+a { color: var(--gold); }
+
+section::after {
+  color: var(--ink-soft);
+  font-size: 0.6em;
+}
+
+/* Citation : une par slide, en grand */
+blockquote {
+  border: none;
+  color: var(--ink);
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+blockquote::before,
+blockquote::after { content: none; }
+blockquote + p {
+  color: var(--ink-soft);
+  font-size: 0.65em;
+  text-align: right;
+  margin-top: 1em;
+}
+
+/* Slide de titre : <!-- _class: title --> */
+section.title {
+  justify-content: center;
+  text-align: center;
+}
+section.title h1 { border: none; font-size: 2.4em; margin-bottom: 0.2em; }
+section.title p { color: var(--ink-soft); }
+
+/* Slide de section : <!-- _class: section --> */
+section.section {
+  background: var(--dark);
+  color: var(--parchment);
+  justify-content: center;
+  text-align: center;
+}
+section.section h1,
+section.section h2 { color: var(--gold); border: none; }
+
+/* Slide citation : <!-- _class: quote --> */
+section.quote {
+  justify-content: center;
+  padding: 90px 140px;
+}
+
+/*
+ * Frise chronologique : placer chaque .event avec --x (0% à 100%),
+ * .up / .down pour le côté du libellé, .first / .last aux extrémités.
+ */
+.timeline {
+  position: relative;
+  height: 230px;
+  margin: 0 10px;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 3px;
+  background: var(--gold);
+}
+.timeline .event {
+  position: absolute;
+  left: var(--x);
+  top: 50%;
+}
+.timeline .event::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--parchment);
+  border: 3px solid var(--gold);
+  transform: translate(-50%, -50%);
+  margin-top: 1px;
+}
+.timeline .label {
+  position: absolute;
+  width: 220px;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 1.2;
+  font-size: 0.62em;
+}
+.timeline .up .label { bottom: 22px; }
+.timeline .down .label { top: 22px; }
+.timeline .first .label { transform: translateX(-12px); text-align: left; }
+.timeline .last .label { transform: translateX(calc(-100% + 12px)); text-align: right; }
+.timeline .year {
+  display: block;
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 1.3em;
+  font-variant-numeric: lining-nums;
+}
+
+/* Emplacement d'image à remplacer */
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--ink-soft);
+  color: var(--ink-soft);
+  font-size: 0.6em;
+  text-align: center;
+}
+
+/* Slide « Tolkien en dates » : photo + frise (aussi réutilisée en miniature, .mini) */
+section.dates,
+section.crossing .mini { justify-content: flex-start; }
+section.dates .photo,
+section.crossing .mini .photo {
+  margin: 10px auto 20px;
+  text-align: center;
+}
+section.dates .photo img,
+section.crossing .mini .photo img {
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+}
+section.dates figcaption,
+section.crossing figcaption {
+  color: var(--ink-soft);
+  font-size: 0.45em;
+  font-style: italic;
+  margin-top: 6px;
+}
+section.dates figcaption em,
+section.crossing figcaption em { font-style: normal; }
+
+/*
+ * Transition « shrink » : la slide sortante se réduit dans le quart haut gauche,
+ * où la slide suivante en affiche une copie miniature (.mini).
+ */
+@keyframes marp-outgoing-transition-shrink {
+  from { transform: none; }
+  to { transform: translate(-25%, -25%) scale(0.5); }
+}
+@keyframes marp-incoming-transition-shrink {
+  from { opacity: 0; }
+  60% { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide « croisement Tolkien / Jackson » : <!-- _class: crossing --> */
+section.crossing { padding: 0; position: relative; }
+section.crossing .mini {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 720px;
+  padding: 70px 90px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+section.crossing .heading {
+  position: absolute;
+  top: 110px;
+  left: 500px;
+  width: 400px;
+  margin: 0;
+  border: none;
+  font-size: 1.25em;
+  line-height: 1.15;
+}
+/*
+ * Même échelle que la frise miniature de Tolkien : x = 50 + (année - 1892) × 4,691 px.
+ * La frise de Jackson couvre 1961 (x 374) à 2001 (x 565).
+ */
+section.crossing .jackson-timeline {
+  position: absolute;
+  top: 377px;
+  left: 374px;
+  width: 191px;
+  height: 120px;
+  margin: 0;
+  font-size: 0.8em;
+}
+section.crossing .jackson-timeline .label { width: 170px; }
+section.crossing .jackson-timeline .last .label { width: 130px; }
+section.crossing .jackson-photo {
+  position: absolute;
+  top: 385px;
+  left: 50px;
+  width: 200px;
+  margin: 0;
+}
+section.crossing .jackson-photo img {
+  display: block;
+  height: 210px;
+}
+section.crossing .junction .guide {
+  stroke: var(--ink-soft);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 5;
+  opacity: 0.7;
+}
+section.crossing .junction {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.crossing .junction path {
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 3;
+}
+section.crossing .junction circle {
+  fill: var(--parchment);
+  stroke: var(--gold);
+  stroke-width: 3;
+}
+section.crossing .junction .year {
+  fill: var(--gold);
+  font-weight: 700;
+  font-size: 24px;
+  font-variant-numeric: lining-nums;
+  text-anchor: middle;
+}
+section.crossing .junction .film {
+  fill: var(--ink);
+  font-style: italic;
+  font-size: 17px;
+  text-anchor: middle;
+}
+
+/* Animations de la jonction, uniquement à l'écran : le PDF montre l'état final */
+@media screen {
+  section.crossing .junction .draw {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: draw-line 1s ease-in-out 1.4s forwards;
+  }
+  section.crossing .junction .draw.merged { animation-delay: 2.2s; }
+  section.crossing .junction .film-event {
+    opacity: 0;
+    animation: appear 0.6s ease-out forwards;
+  }
+  section.crossing .junction .film-event:nth-of-type(1) { animation-delay: 2.8s; }
+  section.crossing .junction .film-event:nth-of-type(2) { animation-delay: 3.3s; }
+  section.crossing .junction .film-event:nth-of-type(3) { animation-delay: 3.8s; }
+}
+@keyframes draw-line { to { stroke-dashoffset: 0; } }
+@keyframes appear { to { opacity: 1; } }
+
+/* Image plein cadre sur fond sombre : <!-- _class: dark --> */
+section.dark {
+  background: var(--dark);
+  color: var(--parchment);
+}
+section.dark h2 { color: var(--parchment); }
+
+/* Slide avec titre, contexte et citation : <!-- _class: context --> */
+section.context blockquote { font-size: 1.05em; margin-top: 0.6em; }
+section.context p { margin: 0.3em 0; }
+
+/* Frise compacte, pour une chaîne d'étapes sans échelle de temps */
+.timeline.compact { height: 170px; margin: 0 60px 10px; }
+
+/* Rangée d'images : <div class="images">…</div> */
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+.images img {
+  display: block;
+  height: 230px;
+}
+.images + p {
+  text-align: center;
+  font-size: 0.75em;
+  margin-top: 0.6em;
+}
+
+/* Slide avec une longue citation (extrait de plusieurs paragraphes) : <!-- _class: long-quote --> */
+section.long-quote { justify-content: flex-start; }
+section.long-quote blockquote {
+  font-size: 0.7em;
+  line-height: 1.35;
+  margin-top: 0.4em;
+}
+section.long-quote blockquote p { margin: 0 0 0.6em; }
+section.long-quote blockquote + p { margin-top: 0.2em; }
+
+/* Slide « caméos » : portraits en haut, image du film en bas, flèches en SVG. <!-- _class: cameos --> */
+section.cameos { padding: 0; position: relative; }
+section.cameos h2 {
+  position: absolute;
+  top: 60px;
+  left: 250px;
+  width: 460px;
+  margin: 0;
+  text-align: center;
+  font-size: 1.15em;
+}
+section.cameos .portrait {
+  position: absolute;
+  top: 30px;
+  margin: 0;
+  text-align: center;
+}
+section.cameos .portrait img {
+  display: block;
+  height: 200px;
+  border: 3px solid var(--gold);
+}
+section.cameos .portrait.left { left: 50px; }
+section.cameos .portrait.right { right: 50px; }
+section.cameos figcaption {
+  font-size: 0.6em;
+  margin-top: 4px;
+}
+section.cameos .kings {
+  position: absolute;
+  top: 340px;
+  left: 60px;
+  width: 840px;
+}
+section.cameos .arrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.cameos .arrows circle,
+section.cameos .arrows path {
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 3;
+}
+section.cameos .arrows marker path {
+  fill: var(--gold);
+  stroke: none;
+}
+
+/* Texte secondaire sous une liste */
+p.aside {
+  color: var(--ink-soft);
+  font-size: 0.7em;
+  margin-top: 1.2em;
+}
+
+/* Trois images côte à côte, de même dimension (recadrées) : <div class="triptych"> */
+.triptych {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.triptych figure {
+  margin: 0;
+  width: 250px;
+  text-align: center;
+}
+.triptych img {
+  display: block;
+  width: 250px;
+  height: 330px;
+  object-fit: cover;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+.triptych figcaption {
+  font-size: 0.6em;
+  margin-top: 8px;
+}

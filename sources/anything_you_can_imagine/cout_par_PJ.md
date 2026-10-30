@@ -1,0 +1,1 @@
+Experienced Australian producer Tim Sanders, who had worked on The Frighteners, had come on board at Jackson’s behest expressly to draw up a budget. Realistically, he estimated the two films would cost $130 to $135 million

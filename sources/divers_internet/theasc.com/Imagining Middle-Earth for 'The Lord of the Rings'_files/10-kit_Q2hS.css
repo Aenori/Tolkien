@@ -1,0 +1,412 @@
+/* CH-0017 / RAL-487: ASC licensed Polaris 3.500, genuine static cuts.
+   Book400 body, Medium500 and Bold700; real upright and italic sources.
+   Original named cuts are mapped explicitly; embedded OS/2 values are not CSS roles.
+   WOFF2 with WOFF fallback; no substitute, size adjustment or trial assets.
+   Theme and native editor consume these same declarations.
+   Byte identities and preserved glyphs: ../fonts/font-contract.json. */
+@font-face { font-family: "Polaris"; font-style: normal; font-weight: 300; font-display: swap; src: url("../fonts/polaris-light-normal.woff2") format("woff2"), url("../fonts/polaris-light-normal.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: italic; font-weight: 300; font-display: swap; src: url("../fonts/polaris-light-italic.woff2") format("woff2"), url("../fonts/polaris-light-italic.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/polaris-book-normal.woff2") format("woff2"), url("../fonts/polaris-book-normal.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: italic; font-weight: 400; font-display: swap; src: url("../fonts/polaris-book-italic.woff2") format("woff2"), url("../fonts/polaris-book-italic.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: normal; font-weight: 500; font-display: swap; src: url("../fonts/polaris-medium-normal.woff2") format("woff2"), url("../fonts/polaris-medium-normal.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: italic; font-weight: 500; font-display: swap; src: url("../fonts/polaris-medium-italic.woff2") format("woff2"), url("../fonts/polaris-medium-italic.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/polaris-bold-normal.woff2") format("woff2"), url("../fonts/polaris-bold-normal.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: italic; font-weight: 700; font-display: swap; src: url("../fonts/polaris-bold-italic.woff2") format("woff2"), url("../fonts/polaris-bold-italic.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/polaris-heavy-normal.woff2") format("woff2"), url("../fonts/polaris-heavy-normal.woff") format("woff"); }
+@font-face { font-family: "Polaris"; font-style: italic; font-weight: 800; font-display: swap; src: url("../fonts/polaris-heavy-italic.woff2") format("woff2"), url("../fonts/polaris-heavy-italic.woff") format("woff"); }
+
+/* CH-0013 — a word longer than its line breaks instead of widening the page.
+
+   The kit sets every text style in Polaris (post-6.css), article body copy included, so
+   until now readers got the fallback the blocked trial left them — Helvetica — and from
+   this change they get the stand-in, which sets wider. An article's longest unbreakable
+   run can then exceed a phone's column: on /article/2026-rising-stars-of-cinematography/
+   the bold-italic year list ran 29px past a 390px window (0 before), 99px past 320 (63
+   before). Display headings the same at 320: "Cinematography" on /american-cinematographer/
+   spilled 27px (15 before). Measured by bin/candidate-overflow.mjs on production markup,
+   2026-09-30.
+   `anywhere` also lowers the min-content width, so a flex item cannot grow to fit the
+   word either. It changes nothing for a word that fits its line. CH-0010 (below) takes
+   article body text out of Polaris; this stays for the display headings and text editors
+   that are still set in it. */
+body.asc-ui.asc-ui .elementor-widget-theme-post-content,
+body.asc-ui.asc-ui .elementor-widget-text-editor,
+body.asc-ui.asc-ui .elementor-heading-title {
+  overflow-wrap: anywhere;
+}
+
+/* CH-0010 — WEIGHT-ONLY REVIEW VERSION (RAL-442).
+   Preserves the current CH-0013 font declarations and overflow protection above.
+   Reading text on the eight editorial templates uses Hanken Grotesk at 400;
+   bold emphasis and semantic h2/h3 retain 700. Template sizes/colours remain.
+   This block extends the earlier small body-only fix to every reading role.
+   Header/footer and every page outside those templates retain current assets. */
+
+/* ── 1. The article body ─────────────────────────────────────────────────────
+   The container carries the family for everything that only inherits — li, td,
+   blockquote, center, h4–h6, and the text-editor widgets inside the few posts built
+   in Elementor. It also normalises the widget-level weight, which differs by template
+   (500 on 42214, 300 on 48577 — which rendered lists in Helvetica Light). */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.25px;
+  /* CH-0017: use the real Book/Bold/italic cuts, never synthesized faces. */
+  font-synthesis: none;
+}
+
+/* Body paragraphs: 600 → 400. strong/b keep the template's 700, so emphasis is
+   visible again. */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) p {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+
+/* CH-0010 — shared editing/publishing contract. Ordinary reading paragraphs
+   explicitly keep the measured 20px/32px format instead of relying on kit defaults.
+   Headings and captions retain their own scale; pasted inline styles are unchanged. */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) p:not(:where(h1 p, h2 p, h3 p, h4 p, h5 p, h6 p, figcaption p, .wp-caption-text p)) {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.25px;
+}
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) strong,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) b {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+}
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h2,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h3 {
+  font-weight: 700;
+}
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h1,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h6 {
+  font-weight: 500;
+}
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h6 {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* CH-0010 — legacy H1 text must retain the heading scale. Migrated headings can
+   contain a paragraph: measuring only the H1 box misses its 20px text descendant.
+   Preserve the existing 40px/48px H1 scale and its 500 weight explicitly in the
+   shared reading contract so native editors and future templates derive it too.
+   Inherit the reading column's colour: the kit's display H1 white is invisible
+   on these white article pages. This does not change allocated gold styles. */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  color: inherit;
+}
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h1 p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* In-body headings name Polaris directly (h2/h3) or inherit it. Weights stay as the
+   reading contract sets them: h2–h5 700, h1/h6 500. */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h1,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h2,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h3,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h4,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h5,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h6,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) .elementor-heading-title {
+  font-family: var(--asc-sans);
+}
+
+/* ~80 migrated posts nest <p> inside headings (h2 > p > strong, used for pull
+   quotes). Without this the paragraph rule above would drop them to 400 inside a
+   700 heading. */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h1 p,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h2 p,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h3 p,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h4 p,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h5 p,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h6 p {
+  font-weight: inherit;
+}
+
+/* Captions: 700 → 400. Set on figcaption, never on figure — migrated figures carry
+   inline `font: inherit`. */
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) figcaption,
+body.asc-ui.asc-ui :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) .wp-caption-text {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+
+
+/* ── 2. Title and standfirst ─────────────────────────────────────────────────
+   The title is served at 500 by the theme reset, which rendered Helvetica Regular;
+   400 keeps that look. The video title is designed bold (800) and stays bold at 700 —
+   Hanken's 800 is heavier than anything the page shows today. */
+body.asc-ui.asc-ui .elementor-387 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42214 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42221 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42232 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42237 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-319 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-48577 .elementor-widget-theme-post-title .elementor-heading-title {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+body.asc-ui.asc-ui .elementor-392 .elementor-widget-theme-post-title .elementor-heading-title {
+  font-family: var(--asc-sans);
+  font-weight: 700;
+}
+
+/* Standfirst: the dynamic-excerpt heading under the title (392 has none). */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-42cde1b3 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-6353a510 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-6299852b .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-e3febcc .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-78713628 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-319 .elementor-element-67c252b1 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-48577 .elementor-element-122625a5 .elementor-heading-title {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+
+/* Byline. The shortcode bylines render in the theme's system stack today; they move
+   to Hanken so the header reads in one face. The news byline is a post-info widget
+   served at 702 (Hanken would pick 800); it keeps its bold at 700. */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-a8ec22d,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-29829f6f,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-116ae97a,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-47ab5be4,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-22e686a5,
+body.asc-ui.asc-ui .elementor-48577 .elementor-element-1c0964e3 {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+body.asc-ui.asc-ui .elementor-319 .elementor-element-cc6234 .elementor-icon-list-item {
+  font-family: var(--asc-sans);
+  font-weight: 700;
+}
+
+/* Featured-image caption above the header: served at 550, rendered Helvetica Bold. */
+body.asc-ui.asc-ui .elementor-387 .elementor-widget-image .widget-image-caption,
+body.asc-ui.asc-ui .elementor-42214 .elementor-widget-image .widget-image-caption,
+body.asc-ui.asc-ui .elementor-42221 .elementor-widget-image .widget-image-caption,
+body.asc-ui.asc-ui .elementor-42232 .elementor-widget-image .widget-image-caption,
+body.asc-ui.asc-ui .elementor-42237 .elementor-widget-image .widget-image-caption,
+body.asc-ui.asc-ui .elementor-319 .elementor-widget-image .widget-image-caption,
+body.asc-ui.asc-ui .elementor-48577 .elementor-widget-image .widget-image-caption {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+
+/* Tags line ("Tagged: …"): system stack today, Hanken with the rest of the page. */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-116edfd,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-40e12128,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-3b5791a9,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-32cbec67,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-7f16593f {
+  font-family: var(--asc-sans);
+}
+
+
+/* ── 3. Caps labels and buttons — the brand stack ───────────────────────────
+   Polaris-designated under the lock, so var(--asc-brand), weight unchanged (700).
+   Category label and date: */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-c9d6620 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-387 .elementor-element-6c6dc5a6 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-3f270368 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-5e80accb .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-112b1f7d .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-2ec18053 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-1d573ab5 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-64bd8d58 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-5a8729fe .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-19cb062f .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-319 .elementor-element-cba8e1c .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-392 .elementor-element-4b59dd12 .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-48577 .elementor-element-2431a7ba .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-319 .elementor-element-76bcb4d .asc-category-badge {
+  font-family: var(--asc-brand);
+}
+/* (The news category is a shortcode badge, not post-info. It rendered the theme's
+   system stack rather than Polaris, and joins the other templates' labels here.) */
+
+/* Print Edition / Digital Edition, and any other button inside these templates.
+   392 (video) has no button widget. */
+body.asc-ui.asc-ui .elementor-387 .elementor-widget-button .elementor-button,
+body.asc-ui.asc-ui .elementor-42214 .elementor-widget-button .elementor-button,
+body.asc-ui.asc-ui .elementor-42221 .elementor-widget-button .elementor-button,
+body.asc-ui.asc-ui .elementor-42232 .elementor-widget-button .elementor-button,
+body.asc-ui.asc-ui .elementor-42237 .elementor-widget-button .elementor-button,
+body.asc-ui.asc-ui .elementor-319 .elementor-widget-button .elementor-button,
+body.asc-ui.asc-ui .elementor-48577 .elementor-widget-button .elementor-button {
+  font-family: var(--asc-brand);
+}
+
+
+/* ── 4. Below the article ───────────────────────────────────────────────────
+   "Read More" heading: weight unchanged (700). */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-f962a2b .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-26b45962 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-6db685b4 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-5bccbcba .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-4b7751e .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-319 .elementor-element-3890e4b0 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-48577 .elementor-element-cbd8e4a .elementor-heading-title {
+  font-family: var(--asc-sans);
+}
+
+/* Related-post titles: headlines, weight unchanged (700). The posts widget's classes
+   are shared with the magazine-issue archive, hence the template root. */
+body.asc-ui.asc-ui .elementor-387 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-387 .elementor-widget-posts .elementor-post__title a,
+body.asc-ui.asc-ui .elementor-42214 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-42214 .elementor-widget-posts .elementor-post__title a,
+body.asc-ui.asc-ui .elementor-42221 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-42221 .elementor-widget-posts .elementor-post__title a,
+body.asc-ui.asc-ui .elementor-42232 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-42232 .elementor-widget-posts .elementor-post__title a,
+body.asc-ui.asc-ui .elementor-42237 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-42237 .elementor-widget-posts .elementor-post__title a,
+body.asc-ui.asc-ui .elementor-319 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-319 .elementor-widget-posts .elementor-post__title a,
+body.asc-ui.asc-ui .elementor-48577 .elementor-widget-posts .elementor-post__title,
+body.asc-ui.asc-ui .elementor-48577 .elementor-widget-posts .elementor-post__title a {
+  font-family: var(--asc-sans);
+}
+
+/* Subscribe band heading: weight unchanged (700) — the same decision as the
+   homepage's band in 26-home.css. */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-7ce6a26e .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-7770ef22 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-3c92ff7c .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-1a63daa1 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-75c3b348 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-319 .elementor-element-754547b7 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-48577 .elementor-element-3919d0c4 .elementor-heading-title {
+  font-family: var(--asc-sans);
+}
+
+/* Subscribe band copy: 700 → 400, as the homepage's (26-home.css). */
+body.asc-ui.asc-ui .elementor-387 .elementor-element-169e0684,
+body.asc-ui.asc-ui .elementor-42214 .elementor-element-70e850e6,
+body.asc-ui.asc-ui .elementor-42221 .elementor-element-7ec95967,
+body.asc-ui.asc-ui .elementor-42232 .elementor-element-71ed018c,
+body.asc-ui.asc-ui .elementor-42237 .elementor-element-7dac2809,
+body.asc-ui.asc-ui .elementor-319 .elementor-element-563d160f,
+body.asc-ui.asc-ui .elementor-48577 .elementor-element-64af5a1a {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+
+
+/* CH-0010 — SEPARATE SIZE REVIEW VERSION (append to weight-only 10-kit.css).
+   Only semantic in-body h2/h3 and their nested paragraphs. Hanken 700 is
+   established by the weight rules above. No colour, radius, title,
+   standfirst or navigation change. Existing gold is an out-of-scope defect.
+   Migrated p > strong subheads such as "The AV Club" are not semantic headings;
+   a generic :has(strong:only-child) would also enlarge partial inline emphasis.
+   Desktop h2/h3: 30/28px; mobile: 26/24px, versus ordinary 20px body copy.
+   The existing 1.3 heading leading ratio scales with the larger glyphs; nested
+   paragraphs inherit it. Preserve the measured 48px/40px heading margins and
+   40px nested-paragraph bottom margin so font size does not enlarge spacing. */
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h2 {
+  font-size: clamp(26px, calc(23px + 0.5vw), 30px);
+  line-height: 1.3;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h3 {
+  font-size: clamp(24px, calc(21px + 0.5vw), 28px);
+  line-height: 1.3;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) :is(h2, h3) p {
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 40px;
+}
+
+/* CH-0010 — COMPLETE SECTION HIERARCHY FOLLOW-UP (RAL-442).
+   h4/h5 are used as real section headings in migrated articles. Both must
+   remain visibly larger and heavier than 20px/400 reading copy. h6 contains
+   museum object captions and keeps its existing caption treatment.
+   Desktop h4/h5: 26/24px; mobile: 23/22px. Preserve measured 8px/16px outer margins; no colour or display-title change. */
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h4 {
+  font-weight: 700;
+  font-size: clamp(23px, calc(20px + 0.5vw), 26px);
+  line-height: 1.3;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) h5 {
+  font-weight: 700;
+  font-size: clamp(22px, calc(18px + 0.5vw), 24px);
+  line-height: 1.3;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) :is(h4, h5) p {
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 40px;
+}
+
+/* CH-0010 — CURATED MIGRATED SECTION LABELS (RAL-442).
+   asc-reading-type.php adds this class only to six fingerprinted, confirmed
+   section labels during rendering. The stored article markup is unchanged.
+   Ordinary bold Q&A prompts keep 20px. Exact labels use the h2 size ramp. */
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) p.asc-reading-subhead {
+  font-family: var(--asc-sans);
+  font-weight: 700;
+  font-size: clamp(26px, calc(23px + 0.5vw), 30px);
+  line-height: 1.3;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+body.asc-ui.asc-ui :is(.elementor-387, .elementor-42214, .elementor-42221, .elementor-42232, .elementor-42237, .elementor-319, .elementor-392, .elementor-48577, .elementor-841, .elementor-53276) :is(.article-template-content, .elementor-841 .elementor-element-d9672a1.elementor-widget-theme-post-content, .elementor-53276 .elementor-element-d7df261.elementor-widget-theme-post-content) p.asc-reading-subhead > strong {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* CH-0010 — additional editorial reading routes, requested in the foundation review.
+   The native podcast/report post-content widgets use the same reading rules above.
+   Their surrounding reading roles also use Hanken; existing title/control sizes,
+   colours, PDF/media assets and page layout remain in their templates. */
+body.asc-ui.asc-ui .elementor-841 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-f1afa5d .elementor-icon-list-item,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-f1afa5d .elementor-icon-list-text,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-adb2db6 .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-ab6339e .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-ab6339e .elementor-heading-title a,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-2b0704d8 .elementor-post-navigation__link a,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-2b0704d8 .post-navigation__prev--label,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-2b0704d8 .post-navigation__next--label,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-799d2a4c .elementor-heading-title {
+  font-family: var(--asc-sans);
+  font-weight: 700;
+}
+body.asc-ui.asc-ui .elementor-841 .elementor-element-4edc9b4,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-4edc9b4 .elementor-icon-list-text,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-2f0f3fe3,
+body.asc-ui.asc-ui .elementor-841 .elementor-element-2f0f3fe3 p,
+body.asc-ui.asc-ui .elementor-53276 .elementor-widget-theme-post-title .elementor-heading-title,
+body.asc-ui.asc-ui .elementor-53276 .elementor-element-5e8f5f8,
+body.asc-ui.asc-ui .elementor-53276 .elementor-element-5e8f5f8 .elementor-icon-list-text {
+  font-family: var(--asc-sans);
+  font-weight: 400;
+}
+body.asc-ui.asc-ui .elementor-841 .elementor-element-6f96282,
+body.asc-ui.asc-ui .elementor-841 :is(.elementor-element-5fcf5382, .elementor-element-85589f0) .elementor-button,
+body.asc-ui.asc-ui .elementor-53276 .elementor-element-02db1f7 .elementor-button {
+  font-family: var(--asc-brand);
+  font-weight: 700;
+}
+body.asc-ui.asc-ui .elementor-841 :is(.elementor-element-feca16a, .elementor-element-2e543b4) .elementor-button {
+  font-family: var(--asc-sans);
+  font-weight: 700;
+}

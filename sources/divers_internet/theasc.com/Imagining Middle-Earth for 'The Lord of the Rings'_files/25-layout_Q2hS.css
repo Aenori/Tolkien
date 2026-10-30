@@ -1,0 +1,33 @@
+/* PHASE 1 — CH-0002. Archive containers pinned to 1600px at every viewport.
+
+   Elementor's per-element Custom CSS on the two working archive templates sets:
+
+     .elementor-635 .elementor-element-5f25ff46 { min-width: 1600px; }
+     .elementor-544 .elementor-element-522da058 { min-width: 1600px; }
+
+   min-width always defeats max-width, so both containers are 1600px wide however
+   narrow the viewport. Measured against production:
+
+     tpl 635 archives  doc=1600 at EVERY width tested, 1680 down to 320
+     tpl 544 archives  doc=1600 from 1280 down to 768
+
+   544 is narrower in impact only because somebody already hit this and added
+   `@media (max-width:767px){ min-width:0 }` to that one template. That patch was
+   never copied to 635, and it leaves the 768-1280 band broken on both.
+
+   The 1600px floor is almost certainly a leftover experiment: nothing else on the
+   site sets it, and the containers carry a --content-width of 67% that it overrides.
+   Neutralised here rather than in the Elementor field so it is a reviewable diff
+   that reverts by deleting this block. Clearing the Custom CSS field at source is
+   tracked separately — this is the safe, immediate fix.
+
+   Specificity: (0,5,1) against Elementor's (0,3,0). No !important needed. */
+
+/* CH-0015 · RAL-442 foundation follow-up: the article archive363 has the same
+   measured 1600px floor in both engines at1440. Reuse the existing width fix;
+   keep the underlying Elementor layout and its responsive content width. */
+body.asc-ui.asc-ui .elementor-635 .elementor-element.elementor-element-5f25ff46,
+body.asc-ui.asc-ui .elementor-544 .elementor-element.elementor-element-522da058,
+body.asc-ui.asc-ui .elementor-363 .elementor-element.elementor-element-20fae7bb {
+  min-width: 0;
+}

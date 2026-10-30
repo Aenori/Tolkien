@@ -1,0 +1,10 @@
+/* RESERVED — Epom ad slot containment.
+ *
+ * A CH-0006 attempt lived here briefly and was reverted: forcing the rail to full width and
+ * the grid to repeat(3,1fr) blew the document to 2550px, because `1fr` tracks floor at
+ * min-content (300px each) and the rail was still positioned right of the tile column.
+ * Any retry must use minmax(0,1fr) and must first prove the rail is actually full width.
+ *
+ * Deliberately empty. The real fix is a layout change in _elementor_data, not CSS —
+ * ad geometry must not depend on a feature flag that can be rolled back.
+ */

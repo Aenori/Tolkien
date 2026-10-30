@@ -1,0 +1,7 @@
+/* RESERVED FOR PHASE 6 — focus, landmarks, tap targets.
+
+   Baseline: outline:none appears 27 times against 4 uses of :focus-visible; the skip
+   link is 1x1px; 53% of mobile tap targets are under 44px; #FFFFFF on ASC gold
+   #CDC09E measures 1.8:1.
+
+   Deliberately empty until Phase 6. */
