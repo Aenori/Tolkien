@@ -18,6 +18,9 @@ npm run preview    # aperçu en direct pendant l'écriture
 npm run build      # génère 3-presentation/tolkien.html et tolkien.pdf
 ```
 
+`3-presentation/assets/` n'est pas dans git (copie de `2-slides/assets/` faite au build) :
+après un clone, lancer `npm run build` pour que le HTML retrouve ses images.
+
 ## Démarche
 
 1. Remplir `1-brief/conference.md`, `plan.md` et `style.md`.
