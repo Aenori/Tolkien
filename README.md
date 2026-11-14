@@ -28,5 +28,6 @@ npm run build      # génère 3-presentation/tolkien.html et tolkien.pdf
 ## Le jour J
 
 - Ouvrir `3-presentation/tolkien.html` dans un navigateur, puis `F` pour le plein écran et `P` pour la vue présentateur (notes et minuteur).
+- Navigation : → / ← (ou la télécommande) passent d'une slide principale à l'autre ; ↓ / ↑ ouvrent les slides annexes (repère ▾ en bas à gauche quand il y en a). Maj + flèche = défilement linéaire de toutes les slides.
 - Le HTML a besoin du dossier `3-presentation/assets/` à côté de lui. Copier tout le dossier `3-presentation/`.
 - `tolkien.pdf` sert de secours.

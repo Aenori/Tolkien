@@ -25,7 +25,9 @@ Lire dans cet ordre :
 
 ## Règles de contenu
 
-- **Citations** : n'utiliser QUE celles de `1-brief/citations.md`, mot pour mot, avec leur référence. Ne jamais inventer, compléter ni reformuler une citation. Si une slide en appelle une qui manque, laisser un `<!-- TODO citation : ... -->` et le signaler.
+- **Citations** : n'utiliser QUE celles de `1-brief/citations.md` ou celles données dans
+  `1-brief/textes/` (règle provisoire, en attendant que l'auteur les regroupe dans
+  `citations.md`), mot pour mot, avec leur référence. Ne jamais inventer, compléter ni reformuler une citation. Si une slide en appelle une qui manque, laisser un `<!-- TODO citation : ... -->` et le signaler.
 - **Faits** (dates, noms, publications, lieux) : s'appuyer sur `1-brief/textes/` et `1-brief/sources.md`. En cas de doute, le signaler plutôt que d'affirmer.
 - **Noms propres** : suivre la graphie et la traduction fixées dans `1-brief/style.md`.
 - Le propos appartient à l'auteur : ne pas ajouter de thèse ou d'interprétation absente du brief.
@@ -54,7 +56,30 @@ vérification dans `1.6-brief-fact-added-by-AI/` :
 - Notes orateur : en commentaire HTML `<!-- ... -->` sous chaque slide, rédigées à partir de `1-brief/textes/`.
 - Chaque partie du plan commence par une slide de section (`<!-- _class: section -->`).
 - Respecter le minutage de `plan.md` (repère : environ 1 à 2 minutes par slide).
+- **Slides verticales (annexes)** : une slide marquée `<!-- _class: annexe -->` (classes
+  combinables : `<!-- _class: annexe context -->`) est une slide alternative ou complémentaire,
+  rattachée à la slide principale qui la précède. Dans le HTML, ← → les sautent, ↓ ↑ y
+  accèdent (script `scripts/nav-verticale.js`, injecté au build). Dans le PDF, elles
+  restent à la suite de leur slide principale.
 - Images dans `2-slides/assets/`, référencées en `assets/nom.jpg`. Toute image doit avoir son crédit dans `2-slides/assets/CREDITS.md`.
+
+## Régénérer les slides
+
+Quand l'auteur demande de « regénérer les slides » sans plus de précision :
+
+1. Lancer `git diff HEAD -- 1-brief/` (et `git status` pour les fichiers non suivis) : c'est
+   l'ensemble des changements du brief depuis la dernière génération validée.
+2. Relier chaque passage modifié à sa slide (sections `## Slide n°X : titre` ou `## Titre`
+   du brief ↔ titre de la slide dans `slides.md`).
+3. Ne modifier que ces slides, par éditions ciblées de `slides.md`. Ne jamais réécrire le
+   fichier entier : les autres slides et leurs réglages (positions, classes, CSS) restent
+   tels quels.
+4. Un sous-titre `### Annexe à la slide n°X : …` dans le brief produit une slide
+   `<!-- _class: annexe ... -->` placée juste après la slide n°X.
+5. Mettre à jour `1.6-brief-fact-added-by-AI/`, lancer `npm run build`, puis résumer à
+   l'auteur les slides modifiées.
+6. Ne pas committer : l'auteur relit, puis commite brief et slides ensemble. Ce commit sert
+   de point de départ à la régénération suivante.
 
 ## Build
 

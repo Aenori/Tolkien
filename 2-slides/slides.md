@@ -293,7 +293,7 @@ Notes orateur :
 
 ---
 
-## Un bricoleur de génie
+## Un bricoleur passionné
 
 - Enfant : une caméra Super 8 et *King Kong*
 - 1987 : *Bad Taste*, tourné le week-end, entre amis
@@ -392,9 +392,185 @@ Notes orateur :
 
 ---
 
+## 1995 : en quête d'un grand projet
+
+- Renommée internationale depuis *Créatures célestes*
+- Une expérience des effets spéciaux
+- L'envie d'un grand projet fantastique
+- Repéré par Miramax, qui obtient les droits fin 1996
+
+<!--
+Notes orateur :
+- Jackson a une renommée internationale depuis Créatures célestes et une expérience des
+  effets spéciaux. Il souhaite réaliser un grand projet dans le fantastique au sens large.
+- Miramax l'a repéré : c'est le distributeur de Créatures célestes aux États-Unis.
+  Fin 1996, Miramax obtient les droits du Seigneur des Anneaux.
+- Saul Zaentz détient toujours ces droits depuis le film de Bakshi : encore lui.
+- Point important : la conception artistique et la négociation contractuelle se font
+  en parallèle.
+- Deal initial : deux films pour 75 M$. Pour comparer, Fantômes contre fantômes, le film
+  précédent de Jackson, avait un budget de 28 M$.
+-->
+
+---
+
+<!-- _class: divergence -->
+
+## Divergences avec Miramax
+
+<svg class="schema" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <marker id="divergence-arrow" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto">
+      <path d="M0,0 L18,9 L0,18 Z" />
+    </marker>
+  </defs>
+  <path class="arrow" d="M310,350 C450,350 450,265 625,265" marker-end="url(#divergence-arrow)" />
+  <path class="arrow" d="M310,410 C450,410 450,495 625,495" marker-end="url(#divergence-arrow)" />
+  <g class="box">
+    <rect x="70" y="295" width="240" height="170" />
+    <text class="who" x="190" y="350">Deal initial</text>
+    <text x="190" y="400">2 films</text>
+    <text x="190" y="440">75 M$</text>
+  </g>
+  <g class="box">
+    <rect x="630" y="180" width="240" height="170" />
+    <text class="who" x="750" y="235">Peter Jackson</text>
+    <text x="750" y="285">2 films</text>
+    <text class="changed" x="750" y="325">130 M$</text>
+  </g>
+  <g class="box">
+    <rect x="630" y="410" width="240" height="170" />
+    <text class="who" x="750" y="465">Miramax</text>
+    <text class="changed" x="750" y="515">1 film</text>
+    <text x="750" y="555">75 M$</text>
+  </g>
+</svg>
+
+<!--
+Notes orateur :
+- On part du deal initial : deux films pour 75 M$.
+- Côté Jackson, le budget monte : le producteur Tim Sanders, venu à sa demande pour
+  établir un budget, estime les deux films à 130 à 135 M$.
+- Côté Miramax, l'enveloppe ne bouge pas : 75 M$, mais un seul film.
+-->
+
+---
+
+<!-- _class: quote -->
+
+## À quoi vous avez échappé…
+
+> Aussi dingue que cela puisse paraître, impossible de savoir s'il s'agissait d'un bluff. Sur le moment, il l'avait pris pour parole d'évangile : la putain de Terre du Milieu de Quentin Tarantino.
+
+— Ian Nathan, *Anything You Can Imagine* (2018), p. 67
+
+<!--
+Notes orateur :
+- Le « il » de la citation, c'est Peter Jackson. (À VÉRIFIER)
+- La menace : confier le film à Quentin Tarantino si Jackson refuse la version en un seul
+  film. Elle viendrait d'Harvey Weinstein, patron de Miramax. (À VÉRIFIER)
+- Citation : traduction par l'IA de l'original anglais.
+-->
+
+---
+
+<!-- _class: context -->
+
+## À quoi vous avez échappé… (suite)
+
+> [Miramax avait] une approche plus radicale et plus resserrée, qui conservait des « éléments clés » mais en sacrifiait encore beaucoup d'autres. Parmi ses péchés manifestes, le Gouffre de Helm était supprimé, Théoden et Denethor fusionnés ([...] le Rohan et le Gondor aussi) et Éowyn prenait la place de Faramir pour devenir la sœur de Boromir, tandis que le mémo hésitait à supprimer le problématique Saroumane ou à le faire participer à la bataille des Champs du Pelennor.
+
+— Ian Nathan, *Anything You Can Imagine* (2018), p. 68, à propos du mémo du 17 juin 1998
+
+<!--
+Notes orateur :
+- Le mémo est signé Jack Lechner, responsable du développement chez Miramax.
+- Pour ceux qui n'ont pas lu le livre : Théoden est le roi du Rohan, Denethor l'intendant
+  du Gondor, deux royaumes bien distincts. (À VÉRIFIER)
+- Citation : traduction par l'IA de l'original anglais.
+-->
+
+---
+
+<!-- _class: context dense -->
+
+## Le clash
+
+> « J'avais pris trop de coups », dit Jackson. Il appela Kamins. « Dis simplement à Harvey qu'on ne peut pas le faire. On préfère avoir notre vie, faire nos films et ne plus avoir à gérer toutes ces conneries. Dis à Harvey de faire son film et bonne chance. »
+>
+> « Vous avez quatre semaines », dit Harvey à Kamins. « Si vous montez le projet ailleurs, je récupère tout mon argent immédiatement, à la signature. Pas au premier jour de tournage. Je récupère tout à la signature. Et je touche cinq pour cent des recettes brutes dès le premier dollar, sur toute la ligne. »
+
+— Ian Nathan, *Anything You Can Imagine* (2018), p. 70
+
+<!--
+Notes orateur :
+- Qui est Ken Kamins ? Agent artistique américain, passé notamment par l'agence ICM
+  (International Creative Management).
+- Il rencontre Peter Jackson en 1992 et devient son agent. Il l'accompagne ensuite pendant
+  toute la genèse du projet Le Seigneur des Anneaux.
+- Il devient par la suite son manager et producteur exécutif, notamment sur la trilogie du
+  Hobbit. Il dirige sa propre société de management et de production, Key Creatives.
+- Citation : traduction par l'IA de l'original anglais.
+-->
+
+---
+
+<!-- _class: shaye -->
+
+## New Line et Bob Shaye
+
+<div class="columns">
+<figure>
+  <img src="assets/Robert_Shaye_portrait.jpg" alt="Portrait de Robert Shaye">
+  <figcaption>Robert Shaye. Photo : Wikimedia Commons, CC BY-SA 3.0, auteur non précisé, transmise par Jonna Smith</figcaption>
+</figure>
+<div>
+<blockquote>
+<p>« Mais il n'y avait aucune expression, aucun commentaire, rien… » Il restait aussi impénétrable qu'un chat.</p>
+<p>« Pourquoi voudrait-on que les spectateurs paient dix-huit dollars quand ils pourraient en payer vingt-sept ? » finit-il par demander, le visage toujours aussi impassible.</p>
+<p>« Alors là, je ne comprends pas du tout, poursuivit Shaye. Pourquoi faire deux films quand il y a trois livres ? »</p>
+<p>Shaye n'en avait pas encore fini. « Tolkien a fait votre travail à votre place, Tolkien a écrit trois livres, insista-t-il. Si vous voulez lui rendre justice, il faut trois films. »</p>
+</blockquote>
+<p>— Ian Nathan, <em>Anything You Can Imagine</em> (2018), p. 83</p>
+</div>
+</div>
+
+<!--
+Notes orateur :
+- Entre les conditions de Miramax et celles de Jackson (180 millions pour deux films),
+  Jackson se retrouve avec seulement deux pistes : Polygram et New Line.
+- Mark Ordesky est fan de Tolkien et travaille pour New Line.
+- Robert Shaye, dit Bob, est le fondateur de New Line.
+- Résultat : New Line rachète les droits et le travail de Weta à Miramax, et finance une
+  trilogie. (Tolkiendil)
+- Citation : traduction par l'IA de l'original anglais.
+-->
+
+---
+
 <!-- _class: section -->
 
 ## 3. Le tournage
+
+---
+
+## Un pari risqué et audacieux
+
+- Un budget très important
+- Trois films tournés en même temps
+- En Nouvelle-Zélande, sans grande industrie du cinéma
+- Weta, jamais à cette échelle
+- À la clé : motion capture, foules simulées
+
+<!--
+Notes orateur :
+- Message : tout, dans ce projet, était un risque.
+- Les trois films sont tournés en même temps.
+- La Nouvelle-Zélande n'avait pas une industrie cinématographique très développée.
+- Weta Workshop et Weta Digital n'avaient pas l'habitude de gérer des projets de cette ampleur.
+- À la clé, plusieurs innovations techniques : Andy Serkis, le motion capture et Gollum ;
+  Massive, un logiciel de simulation d'armées et de grandes foules.
+-->
 
 ---
 
@@ -403,13 +579,13 @@ Notes orateur :
 <h2>Alan Lee et John Howe à l'écran</h2>
 
 <figure class="portrait left">
-  <img src="assets/alan_lee.jpg" alt="Alan Lee">
-  <figcaption>Alan Lee</figcaption>
+  <img src="assets/john_howe.jpg" alt="John Howe">
+  <figcaption>John Howe</figcaption>
 </figure>
 
 <figure class="portrait right">
-  <img src="assets/john_howe.jpg" alt="John Howe">
-  <figcaption>John Howe</figcaption>
+  <img src="assets/alan_lee.jpg" alt="Alan Lee">
+  <figcaption>Alan Lee</figcaption>
 </figure>
 
 <img class="kings" src="assets/Movies/Les_9_rois_Lotr_tfotr_small.png" alt="Les neuf rois des Hommes recevant leurs anneaux, prologue de La Communauté de l'Anneau">
@@ -421,27 +597,70 @@ Notes orateur :
       <path d="M0,0 L14,7 L0,14 Z" />
     </marker>
   </defs>
-  <circle cx="188" cy="397" r="42" />
-  <circle cx="793" cy="389" r="42" />
-  <path d="M150,272 C150,310 185,310 188,350" marker-end="url(#arrowhead)" />
-  <path d="M825,272 C825,305 795,305 793,342" marker-end="url(#arrowhead)" />
+  <circle cx="188" cy="392" r="48" />
+  <circle cx="793" cy="389" r="48" />
+  <path d="M150,272 C150,305 185,305 188,339" marker-end="url(#arrowhead)" />
+  <path d="M825,272 C825,302 795,302 793,336" marker-end="url(#arrowhead)" />
 </svg>
 
 <!--
 Notes orateur :
 - Dans le prologue de La Communauté de l'Anneau, parmi les neuf rois des Hommes qui
-  reçoivent leurs anneaux : Alan Lee (2e en partant de la gauche) et John Howe
+  reçoivent leurs anneaux : John Howe (2e en partant de la gauche) et Alan Lee
   (2e en partant de la droite).
 -->
 
 ---
 
+<!-- _class: annexe cameos -->
+
+<h2>Alan Lee et John Howe à l'écran</h2>
+
+<figure class="portrait left">
+  <img src="assets/john_howe.jpg" alt="John Howe">
+  <figcaption>John Howe</figcaption>
+</figure>
+
+<figure class="portrait right">
+  <img src="assets/alan_lee.jpg" alt="Alan Lee">
+  <figcaption>Alan Lee</figcaption>
+</figure>
+
+<img class="kings" src="assets/Movies/Les_9_rois_Lotr_tfotr_small_clair.png" alt="Les neuf rois des Hommes recevant leurs anneaux, prologue de La Communauté de l'Anneau (version éclaircie)">
+
+<!-- Annexe : même slide, image éclaircie et plus contrastée pour un vidéoprojecteur faible -->
+<svg class="arrows" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <marker id="arrowhead-clair" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto">
+      <path d="M0,0 L14,7 L0,14 Z" />
+    </marker>
+  </defs>
+  <circle cx="188" cy="392" r="48" />
+  <circle cx="793" cy="389" r="48" />
+  <path d="M150,272 C150,305 185,305 188,339" marker-end="url(#arrowhead-clair)" />
+  <path d="M825,272 C825,302 795,302 793,336" marker-end="url(#arrowhead-clair)" />
+</svg>
+
+<!--
+Notes orateur :
+- Version de secours de la slide précédente, image éclaircie pour un vidéoprojecteur faible.
+- Dans le prologue de La Communauté de l'Anneau, parmi les neuf rois des Hommes qui
+  reçoivent leurs anneaux : John Howe (2e en partant de la gauche) et Alan Lee
+  (2e en partant de la droite).
+-->
+
+---
+
+<!-- _class: mosaic -->
+
 ## Cul-de-Sac
 
-<div class="triptych">
-  <figure><img src="assets/Alan_Lee/Le_hobbit_cul_de_sac.jpeg" style="object-position: 70% 70%" alt="Cul-de-Sac par Alan Lee"><figcaption>Alan Lee</figcaption></figure>
-  <figure><img src="assets/John_Howe/Cul_de_sac.jpg" style="object-position: 25% 50%" alt="Cul-de-Sac par John Howe"><figcaption>John Howe</figcaption></figure>
-  <figure><img src="assets/Movies/Cul_de_sac.jpeg" alt="Cul-de-Sac dans le film"><figcaption>Le film</figcaption></figure>
+<div class="columns">
+  <figure class="tall"><img src="assets/Alan_Lee/Le_hobbit_cul_de_sac.jpeg" alt="Cul-de-Sac par Alan Lee"><figcaption>Alan Lee</figcaption></figure>
+  <div class="stack">
+    <figure><img src="assets/John_Howe/Cul_de_sac.jpg" alt="Cul-de-Sac par John Howe"><figcaption>John Howe</figcaption></figure>
+    <figure><img src="assets/Movies/Cul_de_sac.jpeg" alt="Cul-de-Sac dans le film"><figcaption>Le film</figcaption></figure>
+  </div>
 </div>
 
 <!--
@@ -450,14 +669,304 @@ Notes orateur : la même porte ronde, de l'illustration au décor.
 
 ---
 
+<!-- _class: wide -->
+
 ## Minas Tirith
 
-<div class="triptych">
-  <figure><img src="assets/Alan_Lee/Alan_Lee_-_Gandalf_Rides_to_Minas_Tirith.jpg" alt="Gandalf chevauche vers Minas Tirith, par Alan Lee"><figcaption>Alan Lee</figcaption></figure>
-  <figure><img src="assets/John_Howe/Minas_Tyrith.jpg" alt="Minas Tirith par John Howe"><figcaption>John Howe</figcaption></figure>
-  <figure><img src="assets/Movies/Minas_Tyrith.jpeg" style="object-position: 75% 50%" alt="Minas Tirith dans le film"><figcaption>Le film</figcaption></figure>
+<div class="diptych">
+  <figure><img src="assets/Alan_Lee/Alan_Lee_-_Gandalf_Rides_to_Minas_Tirith.jpg" alt="Gandalf chevauche vers Minas Tirith, par Alan Lee"><figcaption>Alan Lee, illustration publiée en 1992</figcaption></figure>
+  <figure><img src="assets/Movies/Minas_Tyrith.jpeg" alt="Minas Tirith dans le film"><figcaption>Le film</figcaption></figure>
 </div>
 
 <!--
-Notes orateur : Minas Tirith vue par Alan Lee, par John Howe, puis dans le film.
+Notes orateur :
+- Minas Tirith vue par Alan Lee, puis dans le film.
+- L'illustration d'Alan Lee a été publiée en 1992.
+-->
+
+---
+
+## Et le Tolkien Estate dans tout cela ?
+
+- Peter Jackson propose à Christopher Tolkien d'être consultant
+- Il décline : pas question de rendre la trilogie officielle
+
+<!--
+Notes orateur :
+- Peter Jackson avait contacté Christopher Tolkien pour lui demander de travailler comme
+  consultant sur les films.
+- Christopher Tolkien a décliné, pour ne pas rendre la trilogie de Peter Jackson officielle.
+-->
+
+---
+
+<!-- _class: cast -->
+
+## Le casting
+
+<div class="columns">
+<div>
+<h3>La Communauté</h3>
+<div class="actors fellowship">
+  <figure><img src="assets/Cast/elijah_wood.jpg" alt="Elijah Wood"><figcaption><b>Frodon</b>Elijah Wood</figcaption></figure>
+  <figure><img src="assets/Cast/sean_astin.jpg" alt="Sean Astin"><figcaption><b>Sam</b>Sean Astin</figcaption></figure>
+  <figure><img src="assets/Cast/dominic_monaghan.jpg" alt="Dominic Monaghan"><figcaption><b>Merry</b>Dominic Monaghan</figcaption></figure>
+  <figure><img src="assets/Cast/billy_boyd.jpg" alt="Billy Boyd"><figcaption><b>Pippin</b>Billy Boyd</figcaption></figure>
+  <figure><img src="assets/Cast/ian_mckellen.jpg" alt="Ian McKellen"><figcaption><b>Gandalf</b>Ian McKellen</figcaption></figure>
+  <figure><img src="assets/Cast/viggo_mortensen.jpg" alt="Viggo Mortensen"><figcaption><b>Aragorn</b>Viggo Mortensen</figcaption></figure>
+  <figure><img src="assets/Cast/orlando_bloom.jpg" alt="Orlando Bloom"><figcaption><b>Legolas</b>Orlando Bloom</figcaption></figure>
+  <figure><img src="assets/Cast/john_rhys_davies.jpg" alt="John Rhys-Davies"><figcaption><b>Gimli</b>John Rhys-Davies</figcaption></figure>
+  <figure><img src="assets/Cast/sean_bean.jpg" alt="Sean Bean"><figcaption><b>Boromir</b>Sean Bean</figcaption></figure>
+</div>
+</div>
+<div>
+<h3>Et aussi</h3>
+<div class="actors others">
+  <figure><img src="assets/Cast/andy_serkis.jpg" alt="Andy Serkis"><figcaption><b>Gollum</b>Andy Serkis</figcaption></figure>
+  <figure><img src="assets/Cast/cate_blanchett.jpg" alt="Cate Blanchett"><figcaption><b>Galadriel</b>Cate Blanchett</figcaption></figure>
+  <figure><img src="assets/Cast/christopher_lee.jpg" alt="Christopher Lee"><figcaption><b>Saroumane</b>Christopher Lee</figcaption></figure>
+  <figure><img src="assets/Cast/liv_tyler.jpg" alt="Liv Tyler"><figcaption><b>Arwen</b>Liv Tyler</figcaption></figure>
+</div>
+<p class="photo-credit">Photos recadrées : Wikimedia Commons, licences CC BY-SA, CC0 et domaine public. Auteurs dans les notes.</p>
+</div>
+</div>
+
+<!--
+Notes orateur : les neuf membres de la Communauté, puis Gollum, Galadriel, Saroumane et
+Arwen, soit treize acteurs.
+
+Crédits photos (Wikimedia Commons) : Elijah Wood et Billy Boyd, Miguel Discart & Kiri Karma
+(CC BY-SA 4.0) ; Sean Astin, John Manard (CC BY-SA 4.0) ; Dominic Monaghan, Gage Skidmore
+(CC BY-SA 3.0) ; Ian McKellen, Gage Skidmore (CC BY-SA 2.0) ; Viggo Mortensen, AWFF Oficial
+(CC BY-SA 2.0) ; Orlando Bloom et Cate Blanchett, Harald Krichel (CC BY-SA 4.0) ;
+John Rhys-Davies, NASA, Aubrey Gemignani (domaine public) ; Sean Bean, Bryan Berlin
+(CC BY-SA 4.0) ; Andy Serkis, Fandomuniverse (CC0) ; Christopher Lee, Manfred Werner
+(CC BY-SA 3.0) ; Liv Tyler, Walterlan Papetti (CC BY-SA 4.0).
+-->
+
+---
+
+<!-- _class: anecdotes -->
+
+## Quelques anecdotes de casting
+
+<div class="columns">
+  <figure>
+    <img src="assets/Cast/sean_connery.jpg" alt="Sean Connery">
+    <figcaption>Photo : John Mathew Smith, Wikimedia Commons, CC BY-SA 2.0</figcaption>
+    <p>New Line voulait Sean Connery pour jouer Gandalf</p>
+  </figure>
+  <figure>
+    <img src="assets/Stuart_Townsends_as_aragorn.webp" alt="Stuart Townsend en Aragorn">
+    <figcaption>Stuart Townsend en Aragorn</figcaption>
+    <p>Stuart Townsend, choisi par Peter Jackson, est remplacé par Viggo Mortensen</p>
+  </figure>
+</div>
+
+<!--
+Notes orateur :
+- New Line voulait Sean Connery pour jouer Gandalf.
+- Il y a eu un loupé sur Aragorn : Peter Jackson avait sélectionné Stuart Townsend, qui n'a
+  pas fait l'affaire, et il a été remplacé par Viggo Mortensen.
+-->
+
+---
+
+<!-- _class: map -->
+
+## Les lieux de tournage en Nouvelle-Zélande
+
+<img class="carte" src="assets/Carte_NZ_temp.jpeg" alt="Carte des lieux de tournage du Seigneur des Anneaux en Nouvelle-Zélande">
+
+<p class="photo-credit">Carte : All You Need Is a Backpack</p>
+
+<!--
+Notes orateur : la carte est en allemand (image provisoire d'après son nom de fichier).
+-->
+
+---
+
+<!-- _class: context dense -->
+
+## Ainsi qu'une météo capricieuse
+
+Une tempête inonde des lieux de tournage. Sean Bean et Orlando Bloom sont coincés entre deux glissements de terrain.
+
+> Par chance, Legolas et Boromir repèrent une minuscule maisonnette, isolée sur la lande sauvage, dont l'unique occupante est une vieille dame qui n'a pas la moindre idée de qui ils sont. Ils lui expliquent leur mésaventure et elle les invite à entrer, d'abord pour le thé, puis pour rester. [...]
+>
+> Restait aussi le petit problème de savoir comment récupérer Bloom et Bean, en exil dans une maisonnette magique. Les routes n'étant toujours pas dégagées, ils dormaient depuis quatre jours sur les minuscules canapés de la vieille dame quand Caro finit par négocier un sauvetage en hélicoptère.
+
+— Ian Nathan, *Anything You Can Imagine* (2018), p. 198
+
+<!--
+Notes orateur :
+- Une prodigieuse tempête a inondé certains lieux de tournage ; Sean Bean et Orlando Bloom se
+  sont retrouvés coincés sur une route, encerclés par deux glissements de terrain.
+- Pour la petite histoire, Jackson raconte en riant que Sean Bean déteste les hélicoptères :
+  le vol jusqu'à Queenstown, dans les restes de la tempête, l'a laissé presque inconscient.
+- Citation : traduction par l'IA de l'original anglais.
+-->
+
+---
+
+<!-- _class: visual -->
+
+## Et des contraintes locales
+
+<figure>
+  <img src="assets/Ngauruhoe.jpg" alt="Le mont Ngauruhoe">
+  <figcaption>Le mont Ngauruhoe. Photo : Krzysztof Golik, Wikimedia Commons, CC BY-SA 4.0</figcaption>
+</figure>
+
+Sacré pour les Maoris : impossible d'y tourner
+
+<!--
+Notes orateur :
+- Le volcan choisi pour servir de référence à la montagne du Destin était le mont Ngauruhoe.
+- Il est sacré pour les Maoris : il n'a pas été possible de tourner dessus.
+-->
+
+---
+
+<!-- _class: context dense -->
+
+## Un tournant dans les effets spéciaux
+
+- Des effets spéciaux en plein essor
+- Mais utilisés seulement en cas de nécessité
+
+> « Brian a mis en place une grande partie des mouvements à l'échelle des Hobbits et des dispositifs de contrôle de mouvement. Soixante à soixante-dix pour cent de ces plans ont été réalisés directement à la prise de vue, le reste étant des compositings sur fond bleu. »
+
+— Jim Rygiel, à propos de Brian Van't Hul, dans Ron Magid, « Imagining Middle-Earth for *The Lord of the Rings* », *American Cinematographer*, décembre 2001, republié sur theasc.com le 29 janvier 2026
+
+<!--
+Notes orateur :
+- Les effets spéciaux se développaient fortement, mais le film gardait la volonté de n'en
+  utiliser qu'en cas de nécessité.
+- Attention à la portée du chiffre : il concerne les plans où les acteurs doivent paraître à
+  la taille de Hobbits, dans La Communauté de l'Anneau, pas tout le film. Rygiel oppose la
+  prise de vue au compositing sur fond bleu, il ne parle pas de CGI.
+- Citation : traduction par l'IA de l'original anglais.
+-->
+
+---
+
+<!-- _class: visual -->
+
+## Une image assez emblématique
+
+<figure>
+  <img src="assets/The_ring_in_snow_theasc.com.jpg" alt="L'Anneau dans la neige, Frodon et Sam à l'arrière-plan">
+  <figcaption><em>La Communauté de l'Anneau</em>. Source : Ron Magid, <em>American Cinematographer</em>, décembre 2001, theasc.com</figcaption>
+</figure>
+
+<!--
+Notes orateur : image issue du même article d'American Cinematographer.
+-->
+
+---
+
+## Deux studios complémentaires
+
+- **Weta Workshop** : le maquillage, les accessoires
+- **Weta Digital** : les effets spéciaux numériques
+
+<!--
+Notes orateur :
+- Weta Workshop pour le maquillage et les accessoires.
+- Weta Digital pour les effets spéciaux numériques.
+-->
+
+---
+
+<!-- _class: visual -->
+
+## Utilisation de Massive
+
+<figure>
+  <img src="assets/Movies/Massive_Rohan_Pelenor.jpeg" alt="L'armée du Rohan aux Champs du Pelennor, Le Retour du Roi">
+</figure>
+
+<!--
+Notes orateur : Massive, un logiciel de simulation d'armées et de grandes foules.
+-->
+
+---
+
+<!-- _class: visual -->
+
+## Le motion capture et Andy Serkis : une avancée artistique
+
+<figure>
+  <img src="assets/Movies/Andy_Serkis_mc.jpeg" alt="Andy Serkis en combinaison de motion capture et Gollum à l'écran">
+</figure>
+
+<!--
+Notes orateur : Andy Serkis, le motion capture et Gollum.
+-->
+
+---
+
+<!-- _class: section -->
+
+## Conclusion
+
+---
+
+<!-- _class: awards -->
+
+## Un succès cinématographique reconnu…
+
+Environ 3 milliards de dollars au box-office
+
+| Film | Oscars | Catégories |
+|------|--------|------------|
+| *La Communauté de l'Anneau* | 4 | Photographie, effets visuels, maquillage, musique |
+| *Les Deux Tours* | 2 | Montage de son, effets visuels |
+| *Le Retour du Roi* | 11 | Film, réalisateur, scénario adapté, direction artistique, costumes, montage, maquillage, musique, chanson originale, mixage de son, effets visuels |
+| **Total** | **17** | |
+
+<!--
+Notes orateur :
+- Cérémonies de 2002, 2003 et 2004. Alan Lee est récompensé pour la direction artistique
+  du Retour du Roi.
+- C'est le début d'un univers visuel large : jeux vidéo, suite du Hobbit.
+- Richard Taylor et Jim Rygiel ont chacun reçu 3 Oscars : 3 fois les effets visuels pour
+  Jim Rygiel, 2 fois le maquillage et 1 fois les effets visuels pour Richard Taylor.
+  ATTENTION : Tolkiendil donne en plus à Richard Taylor l'Oscar des costumes pour Le Retour
+  du Roi, soit 4 Oscars.
+-->
+
+---
+
+<!-- _class: universe -->
+
+## Qui a engendré un univers multimédia étendu…
+
+<div class="gallery">
+  <figure><img src="assets/Univers/Hobbit_Embassy_Wellington.jpg" alt="Cul-de-Sac et Gandalf sur la façade de l'Embassy Theatre de Wellington"><figcaption>Première du <em>Hobbit</em>, Wellington, 2012. Photo : Pseudopanax, domaine public</figcaption></figure>
+  <figure><img src="assets/Univers/Hobbit_fresque_Wellington.jpg" alt="Fresque géante pour la première du Hobbit à Wellington"><figcaption>Fresque géante, Wellington, 2012. Photo : Pseudopanax, domaine public</figcaption></figure>
+  <figure><img src="assets/Univers/War_in_the_North.jpg" alt="Stand du jeu vidéo War in the North"><figcaption>Le jeu vidéo <em>War in the North</em> en salon, 2011. Photo : dalvenjah, CC BY-SA 2.0</figcaption></figure>
+</div>
+
+<!--
+Notes orateur : la trilogie du Hobbit et les jeux vidéo prolongent l'univers visuel des films.
+-->
+
+---
+
+<!-- _class: context dense -->
+
+## Mais quel succès en tant qu'adaptation ?
+
+> « Ils ont éviscéré le livre, en en faisant un film d'action pour les 15-25 ans », regrette Christopher. « Et il paraît que Le Hobbit sera du même acabit. »
+
+> « Tolkien est devenu un monstre, dévoré par sa popularité et absorbé par l'absurdité de l'époque », observe tristement Christopher Tolkien. « Le fossé qui s'est creusé entre la beauté, le sérieux de l'œuvre, et ce qu'elle est devenue, tout cela me dépasse. Un tel degré de commercialisation réduit à rien la portée esthétique et philosophique de cette création. Il ne me reste qu'une seule solution : tourner la tête. »
+
+— Christopher Tolkien, entretien au *Monde*, « Tolkien, l'anneau de la discorde », 5 juillet 2012
+
+<!--
+Notes orateur :
+- Christopher Tolkien est le fils de l'écrivain.
+- L'article est signé Raphaëlle Rérolle.
 -->

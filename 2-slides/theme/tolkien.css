@@ -7,14 +7,31 @@
 /*
  * Polices système uniquement, pour que la présentation fonctionne hors ligne.
  * Pour une police dédiée, déposer les fichiers dans theme/fonts/ et les déclarer avec @font-face.
+ *
+ * EB Garamond 12 Bold ne contient aucune lettre accentuée : dans un titre, chaque « é » venait
+ * d'une autre police et paraissait plus grand. On ne déclare donc que Regular et Italic :
+ * le navigateur en dérive le gras, identique pour toutes les lettres.
  */
+@font-face {
+  font-family: 'Tolkien Serif';
+  src: local('EB Garamond 12 Regular'), local('EBGaramond12-Regular');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Tolkien Serif';
+  src: local('EB Garamond 12 Italic'), local('EBGaramond12-Italic');
+  font-style: italic;
+  font-weight: 400;
+}
+
 :root {
   --parchment: #f4ecd8;
   --ink: #2b2118;
   --ink-soft: #5c4a3a;
   --gold: #a67c2e;
   --dark: #1d1a16;
-  --font-serif: 'EB Garamond', 'Cormorant Garamond', Garamond, 'Palatino Linotype', Palatino, Georgia, serif;
+  --font-serif: 'Tolkien Serif', 'EB Garamond', 'Cormorant Garamond', Garamond, 'Palatino Linotype', Palatino, Georgia, serif;
 }
 
 section {
@@ -308,6 +325,7 @@ section.dark h2 { color: var(--parchment); }
 /* Slide avec titre, contexte et citation : <!-- _class: context --> */
 section.context blockquote { font-size: 1.05em; margin-top: 0.6em; }
 section.context p { margin: 0.3em 0; }
+section.context.dense blockquote { font-size: 0.92em; }
 
 /* Frise compacte, pour une chaîne d'étapes sans échelle de temps */
 .timeline.compact { height: 170px; margin: 0 60px 10px; }
@@ -389,6 +407,139 @@ section.cameos .arrows marker path {
   stroke: none;
 }
 
+/* Slide « divergences » : schéma en SVG plein cadre sous le titre. <!-- _class: divergence --> */
+section.divergence { align-content: flex-start; position: relative; }
+section.divergence .schema {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.divergence .schema .arrow {
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 4;
+}
+section.divergence .schema marker path { fill: var(--gold); }
+section.divergence .schema rect {
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 3;
+}
+section.divergence .schema text {
+  fill: var(--ink);
+  font-size: 30px;
+  text-anchor: middle;
+  font-variant-numeric: lining-nums;
+}
+section.divergence .schema .who { font-weight: 700; }
+section.divergence .schema .changed {
+  fill: var(--gold);
+  font-weight: 700;
+  font-size: 34px;
+}
+
+/* Slide « New Line » : portrait à gauche, citation à droite. <!-- _class: shaye --> */
+section.shaye .columns {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+section.shaye figure {
+  flex: 0 0 240px;
+  margin: 0;
+}
+section.shaye figure img {
+  display: block;
+  width: 240px;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+section.shaye figcaption {
+  color: var(--ink-soft);
+  font-size: 0.5em;
+  line-height: 1.25;
+  margin-top: 6px;
+}
+section.shaye blockquote {
+  font-size: 0.72em;
+  line-height: 1.3;
+}
+section.shaye blockquote p { margin: 0 0 0.5em; }
+section.shaye blockquote + p { margin-top: 0.4em; }
+
+/* Slide « casting » : trombinoscope, 3 × 3 à gauche et 2 × 2 à droite. <!-- _class: cast --> */
+section.cast {
+  align-content: flex-start;
+  padding-top: 30px;
+}
+section.cast h2 { margin: 0; }
+section.cast .columns {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+section.cast h3 {
+  color: var(--gold);
+  font-size: 0.75em;
+  margin: 0 0 0.3em;
+}
+section.cast .actors {
+  display: grid;
+  gap: 8px 16px;
+}
+section.cast .actors.fellowship { grid-template-columns: repeat(3, 138px); }
+section.cast .actors.others { grid-template-columns: repeat(2, 138px); }
+section.cast figure { margin: 0; text-align: center; }
+section.cast figure img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 2px solid var(--gold);
+  box-sizing: border-box;
+  object-fit: cover;
+}
+section.cast figcaption {
+  font-size: 0.55em;
+  line-height: 1.15;
+  margin-top: 3px;
+}
+section.cast figcaption b {
+  display: block;
+  font-size: 1.1em;
+}
+section.cast .photo-credit {
+  color: var(--ink-soft);
+  font-size: 0.45em;
+  line-height: 1.25;
+  margin: 16px 0 0;
+}
+
+/* Slide avec un petit tableau : <!-- _class: awards --> */
+section.awards p {
+  font-size: 1.1em;
+  text-align: center;
+}
+section.awards table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.66em;
+  font-variant-numeric: lining-nums;
+}
+section.awards table tr,
+section.awards table tr:nth-child(2n) { background: none; }
+section.awards th,
+section.awards td {
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--gold);
+  color: var(--ink);
+  padding: 0.35em 0.5em;
+  text-align: left;
+}
+section.awards th { color: var(--gold); }
+
 /* Texte secondaire sous une liste */
 p.aside {
   color: var(--ink-soft);
@@ -396,7 +547,8 @@ p.aside {
   margin-top: 1.2em;
 }
 
-/* Trois images côte à côte, de même dimension (recadrées) : <div class="triptych"> */
+/* Trois images côte à côte, dans un même cadre et sans recadrage : <div class="triptych"> */
+section.wide { padding-left: 40px; padding-right: 40px; }
 .triptych {
   display: flex;
   justify-content: space-between;
@@ -404,18 +556,165 @@ p.aside {
 }
 .triptych figure {
   margin: 0;
-  width: 250px;
+  width: 285px;
   text-align: center;
 }
 .triptych img {
   display: block;
-  width: 250px;
-  height: 330px;
-  object-fit: cover;
-  border: 3px solid var(--gold);
-  box-sizing: border-box;
+  width: 285px;
+  height: 285px;
+  object-fit: contain;
 }
 .triptych figcaption {
   font-size: 0.6em;
   margin-top: 8px;
+}
+
+/* Deux images côte à côte, même cadre, sans recadrage */
+.diptych {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.diptych figure {
+  margin: 0;
+  width: 430px;
+  text-align: center;
+}
+.diptych img {
+  display: block;
+  width: 430px;
+  height: 290px;
+  object-fit: contain;
+}
+.diptych figcaption {
+  font-size: 0.6em;
+  margin-top: 8px;
+}
+
+/* Une image en hauteur et deux en largeur, sans recadrage : <!-- _class: mosaic --> */
+section.mosaic {
+  align-content: flex-start;
+  padding: 30px 50px;
+}
+section.mosaic h2 { margin: 0; }
+section.mosaic .columns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 14px;
+}
+section.mosaic figure { margin: 0; text-align: center; }
+section.mosaic img {
+  display: block;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+section.mosaic .tall img { height: 530px; }
+section.mosaic .stack img { width: 388px; }
+section.mosaic figcaption {
+  font-size: 0.6em;
+  line-height: 1.2;
+  margin-top: 3px;
+}
+
+/* Grande image sous le titre : <!-- _class: visual --> */
+section.visual {
+  align-content: flex-start;
+  padding: 40px 60px;
+}
+section.visual h2 { margin: 0; font-size: 1.2em; }
+section.visual figure { margin: 24px 0 0; text-align: center; }
+section.visual img {
+  display: block;
+  max-width: 100%;
+  max-height: 500px;
+  margin: 0 auto;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+section.visual figcaption {
+  color: var(--ink-soft);
+  font-size: 0.5em;
+  margin-top: 6px;
+}
+section.visual p {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0.4em 0 0;
+}
+
+/* Deux anecdotes illustrées, côte à côte : <!-- _class: anecdotes --> */
+section.anecdotes .columns {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+section.anecdotes figure { flex: 1; margin: 0; }
+section.anecdotes img {
+  display: block;
+  height: 280px;
+  margin: 0 auto;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+section.anecdotes figcaption {
+  color: var(--ink-soft);
+  font-size: 0.45em;
+  margin-top: 4px;
+  text-align: center;
+}
+section.anecdotes p {
+  font-size: 0.85em;
+  line-height: 1.2;
+  margin: 0.5em 0 0;
+  text-align: center;
+}
+
+/* Carte en hauteur à droite, titre à gauche : <!-- _class: map --> */
+section.map { padding: 70px 0 0 50px; position: relative; align-content: flex-start; }
+section.map h2 {
+  width: 340px;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+section.map .carte {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  height: 640px;
+}
+section.map .photo-credit {
+  width: 340px;
+  color: var(--ink-soft);
+  font-size: 0.5em;
+  margin-top: 0.6em;
+}
+
+/* Galerie de trois images sans recadrage : <!-- _class: universe --> */
+section.universe {
+  align-content: flex-start;
+  padding: 30px 50px;
+}
+section.universe h2 { margin: 0; font-size: 1.2em; }
+section.universe .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin-top: 14px;
+}
+section.universe figure { width: 380px; margin: 0; }
+section.universe img {
+  display: block;
+  width: 100%;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+section.universe figcaption {
+  color: var(--ink-soft);
+  font-size: 0.45em;
+  line-height: 1.2;
+  margin-top: 3px;
 }
