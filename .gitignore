@@ -1,1 +1,4 @@
 node_modules/
+
+# Copie de 2-slides/assets/ refaite à chaque build
+3-presentation/assets/
