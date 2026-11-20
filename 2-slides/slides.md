@@ -37,19 +37,20 @@ Notes orateur : se présenter, remercier la médiathèque.
 </figure>
 
 <div class="timeline">
-  <div class="event down first" style="--x: 0%"><div class="label"><span class="year">1892</span>Naissance en Afrique du Sud</div></div>
+  <div class="event down first" style="--x: 0%"><div class="label"><span class="year">3 janvier 1892</span>Naissance à Bloemfontein (actuelle Afrique du Sud)</div></div>
   <div class="event up" style="--x: 55.6%"><div class="label"><span class="year">1937</span><em>Le Hobbit</em></div></div>
   <div class="event down" style="--x: 76.5%"><div class="label"><span class="year">1954-1955</span><em>Le Seigneur des Anneaux</em></div></div>
-  <div class="event up last" style="--x: 95.1%"><div class="label"><span class="year">1969</span>Droits cédés à United Artists</div></div>
+  <div class="event up last" style="--x: 95.1%"><div class="label"><span class="year">1969</span>Droits cédés à United Artists, une major de l'époque</div></div>
   <div class="event down last" style="--x: 100%"><div class="label"><span class="year">1973</span>Décès</div></div>
 </div>
 
 <!--
 Notes orateur (dates À VÉRIFIER et à reporter dans sources.md) :
-- 3 janvier 1892 : naissance à Bloemfontein (Afrique du Sud).
+- 3 janvier 1892 : naissance à Bloemfontein (actuelle Afrique du Sud).
 - 21 septembre 1937 : parution du Hobbit.
 - 1954-1955 : parution du Seigneur des Anneaux en trois volumes.
-- 1969 : Tolkien cède les droits d'adaptation cinéma du Hobbit et du Seigneur des Anneaux à United Artists.
+- 1969 : Tolkien cède les droits d'adaptation cinéma du Hobbit et du Seigneur des Anneaux à United Artists,
+  qui était alors une major hollywoodienne.
 - 2 septembre 1973 : décès à Bournemouth (Angleterre).
 Naissance, Hobbit et décès confirmés par Tolkiendil (« Tolkien, de l'homme à l'auteur »).
 ATTENTION : Tolkiendil (« Le Guide Tolkien ») date la vente des droits de 1968, pas 1969.
@@ -67,10 +68,10 @@ ATTENTION : Tolkiendil (« Le Guide Tolkien ») date la vente des droits de 1968
   <figcaption>Couverture de <em>Lettres</em>, J.R.R. Tolkien, éd. Christian Bourgois</figcaption>
 </figure>
 <div class="timeline">
-  <div class="event down first" style="--x: 0%"><div class="label"><span class="year">1892</span>Naissance en Afrique du Sud</div></div>
+  <div class="event down first" style="--x: 0%"><div class="label"><span class="year">3 janvier 1892</span>Naissance à Bloemfontein (actuelle Afrique du Sud)</div></div>
   <div class="event up" style="--x: 55.6%"><div class="label"><span class="year">1937</span><em>Le Hobbit</em></div></div>
   <div class="event down" style="--x: 76.5%"><div class="label"><span class="year">1954-1955</span><em>Le Seigneur des Anneaux</em></div></div>
-  <div class="event up last" style="--x: 95.1%"><div class="label"><span class="year">1969</span>Droits cédés à United Artists</div></div>
+  <div class="event up last" style="--x: 95.1%"><div class="label"><span class="year">1969</span>Droits cédés à United Artists, une major de l'époque</div></div>
   <div class="event down last" style="--x: 100%"><div class="label"><span class="year">1973</span>Décès</div></div>
 </div>
 </div>
@@ -132,7 +133,7 @@ Notes orateur :
 
 Première adaptation : un feuilleton radiophonique de la BBC.
 
-> Je pense peu de bien des adaptations radiophoniques. À part quelques détails, je trouve qu'elles ne sont pas bien faites, même en admettant le script et la légitimité de l'entreprise (ce que, moi, je n'admets pas).
+> Je pense peu de bien des adaptations radiophoniques. À l’exception de quelques détails, je trouve qu’elles sont mal faites, même en acceptant le texte et la légitimité de la démarche (que moi je n’accepte pas).
 
 — J.R.R. Tolkien, lettre 176, 8 décembre 1955
 
@@ -141,8 +142,7 @@ Notes orateur :
 - Première adaptation du Seigneur des Anneaux : un feuilleton radiophonique de la BBC, en 1955.
 - Adaptation de Terence Tiller, diffusée en 1955-1956 (Tolkiendil). (À VÉRIFIER)
 - Tolkien est déjà de son vivant très réservé sur l'idée même d'adapter son livre :
-  il ne conteste pas seulement la qualité, il conteste la « légitimité de l'entreprise ».
-- Citation : traduction par l'IA de l'original anglais (« which I do not grant »).
+  il ne conteste pas seulement la qualité, il conteste la « légitimité de la démarche ».
 -->
 
 ---
@@ -153,7 +153,7 @@ Notes orateur :
 
 Ackerman et Zimmerman proposent un film d'animation. Projet abandonné.
 
-> Le Balrog ne parle jamais et n'émet absolument aucun son de voix. Surtout, il ne rit pas et ne ricane pas… Z peut bien penser qu'il en sait plus que moi sur les Balrogs, mais il ne peut pas s'attendre à ce que je sois d'accord avec lui.
+> Le Balrog ne parle ni n’émet jamais avec sa bouche aucun son d’aucune sorte. Moins que tout il ne rit ni ne ricane. […] Z peut penser qu’il en sait plus que moi sur les Balrogs, mais il ne peut pas s’attendre à ce que je sois d’accord en cela avec lui.
 
 — J.R.R. Tolkien, lettre 210
 
@@ -168,7 +168,6 @@ Notes orateur :
   « En ce qui me concerne, j'accueillerais personnellement volontiers l'idée d'un dessin
   animé, avec tous les risques liés à la vulgarisation [...] même si, à l'orée de la
   retraite, cela n'est pas une éventualité désagréable. »
-- Citation de la lettre 210 : traduction par l'IA de l'original anglais.
 -->
 
 ---

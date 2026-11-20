@@ -1,5 +1,10 @@
 # Faits ajoutés par l'IA — 01-introduction.md
 
+## « Tolkien en quelques dates »
+
+- **Notes** : United Artists était alors une major *hollywoodienne* (le brief dit seulement
+  « une major à l'époque »). **[IA, à vérifier]**
+
 ## « 1955 : le Seigneur des Anneaux à la radio »
 
 - **Notes** : l'adaptation BBC de 1955 est signée Terence Tiller.

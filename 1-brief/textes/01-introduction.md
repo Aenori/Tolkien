@@ -4,6 +4,10 @@
 
 Slide contenant une photo de Tolkien, une frise chronologique avec sa date de naissance et de mort, la date de parution du Hobbit et du Seigneur des anneaux, la date où il a cédé les droits à united artist
 
+Texte pour la naissance : 3 janvier 1892, Bloemfontein (actuelle Afrique du Sud)
+
+Préciser que United Artist était une major à l'époque
+
 ## Slide n°2 : croisement avec Jackson
 
 Effet de transition : la slide précédente réduit en taille jusqu'à ne faire que la moitié de l'écran
@@ -22,18 +26,18 @@ Seuls les films (2001-2003) sont hors échelle, pour garder les titres lisibles.
 
 Une première adaptation radiophonique par la BBC en 1955
 
-Je pense peu de bien des adaptations radiophoniques. À part quelques détails, je trouve qu'elles ne sont pas bien faites, même en admettant le script et la légitimité de l'entreprise (ce que, moi, je n'admets pas). (Lettre 176)
+Je pense peu de bien des adaptations radiophoniques. À l’exception de quelques détails, je trouve qu’elles sont mal faites, même en acceptant le texte et la légitimité de la démarche (que moi je n’accepte pas). (Lettre 176)
 
 1957-1959	Ackerman / Zimmerman	Projet d'animation abandonné
 
-20. Le Balrog ne parle jamais et n'émet absolument aucun son de voix. Surtout, il ne rit pas et ne ricane pas… Z peut bien penser qu'il en sait plus que moi sur les Balrogs, mais il ne peut pas s'attendre à ce que je sois d'accord avec lui. (lettre 210)
+20. Le Balrog ne parle ni n’émet jamais avec sa bouche aucun son d’aucune sorte. Moins que tout il ne rit ni ne ricane. […] Z peut penser qu’il en sait plus que moi sur les Balrogs, mais il ne peut pas s’attendre à ce que je sois d’accord en cela avec lui.
 
 
 ## Slide n°4 : le projet avorté de Boorman (1969)
 
 Retranscrit l'intégralité de cette citation
 
-<quote>Boorman avait un goût pour le sensuel et le païen [...] Aragorn ranime Éowyn par un orgasme magique, et va même jusqu'à planter un franc baiser sur les lèvres de Boromir à un moment. Le réalisateur se laisse aussi emporter par la réputation du livre comme totem hippie. Les fleurs sauvages sont un leitmotiv omniprésent, et le Conseil d'Elrond se transforme en spectacle de cirque fellinien, avec danseurs, jongleurs et un chien plein d'entrain qui symbolise le destin. [...]
+<quote>Boorman avait un goût pour le sensuel et le païen [...] Aragorn ranime Éowyn par un or***** magique, et va même jusqu'à planter un franc baiser sur les lèvres de Boromir à un moment. Le réalisateur se laisse aussi emporter par la réputation du livre comme totem hippie. Les fleurs sauvages sont un leitmotiv omniprésent, et le Conseil d'Elrond se transforme en spectacle de cirque fellinien, avec danseurs, jongleurs et un chien plein d'entrain qui symbolise le destin. [...]
 
 Disparus, les trous de hobbit, Bree et le Gouffre de Helm. Gimli ouvre les portes de la Moria en dansant la gigue, tandis que Merry et Pippin sont joués comme un Laurel et Hardy version Demi-Hommes. [...]
 
@@ -41,7 +45,7 @@ United Artists (UA) n'y comprit pas un traître mot.</quote>
 
 Source : Anything you can imagine
 
-## Slide n°5 : Et les beatles
+## Slide n°5 : Et les beatles (1968-1969)
 
 Puis il y avait l'histoire des Beatles. Comment les Fab Four, au sommet de leur propre gloire invraisemblable, étaient allés trouver le grand Stanley Kubrick dans sa propriété de St Albans pour qu'il les aide à créer une comédie musicale multimédia tirée du *Seigneur des Anneaux*, dont ils seraient les vedettes et dont ils assureraient, naturellement, la rythmique.
 
