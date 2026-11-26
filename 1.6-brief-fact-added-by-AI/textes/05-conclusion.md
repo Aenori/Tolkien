@@ -23,9 +23,9 @@
   Raphaëlle Rérolle.
   Source : `sources/divers_internet/lemonde/Tolkien, l'anneau de la discorde.html`.
 
-## « Qui a engendré un univers multimédia étendu… »
+## « Qui a engendré un univers multimédia étendu (suite)… »
 
-- **Écran** : première du *Hobbit* à Wellington, 2012 (façade de l'Embassy Theatre et fresque
-  géante). Source : pages Wikimedia Commons citées dans `2-slides/assets/CREDITS.md`.
-- **Écran** : jeu vidéo *War in the North*, présenté en salon en 2011 (date de la photo).
-  Source : page Wikimedia Commons citée dans `2-slides/assets/CREDITS.md`.
+- **Écran** : années de sortie des films du *Hobbit* : *Un voyage inattendu*, 2012 ;
+  *La Désolation de Smaug*, 2013 ; *La Bataille des cinq armées*, 2014.
+  Source : pages TMDB citées dans `2-slides/assets/CREDITS.md` (années aussi présentes dans
+  les titres des pages TMDB).

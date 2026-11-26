@@ -945,18 +945,33 @@ Notes orateur :
 
 ---
 
-<!-- _class: universe -->
+<!-- _class: wide -->
 
 ## Qui a engendré un univers multimédia étendu…
 
-<div class="gallery">
-  <figure><img src="assets/Univers/Hobbit_Embassy_Wellington.jpg" alt="Cul-de-Sac et Gandalf sur la façade de l'Embassy Theatre de Wellington"><figcaption>Première du <em>Hobbit</em>, Wellington, 2012. Photo : Pseudopanax, domaine public</figcaption></figure>
-  <figure><img src="assets/Univers/Hobbit_fresque_Wellington.jpg" alt="Fresque géante pour la première du Hobbit à Wellington"><figcaption>Fresque géante, Wellington, 2012. Photo : Pseudopanax, domaine public</figcaption></figure>
-  <figure><img src="assets/Univers/War_in_the_North.jpg" alt="Stand du jeu vidéo War in the North"><figcaption>Le jeu vidéo <em>War in the North</em> en salon, 2011. Photo : dalvenjah, CC BY-SA 2.0</figcaption></figure>
+<div class="diptych">
+  <figure><img src="assets/Univers/Couverture_livres_avant_PJ.jpeg" alt="Les trois tomes du Seigneur des Anneaux, couvertures illustrées d'avant les films"><figcaption>Avant les films</figcaption></figure>
+  <figure><img src="assets/Univers/Couverture_livres_apres_PJ.jpeg" alt="Les trois tomes du Seigneur des Anneaux, couvertures aux photos des films"><figcaption>Après les films</figcaption></figure>
 </div>
 
 <!--
-Notes orateur : la trilogie du Hobbit et les jeux vidéo prolongent l'univers visuel des films.
+Notes orateur : les couvertures des livres, avant et après les films de Peter Jackson.
+-->
+
+---
+
+<!-- _class: posters -->
+
+## Qui a engendré un univers multimédia étendu (suite)…
+
+<div class="gallery">
+  <figure><img src="assets/Movies/Hobbit_1_Un_voyage_inattendu.jpg" alt="Affiche du Hobbit : Un voyage inattendu"><figcaption><em>Un voyage inattendu</em>, 2012</figcaption></figure>
+  <figure><img src="assets/Movies/Hobbit_2_La_desolation_de_Smaug.jpg" alt="Affiche du Hobbit : La Désolation de Smaug"><figcaption><em>La Désolation de Smaug</em>, 2013</figcaption></figure>
+  <figure><img src="assets/Movies/Hobbit_3_La_bataille_des_cinq_armees.jpg" alt="Affiche du Hobbit : La Bataille des cinq armées"><figcaption><em>La Bataille des cinq armées</em>, 2014</figcaption></figure>
+</div>
+
+<!--
+Notes orateur : la trilogie du Hobbit, les trois films.
 -->
 
 ---
@@ -975,4 +990,43 @@ Notes orateur : la trilogie du Hobbit et les jeux vidéo prolongent l'univers vi
 Notes orateur :
 - Christopher Tolkien est le fils de l'écrivain.
 - L'article est signé Raphaëlle Rérolle.
+-->
+
+---
+
+<!-- _class: section -->
+
+## Épilogue : Les Anneaux de pouvoir
+
+---
+
+<!-- _class: posters -->
+
+## Série Amazon prévue en 5 saisons
+
+<div class="gallery">
+  <figure><img src="assets/Movies/Anneaux_de_pouvoir_saison_1.jpg" alt="Affiche de la saison 1 des Anneaux de pouvoir"><figcaption>Saison 1, 2022</figcaption></figure>
+  <figure><img src="assets/Movies/Anneaux_de_pouvoir_saison_2.jpg" alt="Affiche de la saison 2 des Anneaux de pouvoir"><figcaption>Saison 2, 2024</figcaption></figure>
+  <figure><img src="assets/Movies/Anneaux_de_pouvoir_saison_3.jpg" alt="Affiche de la saison 3 des Anneaux de pouvoir"><figcaption>Saison 3, 2026</figcaption></figure>
+</div>
+
+<p class="credit">© Amazon Videos</p>
+
+<!--
+Notes orateur : Les Anneaux de pouvoir, série Amazon prévue en 5 saisons ; affiches des 3 premières.
+-->
+
+---
+
+<!-- _class: visual -->
+
+## Les droits
+
+<figure>
+  <img src="assets/Tolkiendil_arbre_des_droits_fr_26-05-15.png" alt="Arbre des droits d'adaptation de l'œuvre de Tolkien">
+  <figcaption>Source : association Tolkiendil</figcaption>
+</figure>
+
+<!--
+Notes orateur : l'image provient du site de l'association Tolkiendil.
 -->

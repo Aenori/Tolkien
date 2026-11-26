@@ -733,3 +733,34 @@ section.shaye p.intro { font-size: 0.8em; margin: 0 0 0.5em; }
 /* Rangée de trois images de même hauteur : <div class="images row3"> */
 .images.row3 { gap: 14px; }
 .images.row3 img { height: 175px; flex-shrink: 0; }
+
+/* Trois affiches en hauteur, côte à côte, sans recadrage : <!-- _class: posters --> */
+section.posters {
+  align-content: flex-start;
+  padding: 30px 50px;
+}
+section.posters h2 { margin: 0; font-size: 1.2em; }
+section.posters .gallery {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 18px;
+}
+section.posters figure { width: 270px; margin: 0; text-align: center; }
+section.posters img {
+  display: block;
+  width: 100%;
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+}
+section.posters figcaption {
+  color: var(--ink-soft);
+  font-size: 0.5em;
+  margin-top: 4px;
+}
+section.posters p.credit {
+  color: var(--ink-soft);
+  font-size: 0.45em;
+  text-align: right;
+  margin: 6px 0 0;
+}

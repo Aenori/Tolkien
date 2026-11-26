@@ -1,6 +1,6 @@
 # Conclusion
 
-## Slide n°1 : Un succès cinématographique reconnu ...
+## Slide n°5.1 : Un succès cinématographique reconnu ...
 
 Environ 3 milliards de dollar au box-office
 
@@ -10,11 +10,18 @@ Environ 3 milliards de dollar au box-office
 	- c'est le début d'un univers visuel large, jeux vidéos, suite du Hobbit
 	- Richard Taylor et Jim Rygiel ont chacun reçus 3 oscars, 3x effets visuels pour Jim Rygiel, 2x maquillage et 1x effets visuels pour Richard Taylor
 
-## Slide n°2 : Qui a engendré un univers multimédia étendue ...
+## Slide n°5.2 : Qui a engendré un univers multimédia étendue ...
 
-@claude : trouve un ensemble d'image libre de droit de jeux vidéos et de la trilogie du Hobbit
+Mets cote à côte les images Couverture_livres_avant_PJ.jpeg et Couverture_livres_apres_PJ.jpeg 
 
-## Slide n°3 : Mais quel succès en temps qu'adaptation ?
+## Slide n°5.3 : Qui a engendré un univers multimédia étendue (suite) ...
+
+Mets cote à côte les couvertures des 3 films du hobbit :  
+- Hobbit_1_Un_voyage_inattendu.jpg  
+- Hobbit_2_La_desolation_de_Smaug.jpg  
+- Hobbit_3_La_bataille_des_cinq_armees.jpg  
+
+## Slide n°5.4 : Mais quel succès en temps qu'adaptation ?
 
 @claude mets les deux citations suivante en intégralité sur une seule slide
 

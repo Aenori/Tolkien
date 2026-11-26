@@ -1,6 +1,6 @@
 # Introduction : Le long chemin des livres vers les films
 
-## Slide n°1 : rappel des dates
+## Slide n°1.1 : rappel des dates
 
 Slide contenant une photo de Tolkien, une frise chronologique avec sa date de naissance et de mort, la date de parution du Hobbit et du Seigneur des anneaux, la date où il a cédé les droits à united artist
 
@@ -8,7 +8,7 @@ Texte pour la naissance : 3 janvier 1892, Bloemfontein (actuelle Afrique du Sud)
 
 Préciser que United Artist était une major à l'époque
 
-## Slide n°2 : croisement avec Jackson
+## Slide n°1.2 : croisement avec Jackson
 
 Effet de transition : la slide précédente réduit en taille jusqu'à ne faire que la moitié de l'écran
 
@@ -22,7 +22,7 @@ du Seigneur des Anneaux et la cession des droits). Un trait pointillé vertical
 relie la naissance de Jackson à la frise de Tolkien.
 Seuls les films (2001-2003) sont hors échelle, pour garder les titres lisibles.
 
-## Slide n°3 : les adaptations du temps de JRR Tolkien
+## Slide n°1.3 : les adaptations du temps de JRR Tolkien
 
 Une première adaptation radiophonique par la BBC en 1955
 
@@ -33,7 +33,7 @@ Je pense peu de bien des adaptations radiophoniques. À l’exception de quelque
 20. Le Balrog ne parle ni n’émet jamais avec sa bouche aucun son d’aucune sorte. Moins que tout il ne rit ni ne ricane. […] Z peut penser qu’il en sait plus que moi sur les Balrogs, mais il ne peut pas s’attendre à ce que je sois d’accord en cela avec lui.
 
 
-## Slide n°4 : le projet avorté de Boorman (1969)
+## Slide n°1.4 : le projet avorté de Boorman (1969)
 
 Retranscrit l'intégralité de cette citation
 
@@ -45,7 +45,7 @@ United Artists (UA) n'y comprit pas un traître mot.</quote>
 
 Source : Anything you can imagine
 
-## Slide n°5 : Et les beatles (1968-1969)
+## Slide n°1.5 : Et les beatles (1968-1969)
 
 Puis il y avait l'histoire des Beatles. Comment les Fab Four, au sommet de leur propre gloire invraisemblable, étaient allés trouver le grand Stanley Kubrick dans sa propriété de St Albans pour qu'il les aide à créer une comédie musicale multimédia tirée du *Seigneur des Anneaux*, dont ils seraient les vedettes et dont ils assureraient, naturellement, la rythmique.
 
@@ -53,7 +53,7 @@ Source : Anything you can imagine
 
 Il semblerait que Kubrick ait convaincu les beatles de l'impossibilité de l'adaptation du seigneur des anneaux
 
-## Slide n°6 : « 1978 : la première tentative, Ralph Bakshi »
+## Slide n°1.6 : « 1978 : la première tentative, Ralph Bakshi »
 
 **Message** : adapter Tolkien au cinéma était déjà un pari risqué, et le parcours du film
 le montre.
@@ -103,7 +103,7 @@ Fais en sorte qu'elles soient de même hauteur
 
 ---
 
-## Slide n°7 : « Un succès inachevé »
+## Slide n°1.7 : « Un succès inachevé »
 
 **Texte à l'écran (≈ 25 mots)** :
 - L'histoire s'arrête au Gouffre de Helm
