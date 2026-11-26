@@ -222,9 +222,10 @@ naturellement, la rythmique. »
   <div class="event up last" style="--x: 100%"><div class="label"><span class="year">1978</span>sortie du film</div></div>
 </div>
 
-<div class="images">
+<div class="images row3">
   <img src="assets/Avant_PJ/Lord_of_the_rings_Bakshi.jpg" alt="Affiche du Seigneur des Anneaux de Ralph Bakshi (1978)">
   <img src="assets/Avant_PJ/Lotr_Bakshi_1978.png" alt="Gandalf et Frodon dans Cul-de-Sac, film de Ralph Bakshi">
+  <img src="assets/Avant_PJ/LoTR_Bakshi_rotoscopie.jpg" alt="Gandalf à cheval, image rotoscopée du film de Ralph Bakshi">
 </div>
 
 Film d'animation avec utilisation de la rotoscopie (on filme des acteurs, puis on redessine à la main en ajoutant le décor)

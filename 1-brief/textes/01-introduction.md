@@ -69,9 +69,12 @@ horizontale de 5 étapes, dans le style des frises existantes :
 
 En dessous, une ligne sur la technique : **Film d'animation avec utilisation de la rotoscopie (on filme des acteurs, puis on redessine à la main en ajoutant le décor)** [S1, S2].
 
-Intègre les deux images : 
+Intègre les trois images : 
 - Lord_of_the_rings_Bakshi.jpg
 - Lotr_Bakshi_1978.png
+- Avant_PJ/LoTR_Bakshi_rotoscopie.jpg
+
+Fais en sorte qu'elles soient de même hauteur
 
 **Texte à l'écran (≈ 30 mots)** :
 - 1969 → United Artists → Boorman (abandon) → MGM (abandon) → Saul Zaentz → 1978

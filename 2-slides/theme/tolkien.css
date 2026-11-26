@@ -729,3 +729,7 @@ section .footnotes {
 }
 section .footnotes p { margin: 0.15em 0; }
 section.shaye p.intro { font-size: 0.8em; margin: 0 0 0.5em; }
+
+/* Rangée de trois images de même hauteur : <div class="images row3"> */
+.images.row3 { gap: 14px; }
+.images.row3 img { height: 175px; flex-shrink: 0; }
