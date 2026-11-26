@@ -12,6 +12,8 @@ title: Tolkien, du livre à l'écran
 
 # Tolkien, du livre à l'écran
 
+Nicolas Rousset · Association Tolkiendil
+
 Médiathèque de Salles · 27 novembre
 
 <!--

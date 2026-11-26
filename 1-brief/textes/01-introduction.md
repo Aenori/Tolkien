@@ -1,5 +1,8 @@
 # Introduction : Le long chemin des livres vers les films
 
+Nicolas Rousset
+Association Tolkiendil
+
 ## Slide n°1.1 : rappel des dates
 
 Slide contenant une photo de Tolkien, une frise chronologique avec sa date de naissance et de mort, la date de parution du Hobbit et du Seigneur des anneaux, la date où il a cédé les droits à united artist
