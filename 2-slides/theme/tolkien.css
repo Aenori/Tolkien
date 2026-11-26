@@ -764,3 +764,13 @@ section.posters p.credit {
   text-align: right;
   margin: 6px 0 0;
 }
+
+/* Anecdotes à trois colonnes : <!-- _class: anecdotes trois --> */
+section.anecdotes.trois .columns { gap: 24px; }
+section.anecdotes.trois img { height: 220px; max-width: 100%; object-fit: contain; }
+section.anecdotes.trois p { font-size: 0.75em; }
+section.anecdotes > p { font-size: 0.85em; text-align: center; margin-top: 0.8em; }
+
+/* Deux images empilées sous le titre : <!-- _class: visual stack --> */
+section.visual.stack figure { margin-top: 10px; }
+section.visual.stack img { width: 490px; max-height: none; }

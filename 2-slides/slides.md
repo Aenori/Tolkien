@@ -562,8 +562,8 @@ Notes orateur :
 
 ## Un pari risqué et audacieux
 
-- Un budget très important
-- Trois films tournés en même temps
+- Un budget très important : 280 M$
+- Trois films tournés en même temps (oct. 1999 – déc. 2000)
 - En Nouvelle-Zélande, sans grande industrie du cinéma
 - Weta, jamais à cette échelle
 - À la clé : motion capture, foules simulées
@@ -571,7 +571,9 @@ Notes orateur :
 <!--
 Notes orateur :
 - Message : tout, dans ce projet, était un risque.
-- Les trois films sont tournés en même temps.
+- Budget : 280 M$ pour les trois films. À titre de comparaison, Harry Potter à l'école des
+  sorciers (2001) a un budget estimé de 125 M$.
+- Les trois films sont tournés en même temps, d'octobre 1999 à décembre 2000.
 - La Nouvelle-Zélande n'avait pas une industrie cinématographique très développée.
 - Weta Workshop et Weta Digital n'avaient pas l'habitude de gérer des projets de cette ampleur.
 - À la clé, plusieurs innovations techniques : Andy Serkis, le motion capture et Gollum ;
@@ -752,7 +754,7 @@ John Rhys-Davies, NASA, Aubrey Gemignani (domaine public) ; Sean Bean, Bryan Ber
 
 ---
 
-<!-- _class: anecdotes -->
+<!-- _class: anecdotes trois -->
 
 ## Quelques anecdotes de casting
 
@@ -767,6 +769,11 @@ John Rhys-Davies, NASA, Aubrey Gemignani (domaine public) ; Sean Bean, Bryan Ber
     <figcaption>Stuart Townsend en Aragorn</figcaption>
     <p>Stuart Townsend, choisi par Peter Jackson, est remplacé par Viggo Mortensen</p>
   </figure>
+  <figure>
+    <img src="assets/Cast/christopher_lee.jpg" alt="Christopher Lee">
+    <figcaption>Photo : Manfred Werner (Tsui), Wikimedia Commons, CC BY-SA 3.0</figcaption>
+    <p>Christopher Lee voulait au départ jouer Gandalf</p>
+  </figure>
 </div>
 
 <!--
@@ -774,6 +781,31 @@ Notes orateur :
 - New Line voulait Sean Connery pour jouer Gandalf.
 - Il y a eu un loupé sur Aragorn : Peter Jackson avait sélectionné Stuart Townsend, qui n'a
   pas fait l'affaire, et il a été remplacé par Viggo Mortensen.
+- Christopher Lee voulait au départ jouer Gandalf ; il sera Saroumane.
+-->
+
+---
+
+<!-- _class: anecdotes -->
+
+## Quelques anecdotes de casting (suite)
+
+<div class="columns">
+  <figure>
+    <img src="assets/Ian_McKellen_tatoo.jpg" alt="Le tatouage d'Ian McKellen">
+    <figcaption>Ian McKellen. Photo : mckellen.com</figcaption>
+  </figure>
+  <figure>
+    <img src="assets/Viggo_Mortesen_tatoo.jpg" alt="Le tatouage de Viggo Mortensen">
+    <figcaption>Viggo Mortensen. Source à compléter</figcaption>
+  </figure>
+</div>
+
+Les acteurs de la Communauté se sont fait tatouer le chiffre 9 en écriture elfique
+
+<!--
+Notes orateur : les acteurs de la Communauté de l'Anneau se sont fait tatouer le chiffre 9
+en écriture elfique.
 -->
 
 ---
@@ -782,12 +814,20 @@ Notes orateur :
 
 ## Les lieux de tournage en Nouvelle-Zélande
 
-<img class="carte" src="assets/Carte_NZ_temp.jpeg" alt="Carte des lieux de tournage du Seigneur des Anneaux en Nouvelle-Zélande">
+<img class="carte" src="assets/Carte_NZ_lieux_tournage.svg" alt="Carte de la Nouvelle-Zélande avec huit lieux de tournage du Seigneur des Anneaux">
 
-<p class="photo-credit">Carte : All You Need Is a Backpack</p>
+<p class="photo-credit">Fond de carte : Natural Earth (domaine public)</p>
 
 <!--
-Notes orateur : la carte est en allemand (image provisoire d'après son nom de fichier).
+Notes orateur :
+- Hobbitebourg : Matamata (vallée de Hinuera), île du Nord.
+- Montagne du Destin : le mont Ngauruhoe, parc national de Tongariro.
+- Gouffre de Helm : la carrière de Dry Creek, Haywards Hill Road, Lower Hutt, près de Wellington.
+- Fendeval : le parc régional de Kaitoke, près de Wellington.
+- Sud de Fendeval : le mont Olympus, parc national de Kahurangi, au nord de l'île du Sud.
+- Vallée de Ruisselombre (la sortie de la Moria) : le mont Owen, parc national de Kahurangi.
+- Edoras : Mount Sunday, dans la région de Canterbury.
+- Argonath : la rivière Kawarau, près de Queenstown ; les statues sont ajoutées numériquement.
 -->
 
 ---
@@ -836,9 +876,9 @@ Notes orateur :
 
 <!-- _class: context dense -->
 
-## Un tournant dans les effets spéciaux
+## Un tournant dans les effets spéciaux numériques
 
-- Des effets spéciaux en plein essor
+- Des effets spéciaux numériques en plein essor
 - Mais utilisés seulement en cas de nécessité
 
 > « Brian a mis en place une grande partie des mouvements à l'échelle des Hobbits et des dispositifs de contrôle de mouvement. Soixante à soixante-dix pour cent de ces plans ont été réalisés directement à la prise de vue, le reste étant des compositings sur fond bleu. »
@@ -847,7 +887,7 @@ Notes orateur :
 
 <!--
 Notes orateur :
-- Les effets spéciaux se développaient fortement, mais le film gardait la volonté de n'en
+- Les effets spéciaux numériques se développaient fortement, mais le film gardait la volonté de n'en
   utiliser qu'en cas de nécessité.
 - Attention à la portée du chiffre : il concerne les plans où les acteurs doivent paraître à
   la taille de Hobbits, dans La Communauté de l'Anneau, pas tout le film. Rygiel oppose la
@@ -857,7 +897,7 @@ Notes orateur :
 
 ---
 
-<!-- _class: visual -->
+<!-- _class: visual stack -->
 
 ## Une image assez emblématique
 
@@ -866,8 +906,15 @@ Notes orateur :
   <figcaption><em>La Communauté de l'Anneau</em>. Source : Ron Magid, <em>American Cinematographer</em>, décembre 2001, theasc.com</figcaption>
 </figure>
 
+<figure>
+  <img src="assets/ob_5253ef_la-perspective-forcee-1.png" alt="La perspective forcée : Frodon et Gandalf à la table de Cul-de-Sac, et le dispositif de tournage">
+  <figcaption>La perspective forcée. Source : over-blog-kiwi.com</figcaption>
+</figure>
+
 <!--
-Notes orateur : image issue du même article d'American Cinematographer.
+Notes orateur :
+- L'Anneau dans la neige : image issue du même article d'American Cinematographer.
+- La perspective forcée : la scène de Cul-de-Sac et le dispositif de tournage.
 -->
 
 ---
@@ -895,6 +942,36 @@ Notes orateur :
 
 <!--
 Notes orateur : Massive, un logiciel de simulation d'armées et de grandes foules.
+-->
+
+---
+
+<!-- _class: annexe visual -->
+
+## Utilisation de Massive
+
+<figure>
+  <img src="assets/Movies/Massive/Massive_Rohan.png" alt="L'armée du Rohan, générée par Massive">
+  <figcaption>L'armée du Rohan</figcaption>
+</figure>
+
+<!--
+Notes orateur : annexe, l'armée du Rohan.
+-->
+
+---
+
+<!-- _class: annexe visual -->
+
+## Utilisation de Massive
+
+<figure>
+  <img src="assets/Movies/Massive/Massive_champ_Pelennor.png" alt="L'armée sur les Champs du Pelennor, générée par Massive">
+  <figcaption>Les Champs du Pelennor</figcaption>
+</figure>
+
+<!--
+Notes orateur : annexe, les Champs du Pelennor.
 -->
 
 ---
