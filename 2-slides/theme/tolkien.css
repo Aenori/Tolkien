@@ -718,3 +718,14 @@ section.universe figcaption {
   line-height: 1.2;
   margin-top: 3px;
 }
+
+/* Notes de bas de slide : <div class="footnotes"> */
+section .footnotes {
+  margin-top: 0.6em;
+  border-top: 1px solid var(--gold);
+  padding-top: 0.3em;
+  font-size: 0.55em;
+  color: var(--ink-soft);
+}
+section .footnotes p { margin: 0.15em 0; }
+section.shaye p.intro { font-size: 0.8em; margin: 0 0 0.5em; }

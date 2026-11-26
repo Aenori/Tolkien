@@ -53,7 +53,7 @@ Source : Anything you can imagine
 
 Il semblerait que Kubrick ait convaincu les beatles de l'impossibilité de l'adaptation du seigneur des anneaux
 
-## Slide n°6 : « 1978 : la première tentative, Ralph Bakshi » 
+## Slide n°6 : « 1978 : la première tentative, Ralph Bakshi »
 
 **Message** : adapter Tolkien au cinéma était déjà un pari risqué, et le parcours du film
 le montre.
@@ -67,8 +67,7 @@ horizontale de 5 étapes, dans le style des frises existantes :
 4. **Saul Zaentz** : rachète, finance, United Artists distribue [S1]
 5. **1978** : sortie du film [S2]
 
-En dessous, une ligne sur la technique : **tourné avec des acteurs, puis redessiné
-(rotoscopie)** [S1, S2].
+En dessous, une ligne sur la technique : **Film d'animation avec utilisation de la rotoscopie (on filme des acteurs, puis on redessine à la main en ajoutant le décor)** [S1, S2].
 
 Intègre les deux images : 
 - Lord_of_the_rings_Bakshi.jpg

@@ -176,7 +176,7 @@ Notes orateur :
 
 ## 1969 : le projet avorté de John Boorman
 
-> Boorman avait un goût pour le sensuel et le païen [...] Aragorn ranime Éowyn par un orgasme magique, et va même jusqu'à planter un franc baiser sur les lèvres de Boromir à un moment. Le réalisateur se laisse aussi emporter par la réputation du livre comme totem hippie. Les fleurs sauvages sont un leitmotiv omniprésent, et le Conseil d'Elrond se transforme en spectacle de cirque fellinien, avec danseurs, jongleurs et un chien plein d'entrain qui symbolise le destin. [...]
+> Boorman avait un goût pour le sensuel et le païen [...] Aragorn ranime Éowyn par un or***** magique, et va même jusqu'à planter un franc baiser sur les lèvres de Boromir à un moment. Le réalisateur se laisse aussi emporter par la réputation du livre comme totem hippie. Les fleurs sauvages sont un leitmotiv omniprésent, et le Conseil d'Elrond se transforme en spectacle de cirque fellinien, avec danseurs, jongleurs et un chien plein d'entrain qui symbolise le destin. [...]
 >
 > Disparus, les trous de hobbit, Bree et le Gouffre de Helm. Gimli ouvre les portes de la Moria en dansant la gigue, tandis que Merry et Pippin sont joués comme un Laurel et Hardy version Demi-Hommes. [...]
 >
@@ -194,7 +194,7 @@ Notes orateur :
 
 ---
 
-## Et les Beatles ?
+## Et les Beatles ? (1968-1969)
 
 - Les Beatles veulent une comédie musicale tirée du *Seigneur des Anneaux*, dont ils seraient les vedettes
 - Ils vont trouver Stanley Kubrick
@@ -227,7 +227,7 @@ naturellement, la rythmique. »
   <img src="assets/Avant_PJ/Lotr_Bakshi_1978.png" alt="Gandalf et Frodon dans Cul-de-Sac, film de Ralph Bakshi">
 </div>
 
-Tourné avec des acteurs, puis redessiné à la main
+Film d'animation avec utilisation de la rotoscopie (on filme des acteurs, puis on redessine à la main en ajoutant le décor)
 
 <!--
 Notes orateur :
@@ -329,7 +329,7 @@ Notes orateur :
 - Richard Taylor et Tania Rodger : maquettes, prothèses, costumes
 - *Les Feebles* (1989), *Braindead* (1992)
 - *Créatures célestes* (1994) : naissance de Weta Digital
-- *Fantômes contre fantômes* (1996)
+- *Fantômes contre fantômes* (1996) : produit par Universal, avec Michael J. Fox
 
 <!--
 Notes orateur :
@@ -360,6 +360,27 @@ Notes orateur :
 
 ---
 
+## Recherche d'un grand projet
+
+- Renommée internationale depuis *Créatures célestes*
+- Une expérience des effets spéciaux
+- L'envie d'un grand projet fantastique
+- Repéré par Miramax, distributeur de *Créatures célestes* aux États-Unis
+
+<!--
+Notes orateur :
+- Jackson a une renommée internationale depuis Créatures célestes et une expérience des
+  effets spéciaux. Il souhaite réaliser un grand projet dans le fantastique au sens large.
+- Miramax l'a repéré : c'est le distributeur de Créatures célestes aux États-Unis.
+- Saul Zaentz détient toujours ces droits depuis le film de Bakshi : encore lui.
+- Point important : la conception artistique et la négociation contractuelle se font
+  en parallèle.
+- Deal initial : deux films pour 75 M$. Pour comparer, Fantômes contre fantômes, le film
+  précédent de Jackson, avait un budget de 28 M$.
+-->
+
+---
+
 ## Pourquoi pas Tolkien ?
 
 <div class="timeline compact">
@@ -374,6 +395,9 @@ Notes orateur :
 
 <!--
 Notes orateur :
+- Après Fantômes contre fantômes, Jackson a acquis une reconnaissance internationale et
+  cherche un gros projet. Il a toujours un fort goût pour le fantastique et les effets
+  spéciaux.
 - Message : Jackson arrive au Seigneur des Anneaux par deux chemins : un souvenir de
   jeunesse (le film de Bakshi) et un projet avorté (King Kong).
 - Adolescent, Jackson voit le film de Ralph Bakshi en 1978, veut savoir comment l'histoire
@@ -391,27 +415,6 @@ Notes orateur :
 
 ---
 
-## 1995 : en quête d'un grand projet
-
-- Renommée internationale depuis *Créatures célestes*
-- Une expérience des effets spéciaux
-- L'envie d'un grand projet fantastique
-- Repéré par Miramax, qui obtient les droits fin 1996
-
-<!--
-Notes orateur :
-- Jackson a une renommée internationale depuis Créatures célestes et une expérience des
-  effets spéciaux. Il souhaite réaliser un grand projet dans le fantastique au sens large.
-- Miramax l'a repéré : c'est le distributeur de Créatures célestes aux États-Unis.
-  Fin 1996, Miramax obtient les droits du Seigneur des Anneaux.
-- Saul Zaentz détient toujours ces droits depuis le film de Bakshi : encore lui.
-- Point important : la conception artistique et la négociation contractuelle se font
-  en parallèle.
-- Deal initial : deux films pour 75 M$. Pour comparer, Fantômes contre fantômes, le film
-  précédent de Jackson, avait un budget de 28 M$.
--->
-
----
 
 <!-- _class: divergence -->
 
@@ -459,15 +462,14 @@ Notes orateur :
 
 ## À quoi vous avez échappé…
 
-> Aussi dingue que cela puisse paraître, impossible de savoir s'il s'agissait d'un bluff. Sur le moment, il l'avait pris pour parole d'évangile : la putain de Terre du Milieu de Quentin Tarantino.
+Miramax, également en contact avec Quentin Tarantino, menaça plusieurs fois de lui confier le projet : cela donnerait « la p***** de Terre du Milieu de Quentin Tarantino ».
 
-— Ian Nathan, *Anything You Can Imagine* (2018), p. 67
+— d'après Ian Nathan, *Anything You Can Imagine* (2018), p. 67
 
 <!--
 Notes orateur :
-- Le « il » de la citation, c'est Peter Jackson. (À VÉRIFIER)
 - La menace : confier le film à Quentin Tarantino si Jackson refuse la version en un seul
-  film. Elle viendrait d'Harvey Weinstein, patron de Miramax. (À VÉRIFIER)
+  film. (À VÉRIFIER)
 - Citation : traduction par l'IA de l'original anglais.
 -->
 
@@ -495,11 +497,16 @@ Notes orateur :
 
 ## Le clash
 
-> « J'avais pris trop de coups », dit Jackson. Il appela Kamins. « Dis simplement à Harvey qu'on ne peut pas le faire. On préfère avoir notre vie, faire nos films et ne plus avoir à gérer toutes ces conneries. Dis à Harvey de faire son film et bonne chance. »
+> « J'avais pris trop de coups », dit Jackson. Il appela Kamins<sup>1</sup>. « Dis simplement à Harvey qu'on ne peut pas le faire. On préfère avoir notre vie, faire nos films et ne plus avoir à gérer toutes ces conneries. Dis à Harvey de faire son film et bonne chance. »
 >
-> « Vous avez quatre semaines », dit Harvey à Kamins. « Si vous montez le projet ailleurs, je récupère tout mon argent immédiatement, à la signature. Pas au premier jour de tournage. Je récupère tout à la signature. Et je touche cinq pour cent des recettes brutes dès le premier dollar, sur toute la ligne. »
+> « Vous avez quatre semaines », dit Harvey<sup>2</sup> à Kamins. « Si vous montez le projet ailleurs, je récupère tout mon argent immédiatement, à la signature. Pas au premier jour de tournage. Je récupère tout à la signature. Et je touche cinq pour cent des recettes brutes dès le premier dollar, sur toute la ligne. »
 
 — Ian Nathan, *Anything You Can Imagine* (2018), p. 70
+
+<div class="footnotes">
+<p><sup>1</sup> Ken Kamins est l'agent de Peter Jackson.</p>
+<p><sup>2</sup> Harvey Weinstein, désormais plus connu pour autre chose que la production de films, l'un des dirigeants de Miramax.</p>
+</div>
 
 <!--
 Notes orateur :
@@ -516,7 +523,7 @@ Notes orateur :
 
 <!-- _class: shaye -->
 
-## New Line et Bob Shaye
+## New Line et Robert Shaye
 
 <div class="columns">
 <figure>
@@ -524,9 +531,8 @@ Notes orateur :
   <figcaption>Robert Shaye. Photo : Wikimedia Commons, CC BY-SA 3.0, auteur non précisé, transmise par Jonna Smith</figcaption>
 </figure>
 <div>
+<p class="intro">Robert Shaye resta totalement impassible pendant les 35 minutes de la vidéo de démo, puis :</p>
 <blockquote>
-<p>« Mais il n'y avait aucune expression, aucun commentaire, rien… » Il restait aussi impénétrable qu'un chat.</p>
-<p>« Pourquoi voudrait-on que les spectateurs paient dix-huit dollars quand ils pourraient en payer vingt-sept ? » finit-il par demander, le visage toujours aussi impassible.</p>
 <p>« Alors là, je ne comprends pas du tout, poursuivit Shaye. Pourquoi faire deux films quand il y a trois livres ? »</p>
 <p>Shaye n'en avait pas encore fini. « Tolkien a fait votre travail à votre place, Tolkien a écrit trois livres, insista-t-il. Si vous voulez lui rendre justice, il faut trois films. »</p>
 </blockquote>
