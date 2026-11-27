@@ -3,6 +3,8 @@
 Nicolas Rousset
 Association Tolkiendil
 
+@claude : ajoute le site de l'association et son logo
+
 ## Slide n°1.1 : rappel des dates
 
 Slide contenant une photo de Tolkien, une frise chronologique avec sa date de naissance et de mort, la date de parution du Hobbit et du Seigneur des anneaux, la date où il a cédé les droits à united artist
@@ -56,7 +58,9 @@ Source : Anything you can imagine
 
 Il semblerait que Kubrick ait convaincu les beatles de l'impossibilité de l'adaptation du seigneur des anneaux
 
-## Slide n°1.6 : « 1978 : la première tentative, Ralph Bakshi »
+## Slide n°1.6 : « 1978 : Ralph Bakshi, première tentative »
+
+@claude : garde le titre complet
 
 **Message** : adapter Tolkien au cinéma était déjà un pari risqué, et le parcours du film
 le montre.

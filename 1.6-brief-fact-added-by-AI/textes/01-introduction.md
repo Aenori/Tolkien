@@ -1,5 +1,10 @@
 # Faits ajoutés par l'IA — 01-introduction.md
 
+## « Tolkien, du livre à l'écran » (slide de titre)
+
+- **Écran** : adresse du site de l'association : www.tolkiendil.com.
+  Source : page d'accueil du site, d'où provient aussi le logo.
+
 ## « Tolkien en quelques dates »
 
 - **Notes** : United Artists était alors une major *hollywoodienne* (le brief dit seulement

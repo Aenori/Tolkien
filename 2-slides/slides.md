@@ -14,6 +14,10 @@ title: Tolkien, du livre à l'écran
 
 Nicolas Rousset · Association Tolkiendil
 
+<img src="assets/Tolkiendil_logo.png" alt="Logo de l'association Tolkiendil" style="height: 140px">
+
+[www.tolkiendil.com](https://www.tolkiendil.com)
+
 Médiathèque de Salles · 27 novembre
 
 <!--
@@ -214,7 +218,7 @@ naturellement, la rythmique. »
 
 ---
 
-## 1978 : la première tentative
+## 1978 : Ralph Bakshi, première tentative
 
 <div class="timeline compact">
   <div class="event up first" style="--x: 0%"><div class="label"><span class="year">1969</span>United Artists</div></div>
@@ -396,6 +400,8 @@ Notes orateur :
   <img src="assets/Avant_PJ/Lord_of_the_rings_Bakshi.jpg" alt="Affiche du Seigneur des Anneaux de Ralph Bakshi (1978)">
 </div>
 
+<p class="aside">PJ lance le projet avec Miramax qui obtient les droits de Saul Zaentz</p>
+
 <!--
 Notes orateur :
 - Après Fantômes contre fantômes, Jackson a acquis une reconnaissance internationale et
@@ -526,7 +532,7 @@ Notes orateur :
 
 <!-- _class: shaye -->
 
-## New Line et Robert Shaye
+## New Line et Robert Shaye (août 1998)
 
 <div class="columns">
 <figure>
@@ -799,7 +805,7 @@ Notes orateur :
   </figure>
   <figure>
     <img src="assets/Viggo_Mortesen_tatoo.jpg" alt="Le tatouage de Viggo Mortensen">
-    <figcaption>Viggo Mortensen. Source à compléter</figcaption>
+    <figcaption>Viggo Mortensen</figcaption>
   </figure>
 </div>
 
@@ -836,7 +842,7 @@ Notes orateur :
 
 <!-- _class: context dense -->
 
-## Ainsi qu'une météo capricieuse
+## Une météo capricieuse
 
 Une tempête inonde des lieux de tournage. Sean Bean et Orlando Bloom sont coincés entre deux glissements de terrain.
 

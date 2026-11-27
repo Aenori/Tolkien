@@ -56,3 +56,4 @@
 | Carte_NZ_lieux_tournage.svg | Carte des lieux de tournage en Nouvelle-Zélande, générée par `scripts/carte_nz.py` (IA) | Fond de carte et ombrage du relief : [Natural Earth](https://www.naturalearthdata.com/) | Domaine public |
 | Ian_McKellen_tatoo.jpg | Le tatouage d'Ian McKellen (le chiffre 9 en écriture elfique) | [mckellen.com](https://www.mckellen.com/images/0061.jpg) | Image protégée, utilisée sans licence |
 | Viggo_Mortesen_tatoo.jpg | Le tatouage de Viggo Mortensen (le chiffre 9 en écriture elfique) | Source à compléter | Image protégée, utilisée sans licence |
+| Tolkiendil_logo.png | Logo de l'association Tolkiendil | Association Tolkiendil, [tolkiendil.com](https://www.tolkiendil.com/_media/logo/logo_1600_660_72dpi.png) | Utilisé avec l'accord de l'association |
